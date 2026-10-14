@@ -1,0 +1,2976 @@
+{
+ "DBLP_conf_acl_GuLJOLSS24.pdf": {
+  "title": "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Wen-Ding Li",
+   "Naman Jain",
+   "Theo X. Olausson",
+   "Celine Lee",
+   "Koushik Sen",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "topics": [
+   "code language models",
+   "incorrect code generation",
+   "program repair",
+   "execution behavior",
+   "counterfeit samples"
+  ],
+  "summary": "The paper studies subtly incorrect code model outputs that pass weak checks and finds models struggle to detect, reason about, and repair them."
+ },
+ "DBLP_conf_aplas_2009.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_aplas_Solar-Lezama09.pdf": {
+  "title": "The Sketching Approach to Program Synthesis",
+  "first_author": "Solar-Lezama",
+  "authors": [
+   "Armando Solar-Lezama"
+  ],
+  "year": 2009,
+  "venue": "APLAS 2009",
+  "topics": [
+   "program synthesis",
+   "partial programs",
+   "sketch language",
+   "programmer-guided synthesis",
+   "linked list reversal"
+  ],
+  "summary": "This paper introduces sketching, where partial programs guide synthesis of complete implementations from programmer-provided specifications."
+ },
+ "DBLP_conf_cav_2011.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": "Publisher front matter for Lecture Notes in Computer Science, not a paper."
+ },
+ "DBLP_conf_cav_2012.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_cav_2015.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": "Lecture Notes in Computer Science",
+  "topics": [],
+  "summary": "Publisher front matter for the Lecture Notes in Computer Science series."
+ },
+ "DBLP_conf_cav_BraggFRS21.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2021,
+  "venue": "33rd International Conference, CAV 2021",
+  "topics": [],
+  "summary": "Proceedings for the 33rd International Conference on Computer Aided Verification, Part I."
+ },
+ "DBLP_conf_cav_ChaudhuriS11.pdf": {
+  "title": "Smoothing a Program Soundly and Robustly",
+  "first_author": "Chaudhuri",
+  "authors": [
+   "Swarat Chaudhuri",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2011,
+  "venue": "CAV 2011",
+  "topics": [
+   "smooth interpretation",
+   "program approximation",
+   "gaussian smoothing",
+   "program analysis",
+   "program synthesis",
+   "numerical optimization"
+  ],
+  "summary": "The paper develops approximate smooth interpretation for programs and proves soundness and robustness properties for its convolution-based implementation."
+ },
+ "DBLP_conf_cav_ChaudhuriS12.pdf": {
+  "title": "Euler: A System for Numerical Optimization of Programs",
+  "first_author": "Chaudhuri",
+  "authors": [
+   "Swarat Chaudhuri",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2012,
+  "venue": "CAV 2012",
+  "topics": [
+   "numerical optimization",
+   "program approximation",
+   "smooth interpretation",
+   "program analysis",
+   "software engineering"
+  ],
+  "summary": "This tutorial introduces Euler, which uses smooth program approximations to enable numerical optimization over program inputs."
+ },
+ "DBLP_conf_cav_GaoKDRSAK19.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2019,
+  "venue": "31st International Conference, CAV 2019",
+  "topics": [],
+  "summary": "Proceedings of the 31st International Conference on Computer Aided Verification, Part II, held in New York City in July 2019."
+ },
+ "DBLP_conf_cav_JeonQSF15.pdf": {
+  "title": "Adaptive Concretization for Parallel Program Synthesis",
+  "first_author": "Jeon",
+  "authors": [
+   "Jinseong Jeon",
+   "Xiaokang Qiu",
+   "Armando Solar-Lezama",
+   "Jeffrey S. Foster"
+  ],
+  "year": 2015,
+  "venue": "CAV 2015, Part II",
+  "topics": [
+   "program synthesis",
+   "symbolic search",
+   "explicit search",
+   "parallel search",
+   "syntax-guided synthesis"
+  ],
+  "summary": "The paper introduces adaptive concretization, a parallel synthesis approach that balances symbolic and explicit search and outperforms Sketch on many benchmarks."
+ },
+ "DBLP_conf_cav_KongSG18.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2018,
+  "venue": "30th International Conference, CAV 2018, Proceedings, Part II",
+  "topics": [],
+  "summary": "Proceedings of the 30th International Conference on Computer Aided Verification (CAV 2018), Part II."
+ },
+ "DBLP_conf_cav_SinghS12.pdf": {
+  "title": "SPT: Storyboard Programming Tool",
+  "first_author": "Singh",
+  "authors": [
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2012,
+  "venue": "CAV",
+  "topics": [
+   "program synthesis",
+   "data structure manipulation",
+   "shape analysis",
+   "pointer programs",
+   "storyboard language"
+  ],
+  "summary": "Spt synthesizes low-level data-structure manipulations from examples, skeletons, and shape-analysis constraints using the Sketch solver."
+ },
+ "DBLP_conf_cidr_CheungAMSM13.pdf": {
+  "title": "StatusQuo: Making Familiar Abstractions Perform Using Program Analysis",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Owen Arden",
+   "Samuel Madden",
+   "Armando Solar-Lezama",
+   "Andrew C. Myers"
+  ],
+  "year": 2013,
+  "venue": "6th Biennial Conference on Innovative Data Systems Research (CIDR 13)",
+  "topics": [
+   "web applications",
+   "database application separation",
+   "program analysis",
+   "program synthesis",
+   "relational queries",
+   "data movement"
+  ],
+  "summary": "StatusQuo uses program analysis and synthesis to move imperative functionality between application and database layers for better performance and reliability."
+ },
+ "DBLP_conf_cikm_CheungSM12.pdf": {
+  "title": "Using Program Synthesis for Social Recommendations",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Armando Solar-Lezama",
+   "Samuel Madden"
+  ],
+  "year": 2012,
+  "venue": "CIKM",
+  "topics": [
+   "social recommendations",
+   "program synthesis",
+   "social media",
+   "event filtering",
+   "recommender systems"
+  ],
+  "summary": "The paper learns user preferences for social event recommendations by combining machine learning with program synthesis to produce manipulable programs."
+ },
+ "DBLP_conf_cvpr_WillisJCT0GSTLS22.pdf": {
+  "title": "JoinABLe: Learning Bottom-up Assembly of Parametric CAD Joints",
+  "first_author": "Willis",
+  "authors": [
+   "Karl D.D. Willis",
+   "Pradeep Kumar Jayaraman",
+   "Hang Chu",
+   "Yunsheng Tian",
+   "Yifei Li",
+   "Daniele Grandi",
+   "Aditya Sanghi",
+   "Linh Tran",
+   "Joseph G. Lambourne",
+   "Armando Solar-Lezama",
+   "Wojciech Matusik"
+  ],
+  "year": 2022,
+  "venue": "CVPR",
+  "topics": [
+   "cad joints",
+   "assembly graphs",
+   "joint prediction",
+   "bottom-up assembly",
+   "parametric cad"
+  ],
+  "summary": "JoinABLe learns to assemble CAD parts by predicting joints from weak supervision in parametric CAD files and graph-based solid-model representations."
+ },
+ "DBLP_conf_emnlp_OlaussonGLZSTL23.pdf": {
+  "title": "LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers",
+  "first_author": "Olausson",
+  "authors": [
+   "Theo X. Olausson",
+   "Alex Gu",
+   "Benjamin Lipkin",
+   "Cedegao E. Zhang",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum",
+   "Roger Levy"
+  ],
+  "year": 2023,
+  "venue": "Conference on Empirical Methods in Natural Language Processing",
+  "topics": [
+   "logical reasoning",
+   "natural language inference",
+   "first-order logic",
+   "large language models",
+   "theorem proving",
+   "neurosymbolic computation"
+  ],
+  "summary": "LINC uses an LLM to translate natural language into first-order logic and an external prover to perform deductive inference."
+ },
+ "DBLP_conf_fmcad_AlurBJMRSSSTU13.pdf": {
+  "title": "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
+  "first_author": "Viswambharan",
+  "authors": [
+   "Vaisakh Naduvodi Viswambharan",
+   "Keerthan Kopparam Radhakrishna",
+   "Deepak Narayan Gadde",
+   "Aman Kumar"
+  ],
+  "year": 2026,
+  "venue": "IEEE International Conference on IC Design and Technology (ICICDT)",
+  "topics": [
+   "knowledge graphs",
+   "formal verification",
+   "systemverilog assertions",
+   "large language models",
+   "counterexample-guided refinement",
+   "coverage analysis"
+  ],
+  "summary": "A verification-centric knowledge graph helps LLM-based workflows generate compilable SystemVerilog assertions from specifications and RTL with iterative repair."
+ },
+ "DBLP_conf_hvc_2012.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": "Lecture Notes in Computer Science",
+  "topics": [],
+  "summary": "Publisher front matter for the Lecture Notes in Computer Science series and editorial board."
+ },
+ "DBLP_conf_hvc_GaneshMSR12.pdf": {
+  "title": "Word Equations with Length Constraints: What’s Decidable?",
+  "first_author": "Ganesh",
+  "authors": [
+   "Vijay Ganesh",
+   "Mia Minnes",
+   "Armando Solar-Lezama",
+   "Martin Rinard"
+  ],
+  "year": 2013,
+  "venue": "HVC 2012",
+  "topics": [
+   "word equations",
+   "length constraints",
+   "regular sets",
+   "satisfiability",
+   "decidability",
+   "string constraints"
+  ],
+  "summary": "The paper proves decidability and undecidability results for satisfiability and validity of string formulas with word equations, lengths, and regular membership."
+ },
+ "DBLP_conf_hybrid_HuntFMHDS21.pdf": {
+  "title": "Verifiably Safe Exploration for End-to-End Reinforcement Learning",
+  "first_author": "Hunt",
+  "authors": [
+   "Nathan Hunt",
+   "Nathan Fulton",
+   "Sara Magliacane",
+   "Nghia Hoang",
+   "Subhro Das",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2021,
+  "venue": null,
+  "topics": [
+   "safe reinforcement learning",
+   "formal safety constraints",
+   "visual perception",
+   "hybrid dynamical systems",
+   "safety-critical exploration"
+  ],
+  "summary": "The paper proposes a safe exploration approach for end-to-end reinforcement learning with visual inputs and validates it on a benchmark with hard safety constraints."
+ },
+ "DBLP_conf_iclr_InalaBTS20.pdf": {
+  "title": "Synthesizing Programmatic Policies That Inductively Generalize",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Osbert Bastani",
+   "Zenna Tavares",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2020,
+  "venue": "ICLR",
+  "topics": [
+   "deep reinforcement learning",
+   "programmatic state machine policies",
+   "inductive generalization",
+   "imitation learning",
+   "repeating behaviors"
+  ],
+  "summary": "The paper learns programmatic state machine policies via adaptive teaching to generalize repeated behaviors across novel environments."
+ },
+ "DBLP_conf_iclr_JainHGLYZWSSS25.pdf": {
+  "title": "LIVE CODE BENCH: Holistic and Contamination-Free Evaluation of Large Language Models for Code",
+  "first_author": "Jain",
+  "authors": [
+   "Naman Jain",
+   "King Han",
+   "Alex Gu",
+   "Wen-Ding Li",
+   "Fanjia Yan",
+   "Tianjun Zhang",
+   "Sida I. Wang",
+   "Armando Solar-Lezama",
+   "Koushik Sen",
+   "Ion Stoica"
+  ],
+  "year": 2025,
+  "venue": "ICLR",
+  "topics": [
+   "large language models",
+   "code evaluation",
+   "benchmark contamination",
+   "code generation",
+   "program repair",
+   "test output prediction"
+  ],
+  "summary": "LiveCodeBench evaluates code LLMs on fresh contest problems to measure contamination, overfitting, and broader coding capabilities beyond generation."
+ },
+ "DBLP_conf_iclr_LiWSZ0BM25.pdf": {
+  "title": "VLM ATERIAL: Procedural Material Generation with Large Vision-Language Models",
+  "first_author": "Li",
+  "authors": [
+   "Beichen Li",
+   "Rundi Wu",
+   "Armando Solar-Lezama",
+   "Changxi Zheng",
+   "Liang Shi",
+   "Bernd Bickel",
+   "Wojciech Matusik"
+  ],
+  "year": 2025,
+  "venue": "ICLR",
+  "topics": [
+   "procedural materials",
+   "vision-language models",
+   "material graph generation",
+   "python program synthesis",
+   "image-conditioned generation"
+  ],
+  "summary": "The paper fine-tunes a vision-language model to generate procedural material Python programs from images and improves training with a new dataset and augmentation."
+ },
+ "DBLP_conf_iclr_NyePBATS21.pdf": {
+  "title": "Representing Partial Programs with Blended Abstract Semantics",
+  "first_author": "Nye",
+  "authors": [
+   "Maxwell Nye",
+   "Yewen Pu",
+   "Matthew Bowers",
+   "Jacob Andreas",
+   "Joshua B. Tenenbaum",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2021,
+  "venue": "ICLR",
+  "topics": [
+   "program synthesis",
+   "partial programs",
+   "abstract interpretation",
+   "neural program representation",
+   "hybrid neuro-symbolic representations"
+  ],
+  "summary": "The paper learns approximate semantics for partial programs to guide search in program synthesis and improve use of richer language constructs."
+ },
+ "DBLP_conf_iclr_OlaussonIW0S24.pdf": {
+  "title": "Is Self-Repair a Silver Bullet for Code Generation?",
+  "first_author": "Olausson",
+  "authors": [
+   "Theo X. Olausson",
+   "Jeevana Priya Inala",
+   "Chenglong Wang",
+   "Jianfeng Gao",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "ICLR",
+  "topics": [
+   "code generation",
+   "self-repair",
+   "large language models",
+   "humaneval",
+   "apps"
+  ],
+  "summary": "The paper evaluates self-repair for code generation and finds its gains are often modest unless feedback quality is substantially improved."
+ },
+ "DBLP_conf_icml_AletLKNSLKT21.pdf": {
+  "title": "A large-scale benchmark for few-shot program induction and synthesis",
+  "first_author": "Alet",
+  "authors": [
+   "Ferran Alet",
+   "Javier Lopez-Contreras",
+   "James Koppel",
+   "Maxwell Nye",
+   "Armando Solar-Lezama",
+   "Tomás Lozano-Pérez",
+   "Leslie Pack Kaelbling",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2021,
+  "venue": "International Conference on Machine Learning",
+  "topics": [
+   "few-shot program induction",
+   "program synthesis",
+   "benchmark dataset",
+   "subprogram extraction",
+   "transformer-based synthesis"
+  ],
+  "summary": "The paper introduces PROG-RES, a large-scale few-shot program-induction benchmark built from real programs and unit tests, and evaluates transformer-based synthesis."
+ },
+ "DBLP_conf_icml_CanoPDRS25.pdf": {
+  "title": "Neurosymbolic World Models for Sequential Decision Making",
+  "first_author": "Hernández Cano",
+  "authors": [
+   "Leonardo Hernández Cano",
+   "Maxine Perroni-Scharf",
+   "Neil Dhir",
+   "Arun Ramamurthy",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2025,
+  "venue": "Proceedings of the 42nd International Conference on Machine Learning",
+  "topics": [
+   "world models",
+   "finite state machines",
+   "policy optimization",
+   "reinforcement learning",
+   "offline data",
+   "neurosymbolic learning"
+  ],
+  "summary": "The paper proposes SWMPO, an unsupervised neurosymbolic framework that synthesizes finite-state world models from offline data for policy optimization."
+ },
+ "DBLP_conf_icml_GuJLSESS25.pdf": {
+  "title": "Future Research and Challenges Remain Towards AI for Software Engineering",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Naman Jain",
+   "Wen-Ding Li",
+   "Manish Shetty",
+   "Kevin Ellis",
+   "Koushik Sen",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2025,
+  "venue": "International Conference on Machine Learning",
+  "topics": [
+   "software engineering",
+   "code generation",
+   "code completion",
+   "program repair",
+   "software testing",
+   "open-source community"
+  ],
+  "summary": "The paper proposes a taxonomy of AI-for-software-engineering tasks, identifies key bottlenecks, and calls for open-source efforts and new research directions."
+ },
+ "DBLP_conf_icml_GuRLSS024.pdf": {
+  "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Baptiste Rozi`ere",
+   "Hugh Leather",
+   "Armando Solar-Lezama",
+   "Gabriel Synnaeve",
+   "Sida I. Wang"
+  ],
+  "year": 2024,
+  "venue": "International Conference on Machine Learning",
+  "topics": [
+   "code reasoning",
+   "code understanding",
+   "code execution",
+   "benchmark evaluation",
+   "python functions"
+  ],
+  "summary": "CRUXEval introduces 800 Python-function tasks for input and output prediction to evaluate code reasoning, understanding, and execution in language models."
+ },
+ "DBLP_conf_icml_LiPS24.pdf": {
+  "title": "When Do Skills Help Reinforcement Learning? A Theoretical Analysis of Temporal Abstractions",
+  "first_author": "Li",
+  "authors": [
+   "Zhening Li",
+   "Gabriel Poesia",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "Proceedings of the 41st International Conference on Machine Learning",
+  "topics": [
+   "reinforcement learning",
+   "temporal abstractions",
+   "hierarchical reinforcement learning",
+   "sparse reward environments",
+   "skill discovery"
+  ],
+  "summary": "The paper characterizes when deterministic skills improve reinforcement learning in deterministic sparse-reward environments."
+ },
+ "DBLP_conf_icml_NyeHTS19.pdf": {
+  "title": "Learning to Infer Program Sketches",
+  "first_author": "Nye",
+  "authors": [
+   "Maxwell Nye",
+   "Luke Hewitt",
+   "Joshua Tenenbaum",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2019,
+  "venue": "International Conference on Machine Learning (ICML)",
+  "topics": [
+   "program synthesis",
+   "program sketches",
+   "natural language to code",
+   "symbolic search",
+   "pattern recognition"
+  ],
+  "summary": "The paper presents a program synthesis system that dynamically combines pattern recognition and symbolic search to learn code from specifications."
+ },
+ "DBLP_conf_icml_PuMSK18.pdf": {
+  "title": "Selecting Representative Examples for Program Synthesis",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Zachery Miranda",
+   "Armando Solar-Lezama",
+   "Leslie Pack Kaelbling"
+  ],
+  "year": 2018,
+  "venue": "Proceedings of the 35th International Conference on Machine Learning",
+  "topics": [
+   "program synthesis",
+   "example selection",
+   "constraint satisfaction",
+   "neural network",
+   "scalability"
+  ],
+  "summary": "The paper selects a small representative subset of input-output examples for program synthesis using a neural network and greedy search."
+ },
+ "DBLP_conf_icml_TavaresBMSR19.pdf": {
+  "title": "Predicate Exchange: Inference with Declarative Knowledge",
+  "first_author": "Tavares",
+  "authors": [
+   "Zenna Tavares",
+   "Javier Burroni",
+   "Edgar Minasyan",
+   "Armando Solar Lezama",
+   "Rajesh Ranganath"
+  ],
+  "year": 2019,
+  "venue": "Proceedings of the 36th International Conference on Machine Learning",
+  "topics": [
+   "declarative knowledge",
+   "predicate conditioning",
+   "bayesian inference",
+   "replica exchange mcmc",
+   "probabilistic programming",
+   "inverse rendering"
+  ],
+  "summary": "The paper introduces predicate exchange, a soft-predicate inference procedure for conditioning probabilistic models on declarative predicates."
+ },
+ "DBLP_conf_icml_TavaresK0DS21.pdf": {
+  "title": "A Language for Counterfactual Generative Models",
+  "first_author": "Tavares",
+  "authors": [
+   "Zenna Tavares",
+   "James Koppel",
+   "Xin Zhang",
+   "Ria Das",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2021,
+  "venue": "Proceedings of the 38th International Conference on Machine Learning",
+  "topics": [
+   "counterfactual inference",
+   "probabilistic programming",
+   "causal reasoning",
+   "simulation models",
+   "intervention semantics"
+  ],
+  "summary": "The paper introduces OMEGA C, a probabilistic programming language for counterfactual inference with a new intervention operator and formal semantics."
+ },
+ "DBLP_conf_icra_CamposISK19.pdf": {
+  "title": "Bench-Push: Benchmarking Pushing-based Navigation and Manipulation Tasks for Mobile Robots",
+  "first_author": "Zhong",
+  "authors": [
+   "Ninghan Zhong",
+   "Steven Caro",
+   "Megnath Ramesh",
+   "Rishi Bhatnagar",
+   "Avraiem Iskandar",
+   "Stephen L. Smith"
+  ],
+  "year": 2019,
+  "venue": "ICRA",
+  "topics": [
+   "mobile robot navigation",
+   "push-based manipulation",
+   "benchmarking",
+   "simulation environments",
+   "evaluation metrics"
+  ],
+  "summary": "Bench-Push is a unified benchmark for evaluating pushing-based mobile robot navigation and manipulation across simulated environments and physical testbeds."
+ },
+ "DBLP_conf_icse_JeonQFFS16.pdf": {
+  "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents",
+  "first_author": "Anand",
+  "authors": [
+   "Ashwani Anand",
+   "Ivi Chatzi",
+   "Ritam Raha",
+   "Anne-Kathrin Schmuck"
+  ],
+  "year": 2026,
+  "venue": "ICSE",
+  "topics": [
+   "llm agents",
+   "compliance benchmarks",
+   "natural-language manuals",
+   "smt validation",
+   "tool use"
+  ],
+  "summary": "MANTRA automatically synthesizes machine-checkable compliance benchmarks from manuals and tool schemas, validated with SMT solving, for tool-using LLM agents."
+ },
+ "DBLP_conf_mapl_GottschlichSTCR18.pdf": {
+  "title": "The Three Pillars of Machine Programming",
+  "first_author": "Gottschlich",
+  "authors": [
+   "Justin Gottschlich",
+   "Armando Solar-Lezama",
+   "Nesime Tatbul",
+   "Michael Carbin",
+   "Martin Rinard",
+   "Regina Barzilay",
+   "Saman Amarasinghe",
+   "Joshua B. Tenenbaum",
+   "Tim Mattson"
+  ],
+  "year": 2018,
+  "venue": "MAPL",
+  "topics": [
+   "machine programming",
+   "program synthesis",
+   "software development",
+   "software maintenance",
+   "intention",
+   "adaptation"
+  ],
+  "summary": "This position paper outlines machine programming as a vision built on intention, invention, and adaptation to automate software creation and maintenance."
+ },
+ "DBLP_conf_nips_BastaniPS18.pdf": {
+  "title": "Verifiable Reinforcement Learning via Policy Extraction",
+  "first_author": "Bastani",
+  "authors": [
+   "Osbert Bastani",
+   "Yewen Pu",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "32nd Conference on Neural Information Processing Systems (NeurIPS 2018)",
+  "topics": [
+   "reinforcement learning",
+   "policy extraction",
+   "decision trees",
+   "policy distillation",
+   "imitation learning",
+   "policy verification"
+  ],
+  "summary": "The paper proposes VIPER to distill deep reinforcement learning policies into decision trees that are easier to verify and can match DNN performance."
+ },
+ "DBLP_conf_nips_EllisMSST18.pdf": {
+  "title": "Library Learning for Neurally-Guided Bayesian Program Induction",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Lucas Morales",
+   "Mathias Sablé-Meyer",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2018,
+  "venue": "32nd Conference on Neural Information Processing Systems (NeurIPS 2018)",
+  "topics": [
+   "program induction",
+   "domain-specific languages",
+   "library learning",
+   "neural program synthesis",
+   "symbolic regression"
+  ],
+  "summary": "The paper presents EC2, which jointly learns a domain-specific library and a neural guide for program induction across several tasks."
+ },
+ "DBLP_conf_nips_EllisRST18.pdf": {
+  "title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Daniel Ritchie",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2018,
+  "venue": "32nd Conference on Neural Information Processing Systems (NeurIPS 2018)",
+  "topics": [
+   "hand-drawn images",
+   "graphics programs",
+   "program synthesis",
+   "deep learning",
+   "visual inference"
+  ],
+  "summary": "A model converts simple hand drawings into LaTeX graphics programs by combining neural proposal generation with program synthesis."
+ },
+ "DBLP_conf_nips_EllisST15.pdf": {
+  "title": "Unsupervised Learning by Program Synthesis",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2015,
+  "venue": "NIPS",
+  "topics": [
+   "unsupervised learning",
+   "program synthesis",
+   "probabilistic modeling",
+   "visual concepts",
+   "english morphology"
+  ],
+  "summary": "An unsupervised learning algorithm combines probabilistic modeling with program synthesis to learn visual concepts and English inflectional morphology."
+ },
+ "DBLP_conf_nips_EllisST16.pdf": {
+  "title": "Sampling for Bayesian Program Learning",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2016,
+  "venue": "30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain",
+  "topics": [
+   "bayesian program learning",
+   "posterior sampling",
+   "program synthesis",
+   "string editing",
+   "program induction"
+  ],
+  "summary": "The paper proposes sampling programs from Bayesian posterior distributions using symbolic solving and random parity constraints."
+ },
+ "DBLP_conf_nips_Inala0PPB0RS20.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": "This is reviewer-response text about learned communication policies in multi-agent reinforcement learning, not the paper’s first page."
+ },
+ "DBLP_conf_nips_NyeS0L20.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_nips_PuEK0S20.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": "This is reviewer-response text for a paper rather than a paper first page."
+ },
+ "DBLP_conf_nips_Tjandrasuwita0S24.pdf": {
+  "title": "MeMo: Meaningful, Modular Controllers via Noise Injection",
+  "first_author": "Tjandrasuwita",
+  "authors": [
+   "Megan Tjandrasuwita",
+   "Jie Xu",
+   "Armando Solar-Lezama",
+   "Wojciech Matusik"
+  ],
+  "year": 2024,
+  "venue": "38th Conference on Neural Information Processing Systems (NeurIPS 2024)",
+  "topics": [
+   "robot morphology transfer",
+   "modular controllers",
+   "noise injection",
+   "behavior cloning",
+   "locomotion",
+   "grasping"
+  ],
+  "summary": "MeMo learns transferable modular robot controllers from a single robot by optimizing a modularity objective with noise-injected behavior cloning."
+ },
+ "DBLP_conf_nips_YangIBPSR21.pdf": {
+  "title": "Program Synthesis Guided Reinforcement Learning for Partially Observed Environments",
+  "first_author": "Yang",
+  "authors": [
+   "Yichen David Yang",
+   "Jeevana Priya Inala",
+   "Osbert Bastani",
+   "Yewen Pu",
+   "Armando Solar-Lezama",
+   "Martin Rinard"
+  ],
+  "year": 2021,
+  "venue": "NeurIPS",
+  "topics": [
+   "reinforcement learning",
+   "program synthesis",
+   "partially observed environments",
+   "model predictive control",
+   "planning",
+   "domain-specific languages"
+  ],
+  "summary": "The paper proposes model predictive program synthesis to automatically generate guiding programs for reinforcement learning in partially observed environments."
+ },
+ "DBLP_conf_nips_ZhangSS18.pdf": {
+  "title": "Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections",
+  "first_author": "Zhang",
+  "authors": [
+   "Xin Zhang",
+   "Armando Solar-Lezama",
+   "Rishabh Singh"
+  ],
+  "year": 2018,
+  "venue": "NeurIPS",
+  "topics": [
+   "neural network interpretability",
+   "counterfactual correction",
+   "symbolic constraints",
+   "ReLU networks",
+   "judgment decisions"
+  ],
+  "summary": "The paper generates minimal, stable, symbolic input corrections that change a ReLU network’s judgment and explain undesirable decisions."
+ },
+ "DBLP_conf_oopsla_PuNSB16.pdf": {
+  "title": "sk_p: a neural program corrector for MOOCs",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Karthik Narasimhan",
+   "Armando Solar-Lezama",
+   "Regina Barzilay"
+  ],
+  "year": 2016,
+  "venue": "OOPSLA",
+  "topics": [
+   "program repair",
+   "neural program correction",
+   "moocs",
+   "code completion",
+   "sequence-to-sequence models"
+  ],
+  "summary": "The paper presents a neural approach for correcting incorrect student programs in MOOCs by generating candidate fixes and validating them against tests."
+ },
+ "DBLP_conf_oopsla_YessenovXS11.pdf": {
+  "title": "From Equations to Algorithms and Data: Transforming Microwave Engineering and Education with Machine Learning",
+  "first_author": "Parlak",
+  "authors": [
+   "Mehmet Parlak",
+   "Islam Guven"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "microwave education",
+   "machine learning",
+   "inverse design",
+   "electromagnetic synthesis",
+   "rfic design"
+  ],
+  "summary": "The paper proposes a machine-learning-based, data-driven framework for teaching microwave and RFIC design through specification-driven electromagnetic synthesis."
+ },
+ "DBLP_conf_plas_AustinYFS13.pdf": {
+  "title": "Faceted Execution of Policy-Agnostic Programs",
+  "first_author": "Austin",
+  "authors": [
+   "Thomas H. Austin",
+   "Jean Yang",
+   "Cormac Flanagan",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2013,
+  "venue": "PLAS",
+  "topics": [
+   "faceted values",
+   "information flow policies",
+   "policy-agnostic programming",
+   "confidentiality",
+   "non-interference"
+  ],
+  "summary": "The paper extends Jeeves with faceted values to improve expressiveness and reasoning while preserving termination-insensitive non-interference."
+ },
+ "DBLP_conf_pldi_ChaudhuriS10.pdf": {
+  "title": "Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows",
+  "first_author": "Mizan",
+  "authors": [
+   "Md Rezwan Bin Mizan",
+   "Ilya Timofeyev",
+   "Maxim Olshanskii"
+  ],
+  "year": 2026,
+  "venue": "arXiv",
+  "topics": [
+   "reduced-order modeling",
+   "visco-plastic free-surface flows",
+   "tensor decomposition",
+   "shallow-water equations",
+   "herschel-bulkley fluids"
+  ],
+  "summary": "A tensor-based reduced-order model compresses parameterized visco-plastic shallow-flow snapshots for fast reconstruction of flow trajectories."
+ },
+ "DBLP_conf_pldi_KamilCIS16.pdf": {
+  "title": "Stencil-Lifting: Hierarchical Recursive Lifting System for Extracting Summary of Stencil Kernel in Legacy Codes",
+  "first_author": "Li",
+  "authors": [
+   "Mingyi Li",
+   "Junmin Xiao",
+   "Siyan Chen",
+   "Hui Ma",
+   "Xi Chen",
+   "Peihua Bao",
+   "Liang Yuan",
+   "Guangming Tan"
+  ],
+  "year": 2025,
+  "venue": "Technical Report",
+  "topics": [
+   "stencil computation",
+   "summary lifting",
+   "legacy code translation",
+   "domain-specific languages",
+   "nested loops",
+   "intermediate representation"
+  ],
+  "summary": "Stencil-Lifting automatically converts legacy stencil kernels into semantically equivalent DSL implementations using hierarchical recursive lifting with proven completeness."
+ },
+ "DBLP_conf_pldi_PolikarpovaKS16.pdf": {
+  "title": "Program Synthesis from Polymorphic Refinement Types",
+  "first_author": "Polikarpova",
+  "authors": [
+   "Nadia Polikarpova",
+   "Ivan Kuraj",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": "PLDI",
+  "topics": [
+   "program synthesis",
+   "polymorphic refinement types",
+   "functional programming",
+   "predicate abstraction",
+   "recursive functions"
+  ],
+  "summary": "The paper presents a synthesis system for recursive functions using polymorphic refinement types to enable modular verification and scalable search."
+ },
+ "DBLP_conf_pldi_SinghGS13.pdf": {
+  "title": "Raven: Rethinking Automated Assessment for Scratch Programs via Video-Grounded Evaluation",
+  "first_author": "Li",
+  "authors": [
+   "Donglin Li",
+   "Daming Li",
+   "Hanyuan Shi",
+   "Jialu Zhang"
+  ],
+  "year": 2026,
+  "venue": "ACM",
+  "topics": [
+   "scratch programming",
+   "automated assessment",
+   "video grounding",
+   "large language models",
+   "visual behavior evaluation"
+  ],
+  "summary": "Raven uses task-level video-generation rules, large language models, and video analysis to assess Scratch programs more robustly than prior tools."
+ },
+ "DBLP_conf_pldi_Solar-LezamaATBSS07.pdf": {
+  "title": "BLK-Assist: A Methodological Framework for Artist-Led Co-Creation with Generative AI Models",
+  "first_author": "Grimes",
+  "authors": [
+   "Daniel Grimes",
+   "Rachel M. Harrison"
+  ],
+  "year": 2026,
+  "venue": "arXiv",
+  "topics": [
+   "text-to-image models",
+   "artist-specific fine-tuning",
+   "diffusion models",
+   "co-creation",
+   "generative ai"
+  ],
+  "summary": "The paper presents BLK-Assist, a modular framework for fine-tuning diffusion models on a single artist’s corpus to support privacy-preserving co-creation."
+ },
+ "DBLP_conf_pldi_Solar-LezamaJB08.pdf": {
+  "title": "Enhance Sketch Recognition’s Explainability via Semantic Component-Level Parsing",
+  "first_author": "Zhu",
+  "authors": [
+   "Guangming Zhu",
+   "Siyuan Wang",
+   "Tianci Wu",
+   "Liang Zhang"
+  ],
+  "year": 2024,
+  "venue": "AAAI",
+  "topics": [
+   "sketch recognition",
+   "semantic components",
+   "explainable artificial intelligence",
+   "memory module",
+   "stroke parsing"
+  ],
+  "summary": "The paper proposes a semantic component-level memory module to improve sketch recognition explainability with or without component labels."
+ },
+ "DBLP_conf_pldi_Solar-LezamaRBE05.pdf": {
+  "title": "Programming by Sketching for Bit-Streaming Programs",
+  "first_author": "Solar-Lezama",
+  "authors": [
+   "Armando Solar-Lezama",
+   "Rodric Rabbah",
+   "Rastislav Bodík",
+   "Kemal Ebcioğlu"
+  ],
+  "year": 2005,
+  "venue": "PLDI",
+  "topics": [
+   "programming by sketching",
+   "bit-streaming programs",
+   "stream processing",
+   "cryptography",
+   "coding",
+   "domain-specific compiler"
+  ],
+  "summary": "The paper presents sketching for bit-streaming programs and reports improved productivity and competitive performance for cipher implementations."
+ },
+ "DBLP_conf_pldi_YangHASFC16.pdf": {
+  "title": "Precise, Dynamic Information Flow for Database-Backed Applications",
+  "first_author": "Yang",
+  "authors": [
+   "Jean Yang",
+   "Travis Hance",
+   "Thomas H. Austin",
+   "Armando Solar-Lezama",
+   "Cormac Flanagan",
+   "Stephen Chong"
+  ],
+  "year": 2016,
+  "venue": "PLDI",
+  "topics": [
+   "information flow control",
+   "database-backed applications",
+   "web frameworks",
+   "noninterference",
+   "policy compliance"
+  ],
+  "summary": "The paper presents Jacqueline, a framework for enforcing dynamic information-flow policies across applications and databases with formal guarantees and modest overhead."
+ },
+ "DBLP_conf_popl_YangYS12.pdf": {
+  "title": "PICACHV : Formally Verified Data Use Policy Enforcement for Secure Data Analytics",
+  "first_author": "Chen",
+  "authors": [
+   "Haobin Hiroki Chen",
+   "Hongbo Chen",
+   "Mingshen Sun",
+   "Chenghong Wang",
+   "XiaoFeng Wang"
+  ],
+  "year": null,
+  "venue": "POP L",
+  "topics": [
+   "data use policy enforcement",
+   "relational algebra",
+   "formal verification",
+   "trusted execution environments",
+   "data analytics"
+  ],
+  "summary": "PICACHV enforces data use policies for analytics using relational algebra, Coq proofs, and TEEs, and is integrated into Polars."
+ },
+ "DBLP_conf_ppopp_KurajSP22.pdf": {
+  "title": "Global Stabilization for Causally Consistent Partial Replication",
+  "first_author": "Xiang",
+  "authors": [
+   "Zhuolun Xiang",
+   "Nitin H. Vaidya"
+  ],
+  "year": 2022,
+  "venue": "PPoPP",
+  "topics": [
+   "causal consistency",
+   "partial replication",
+   "geo-replicated storage",
+   "global stabilization",
+   "multi-version key-value stores"
+  ],
+  "summary": "The paper develops a global-stabilization framework for causal consistency in partially replicated storage and analyzes visibility latency trade-offs."
+ },
+ "DBLP_conf_ppsn_2014.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_ppsn_KrawiecS14.pdf": {
+  "title": "Improving Genetic Programming with Behavioral Consistency Measure",
+  "first_author": "Krawiec",
+  "authors": [
+   "Krzysztof Krawiec",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2014,
+  "venue": "PPSN XIII",
+  "topics": [
+   "program synthesis",
+   "genetic programming",
+   "behavioral consistency",
+   "intermediate program states",
+   "multi-objective search"
+  ],
+  "summary": "The paper proposes a consistency-based fitness measure using intermediate program states to improve genetic programming success on benchmark synthesis tasks."
+ },
+ "DBLP_conf_sat_2012.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": "Lecture Notes in Computer Science 7317",
+  "topics": [],
+  "summary": "Publisher front matter listing the LNCS series and editorial board."
+ },
+ "DBLP_conf_sat_2016.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_sat_GaneshOSDRS12.pdf": {
+  "title": "Lynx: A Programmatic SAT Solver for the RNA-Folding Problem",
+  "first_author": "Ganesh",
+  "authors": [
+   "Vijay Ganesh",
+   "Charles W. O’Donnell",
+   "Mate Soos",
+   "Srinivas Devadas",
+   "Martin C. Rinard",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2012,
+  "venue": "SAT 2012",
+  "topics": [
+   "programmatic sat solver",
+   "incremental cnf constraints",
+   "rna secondary structure prediction",
+   "conﬂict-driven clause learning",
+   "computational biology"
+  ],
+  "summary": "Lynx adds a callback interface to incremental CDCL SAT solving and speeds RNA secondary structure prediction by adding constraints on demand."
+ },
+ "DBLP_conf_sat_Inala0S16.pdf": {
+  "title": "Synthesis of Domain Specific CNF Encoders for Bit-Vector Solvers",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Rohit Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": "SAT",
+  "topics": [
+   "bit-vector solvers",
+   "cnf encoding",
+   "bit-blasting",
+   "program synthesis",
+   "machine learning",
+   "solver auto-tuning"
+  ],
+  "summary": "The paper presents OptCNF, which uses synthesis and auto-tuning to generate domain-specific CNF encodings for bit-vector solvers."
+ },
+ "DBLP_conf_sigsoft_JeonQFS15.pdf": {
+  "title": "JSKETCH: Sketching for Java",
+  "first_author": "Jeon",
+  "authors": [
+   "Jinseong Jeon",
+   "Xiaokang Qiu",
+   "Jeffrey S. Foster",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2015,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "sketch-based synthesis",
+   "java",
+   "partial programs",
+   "input-output examples"
+  ],
+  "summary": "JSKETCH brings sketch-based synthesis to Java by translating partial Java programs with holes and generators into SKETCH and back."
+ },
+ "DBLP_conf_sigsoft_SinghS11.pdf": {
+  "title": "Synthesizing Data-structure Manipulations from Storyboards",
+  "first_author": "Singh",
+  "authors": [
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2011,
+  "venue": "ESEC/FSE 2011",
+  "topics": [
+   "program synthesis",
+   "storyboard programming",
+   "data structure manipulation",
+   "linked lists",
+   "binary search trees",
+   "shape analysis"
+  ],
+  "summary": "The paper presents Storyboard Programming, a synthesis framework that generates low-level data-structure manipulations from examples and high-level structural descriptions."
+ },
+ "DBLP_conf_snapl_2015.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2015,
+  "venue": "SNAPL’15",
+  "topics": [],
+  "summary": "Front matter for the SNAPL’15 proceedings edited by Thomas Ball, Rastislav Bodík, Shriram Krishnamurthi, Benjamin S. Lerner, and Greg Morrisett."
+ },
+ "DBLP_conf_snapl_CheungKS15.pdf": {
+  "title": "Bridging the Gap Between General-Purpose and Domain-Specific Compilers with Synthesis",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Shoaib Kamil",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2015,
+  "venue": "1st Summit on Advances in Programming Languages (SNAPL’15)",
+  "topics": [
+   "program synthesis",
+   "compiler optimization",
+   "domain-specific compilers",
+   "cross compilation",
+   "verification"
+  ],
+  "summary": "The paper proposes synthesis-based kernel translators in Herd to let general-purpose code benefit from domain-specific compiler optimizations."
+ },
+ "DBLP_conf_snapl_KurajS17.pdf": {
+  "title": "Leveraging Sequential Computation for Programming Efficient and Reliable Distributed Systems",
+  "first_author": "Kuraj",
+  "authors": [
+   "Ivan Kuraj",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2017,
+  "venue": "2nd Summit on Advances in Programming Languages (SNAPL 2017)",
+  "topics": [
+   "distributed systems",
+   "sequential computation",
+   "program verification",
+   "code generation",
+   "event-driven programming"
+  ],
+  "summary": "The paper proposes a programming model that uses sequential computation to simplify building efficient, reliable distributed systems."
+ },
+ "DBLP_conf_tacas_2017-1.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_tacas_InalaPQLS17.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2017,
+  "venue": "TACAS 2017",
+  "topics": [],
+  "summary": "Front matter for the TACAS 2017 proceedings volume, part I, held in Uppsala as part of ETAPS 2017."
+ },
+ "DBLP_conf_uai_PuKS17.pdf": {
+  "title": "Learning to Acquire Information",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Leslie P Kaelbling",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2017,
+  "venue": "UAI",
+  "topics": [
+   "active diagnosis",
+   "information gain",
+   "observation selection",
+   "entropy",
+   "hidden hypothesis"
+  ],
+  "summary": "The paper proposes learning an implication model from observation data to choose the next most informative query in active diagnosis."
+ },
+ "DBLP_conf_vmcai_2014.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "topics": [],
+  "summary": null
+ },
+ "DBLP_conf_vmcai_SinghSXKS14.pdf": {
+  "title": "Modular Synthesis of Sketches Using Models",
+  "first_author": "Singh",
+  "authors": [
+   "Rohit Singh",
+   "Rishabh Singh",
+   "Zhilei Xu",
+   "Rebecca Krosnick",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2014,
+  "venue": "VMCAI",
+  "topics": [
+   "program synthesis",
+   "modular reasoning",
+   "sketches",
+   "model-based specification",
+   "counterexample-guided synthesis"
+  ],
+  "summary": "The paper presents modular reasoning techniques for sketch synthesis using models to scale synthesis to larger programs."
+ },
+ "DBLP_journals_cacm_AlurSFS18.pdf": {
+  "title": "Beyond the Training Distribution: Mapping Generalization Boundaries in Neural Program Synthesis",
+  "first_author": "Voigt",
+  "authors": [
+   "Henrik Voigt",
+   "Michael Habeck",
+   "Joachim Giesen"
+  ],
+  "year": 2026,
+  "venue": "Genetic and Evolutionary Computation Conference (GECCO Companion ’26)",
+  "topics": [
+   "program synthesis",
+   "neural program synthesis",
+   "out-of-distribution generalization",
+   "context-free grammars",
+   "structural extrapolation"
+  ],
+  "summary": "The paper studies controlled program synthesis benchmarks to map transformer generalization under distribution shifts and syntactic novelty."
+ },
+ "DBLP_journals_cacm_WangZKS16.pdf": {
+  "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics",
+  "first_author": "He",
+  "authors": [
+   "Yibo He",
+   "Cunjian Huang",
+   "Xianmiao Qu",
+   "Hongdeng Chen",
+   "Wei Yang",
+   "Tao Xie"
+  ],
+  "year": 2025,
+  "venue": "ACM Conference (Conference’17)",
+  "topics": [
+   "compiler testing",
+   "fuzzing",
+   "risc-v vector extension",
+   "simd intrinsics",
+   "differential testing"
+  ],
+  "summary": "RVISmith is a randomized fuzzer for RVV intrinsics that increases intrinsic coverage and finds previously unknown bugs in GCC, LLVM, and XuanTie."
+ },
+ "DBLP_journals_corr_0002S16.pdf": {
+  "title": "Automatic Generation of Formula Simpliﬁers based on Conditional Rewrite Rules",
+  "first_author": "Singh",
+  "authors": [
+   "Rohit Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": null,
+  "topics": [
+   "logic formula simplification",
+   "conditional term rewriting",
+   "program synthesis",
+   "constraint-based synthesis",
+   "machine learning",
+   "SyGuS benchmarks"
+  ],
+  "summary": "The paper synthesizes domain-specific formula simplifiers from representative problems by combining machine learning with constraint-based synthesis."
+ },
+ "DBLP_journals_corr_AlurFSS16.pdf": {
+  "title": "Results and Analysis of SyGuS-Comp’15",
+  "first_author": "Alur",
+  "authors": [
+   "Rajeev Alur",
+   "Dana Fisman",
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": "Fourth Workshop on Synthesis (SYNT 2015), EPTCS 202",
+  "topics": [
+   "syntax-guided synthesis",
+   "sygus competition",
+   "benchmark evaluation",
+   "conditional linear arithmetic",
+   "invariant synthesis"
+  ],
+  "summary": "The paper reports and analyzes the results of the 2015 Syntax-Guided Synthesis competition, including new specialized tracks."
+ },
+ "DBLP_journals_corr_AlurFSS16a.pdf": {
+  "title": "SyGuS-Comp 2016: Results and Analysis",
+  "first_author": "Alur",
+  "authors": [
+   "Rajeev Alur",
+   "Dana Fisman",
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": "Fifth Workshop on Synthesis (SYNT 2016), EPTCS 229",
+  "topics": [
+   "syntax-guided synthesis",
+   "program synthesis competition",
+   "programming by example",
+   "bit-vector synthesis",
+   "string synthesis"
+  ],
+  "summary": "This paper reports and analyzes the results of the 2016 Syntax-Guided Synthesis Competition, including new programming-by-example tracks."
+ },
+ "DBLP_journals_corr_EllisRST17.pdf": {
+  "title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Daniel Ritchie",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2018,
+  "venue": null,
+  "topics": [
+   "hand-drawn image parsing",
+   "graphics program induction",
+   "program synthesis",
+   "deep learning",
+   "latex rendering"
+  ],
+  "summary": "The paper learns to convert simple hand drawings into high-level graphics programs by combining neural proposal models with program synthesis."
+ },
+ "DBLP_journals_corr_GaneshMSR13.pdf": {
+  "title": "(Un)Decidability Results for Word Equations with Length and Regular Expression Constraints",
+  "first_author": "Ganesh",
+  "authors": [
+   "Vijay Ganesh",
+   "Mia Minnes",
+   "Armando Solar-Lezama",
+   "Martin Rinard"
+  ],
+  "year": 2013,
+  "venue": "arXiv",
+  "topics": [
+   "word equations",
+   "length constraints",
+   "regular expressions",
+   "satisfiability",
+   "decidability",
+   "string constraints"
+  ],
+  "summary": "The paper proves decidability and undecidability results for satisfiability and validity of string formulas with word equations, length constraints, and regular expressions."
+ },
+ "DBLP_journals_corr_GopalakrishnanH17.pdf": {
+  "title": "Report of the HPC Correctness Summit",
+  "first_author": "Gopalakrishnan",
+  "authors": [
+   "Ganesh Gopalakrishnan",
+   "Paul D. Hovland",
+   "Costin Iancu",
+   "Sriram Krishnamoorthy",
+   "Ignacio Laguna",
+   "Richard A. Lethin",
+   "Koushik Sen",
+   "Stephen F. Siegel",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2017,
+  "venue": null,
+  "topics": [
+   "high-performance computing",
+   "correctness",
+   "summit report",
+   "parallel programs",
+   "software verification"
+  ],
+  "summary": "This report summarizes discussions at the 2017 HPC Correctness Summit in Washington, DC."
+ },
+ "DBLP_journals_corr_InalaQLS15.pdf": {
+  "title": "Synthesis of Recursive ADT Transformations from Reusable Templates",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Nadia Polikarpova",
+   "Xiaokang Qiu",
+   "Benjamin S. Lerner",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2017,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "recursive transformations",
+   "algebraic data types",
+   "syntax-guided synthesis",
+   "template reuse",
+   "church encoding"
+  ],
+  "summary": "The paper presents polymorphic synthesis constructs that make reusable syntactic templates concise for recursive algebraic-data-type transformations and improve scalability."
+ },
+ "DBLP_journals_corr_JeonQFS15.pdf": {
+  "title": "JSKETCH: Sketching for Java",
+  "first_author": "Jeon",
+  "authors": [
+   "Jinseong Jeon",
+   "Xiaokang Qiu",
+   "Jeffrey S. Foster",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2015,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "sketch-based synthesis",
+   "java",
+   "partial programs",
+   "input-output examples"
+  ],
+  "summary": "JSKETCH is a Java frontend for Sketch that synthesizes executable Java programs from partial programs with holes, expression generators, and class generators."
+ },
+ "DBLP_journals_corr_KoppelS17.pdf": {
+  "title": "One Tool, Many Languages: Language-Parametric Transformation with Incremental Parametric Syntax",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Varot Premtoon",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "Proc. ACM Program. Lang. 2, OOPSLA, Article 122",
+  "topics": [
+   "source-to-source transformation",
+   "program refactoring",
+   "incremental parametric syntax",
+   "multi-language tooling",
+   "compiler test suites"
+  ],
+  "summary": "The paper presents Cubix, a Haskell-based system for writing source-to-source transformations that work across multiple programming languages."
+ },
+ "DBLP_journals_corr_PolikarpovaS15.pdf": {
+  "title": "Program Synthesis from Polymorphic Refinement Types",
+  "first_author": "Polikarpova",
+  "authors": [
+   "Nadia Polikarpova",
+   "Ivan Kuraj",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2015,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "polymorphic refinement types",
+   "recursive functions",
+   "functional programming",
+   "predicate abstraction"
+  ],
+  "summary": "The paper presents a synthesis approach for recursive functions from polymorphic refinement type specifications using modular refinement type checking."
+ },
+ "DBLP_journals_corr_PolikarpovaYIS16.pdf": {
+  "title": "Liquid Information Flow Control",
+  "first_author": "Polikarpova",
+  "authors": [
+   "Nadia Polikarpova",
+   "Deian Stefan",
+   "Jean Yang",
+   "Shachar Itzhaky",
+   "Travis Hance",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2016,
+  "venue": null,
+  "topics": [
+   "information flow control",
+   "security policies",
+   "liquid types",
+   "static verification",
+   "program repair"
+  ],
+  "summary": "Lifty uses liquid types to statically verify data-sensitive security policies and synthesize repairs when applications violate them."
+ },
+ "DBLP_journals_corr_PuKS17.pdf": {
+  "title": "Learning to Acquire Information",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Leslie P Kaelbling",
+   "Armando Solar-Lezama"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "active diagnosis",
+   "information gain",
+   "observation selection",
+   "hidden hypothesis",
+   "entropy"
+  ],
+  "summary": "The paper proposes learning an implication model to choose informative observations for active diagnosis without reasoning over the hidden hypothesis space."
+ },
+ "DBLP_journals_corr_PuNSB16.pdf": {
+  "title": "sk_p: a neural program corrector for MOOCs",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Karthik Narasimhan",
+   "Armando Solar-Lezama",
+   "Regina Barzilay"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "program correction",
+   "moocs",
+   "code repair",
+   "program synthesis",
+   "neural sequence-to-sequence"
+  ],
+  "summary": "A neural program corrector generates and tests candidate fixes for incorrect MOOC student programs using a learned distribution of likely corrections."
+ },
+ "DBLP_journals_corr_YangHASFC15.pdf": {
+  "title": "Precise, Dynamic Information Flow for Database-Backed Applications",
+  "first_author": "Yang",
+  "authors": [
+   "Jean Yang",
+   "Travis Hance",
+   "Thomas H. Austin",
+   "Armando Solar-Lezama",
+   "Cormac Flanagan",
+   "Stephen Chong"
+  ],
+  "year": 2015,
+  "venue": null,
+  "topics": [
+   "information flow control",
+   "database-backed applications",
+   "web frameworks",
+   "noninterference",
+   "policy compliance"
+  ],
+  "summary": "The paper presents dynamic information flow control for database-backed applications, with formal guarantees and a Python web framework implementation."
+ },
+ "DBLP_journals_corr_abs-1204-1751.pdf": {
+  "title": "Automated Feedback Generation for Introductory Programming Assignments",
+  "first_author": "Singh",
+  "authors": [
+   "Rishabh Singh",
+   "Sumit Gulwani",
+   "Armando Solar-Lezama"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "introductory programming",
+   "automated feedback",
+   "student submissions",
+   "error models",
+   "program synthesis"
+  ],
+  "summary": "The paper presents a system that generates feedback for introductory programming assignments by finding minimal corrections from error models."
+ },
+ "DBLP_journals_corr_abs-1208-2013.pdf": {
+  "title": "Inferring SQL Queries Using Program Synthesis",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Armando Solar-Lezama",
+   "Samuel Madden"
+  ],
+  "year": 2012,
+  "venue": "arXiv",
+  "topics": [
+   "sql query synthesis",
+   "relational program analysis",
+   "object-relational mapping",
+   "query pushdown",
+   "ordered relations"
+  ],
+  "summary": "QBS synthesizes invariants and postconditions to convert imperative code fragments into SQL queries."
+ },
+ "DBLP_journals_corr_abs-1208-2925.pdf": {
+  "title": "Using Program Synthesis for Social Recommendations",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Armando Solar-Lezama",
+   "Samuel Madden"
+  ],
+  "year": 2012,
+  "venue": null,
+  "topics": [
+   "social recommendations",
+   "event filtering",
+   "program synthesis",
+   "preference learning",
+   "mobile sensing"
+  ],
+  "summary": "The paper learns user event preferences from likes and dislikes by combining machine learning with program synthesis for social media recommendations."
+ },
+ "DBLP_journals_corr_abs-1710-10385.pdf": {
+  "title": "Capturing the Future by Replaying the Past",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Gabriel Scherer",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "Proc. ACM Program. Lang. 2, ICFP, Article 10",
+  "topics": [
+   "delimited continuations",
+   "monads",
+   "exceptions",
+   "state",
+   "nondeterminism"
+  ],
+  "summary": "The paper implements delimited continuations using exceptions and state by replaying computations from the start with recorded guidance."
+ },
+ "DBLP_journals_corr_abs-1711-03243.pdf": {
+  "title": "Selecting Representative Examples for Program Synthesis",
+  "first_author": "Pu",
+  "authors": [
+   "Yewen Pu",
+   "Zachery Miranda",
+   "Armando Solar-Lezama",
+   "Leslie Pack Kaelbling"
+  ],
+  "year": 2018,
+  "venue": "35th International Conference on Machine Learning (ICML), PMLR 80",
+  "topics": [
+   "program synthesis",
+   "example selection",
+   "constraint satisfaction",
+   "neural networks",
+   "scalability"
+  ],
+  "summary": "The paper presents a neural method for choosing a small representative subset of examples to speed up and stabilize program synthesis."
+ },
+ "DBLP_journals_corr_abs-1711-11438.pdf": {
+  "title": "SyGuS-Comp 2017: Results and Analysis",
+  "first_author": "Alur",
+  "authors": [
+   "Rajeev Alur",
+   "Dana Fisman",
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2017,
+  "venue": "SYNT 2017",
+  "topics": [
+   "syntax-guided synthesis",
+   "synthesis competition",
+   "benchmark evaluation",
+   "solver performance",
+   "invariant synthesis"
+  ],
+  "summary": "The paper reports and analyzes results from the 2017 Syntax-Guided Synthesis Competition across four tracks and over 1500 benchmarks."
+ },
+ "DBLP_journals_corr_abs-1802-04408.pdf": {
+  "title": "ReaS: Combining Numerical Optimization with SAT Solving",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Sicun Gao",
+   "Soonho Kong",
+   "Armando Solar-Lezama"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "floating-point computation",
+   "sat solving",
+   "numerical optimization",
+   "hybrid systems"
+  ],
+  "summary": "ReaS combines differentiable relaxation with SAT-guided search to synthesize programs mixing discrete and floating-point computation."
+ },
+ "DBLP_journals_corr_abs-1802-07384.pdf": {
+  "title": "Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections",
+  "first_author": "Zhang",
+  "authors": [
+   "Xin Zhang",
+   "Armando Solar-Lezama",
+   "Rishabh Singh"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "neural network interpretability",
+   "counterfactual corrections",
+   "reLU networks",
+   "symbolic feedback",
+   "judgment decisions"
+  ],
+  "summary": "The paper proposes generating minimal, stable, symbolic corrections that explain how to change an input so a ReLU network changes its judgment."
+ },
+ "DBLP_journals_corr_abs-1803-07244.pdf": {
+  "title": "The Three Pillars of Machine Programming",
+  "first_author": "Gottschlich",
+  "authors": [
+   "Justin Gottschlich",
+   "Armando Solar-Lezama",
+   "Nesime Tatbul",
+   "Michael Carbin",
+   "Martin Rinard",
+   "Regina Barzilay",
+   "Saman Amarasinghe",
+   "Joshua B. Tenenbaum",
+   "Tim Mattson"
+  ],
+  "year": 2018,
+  "venue": null,
+  "topics": [
+   "machine programming",
+   "program synthesis",
+   "software maintenance",
+   "human-computer interfaces",
+   "software development"
+  ],
+  "summary": "This position paper proposes machine programming as a research vision centered on intention, invention, and adaptation."
+ },
+ "DBLP_journals_corr_abs-1805-08328.pdf": {
+  "title": "Verifiable Reinforcement Learning via Policy Extraction",
+  "first_author": "Bastani",
+  "authors": [
+   "Osbert Bastani",
+   "Yewen Pu",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "32nd Conference on Neural Information Processing Systems (NeurIPS 2018)",
+  "topics": [
+   "verifiable reinforcement learning",
+   "decision tree policies",
+   "policy extraction",
+   "imitation learning",
+   "model compression"
+  ],
+  "summary": "The paper proposes VIPER to distill deep reinforcement learning policies into decision trees that are easier to verify and preserve performance."
+ },
+ "DBLP_journals_corr_abs-1807-08137.pdf": {
+  "title": "Delta-Decision Procedures for Exists-Forall Problems over the Reals",
+  "first_author": "Kong",
+  "authors": [
+   "Soonho Kong",
+   "Armando Solar-Lezama",
+   "Sicun Gao"
+  ],
+  "year": 2018,
+  "venue": "arXiv",
+  "topics": [
+   "delta-decision procedures",
+   "real arithmetic",
+   "existential-universal formulas",
+   "counterexample-guided synthesis",
+   "global optimization",
+   "control synthesis"
+  ],
+  "summary": "The paper proposes δ-complete procedures for solving nonlinear ∃∀ satisfiability problems over the reals using interval propagation, CEGIS, and numerical optimization."
+ },
+ "DBLP_journals_corr_abs-1812-02573.pdf": {
+  "title": "Probabilistic Verification of Fairness Properties via Concentration",
+  "first_author": "Bastani",
+  "authors": [
+   "Osbert Bastani",
+   "Xin Zhang",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2019,
+  "venue": "Proc. ACM Program. Lang. 3, OOPSLA",
+  "topics": [
+   "fairness verification",
+   "probabilistic verification",
+   "concentration inequalities",
+   "machine learning models",
+   "program verification"
+  ],
+  "summary": "The paper presents VeriFair, a scalable probabilistic verifier for fairness specifications that uses adaptive concentration inequalities to decide with high confidence."
+ },
+ "DBLP_journals_corr_abs-1901-05437.pdf": {
+  "title": "Soft Constraints for Inference with Declarative Knowledge",
+  "first_author": "Tavares",
+  "authors": [
+   "Zenna Tavares",
+   "Javier Burroni",
+   "Edgar Minaysan",
+   "Armando Solar Lezama",
+   "Rajesh Rangananth"
+  ],
+  "year": 2019,
+  "venue": "Proceedings of the 35th International Conference on Machine Learning",
+  "topics": [
+   "declarative knowledge",
+   "probabilistic inference",
+   "predicate conditioning",
+   "soft constraints",
+   "posterior inference"
+  ],
+  "summary": "The paper introduces predicate exchange, a softened predicate framework for conditioning probabilistic models on declarative knowledge for approximate or exact inference."
+ },
+ "DBLP_journals_corr_abs-1902-06349.pdf": {
+  "title": "Learning to Infer Program Sketches",
+  "first_author": "Nye",
+  "authors": [
+   "Maxwell Nye",
+   "Luke Hewitt",
+   "Joshua Tenenbaum",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2019,
+  "venue": "Proceedings of the 36th International Conference on Machine Learning",
+  "topics": [
+   "program synthesis",
+   "program sketches",
+   "natural language code generation",
+   "symbolic search",
+   "neural synthesis"
+  ],
+  "summary": "The paper presents a program synthesis system that dynamically combines pattern recognition and symbolic search to infer code from examples and natural language."
+ },
+ "DBLP_journals_corr_abs-1903-03229.pdf": {
+  "title": "Deductive Optimization of Relational Data Storage",
+  "first_author": "Feser",
+  "authors": [
+   "John K. Feser",
+   "Samuel Madden",
+   "Nan Tang",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "PL'18",
+  "topics": [
+   "relational data storage",
+   "physical database layout",
+   "deductive synthesis",
+   "query compilation",
+   "static databases"
+  ],
+  "summary": "The paper presents Castor, a domain-specific language and compiler that uses deductive synthesis to optimize static relational data layouts and query execution."
+ },
+ "DBLP_journals_corr_abs-1903-10556.pdf": {
+  "title": "The Random Conditional Distribution For Higher-Order Probabilistic Inference",
+  "first_author": "Tavares",
+  "authors": [
+   "Zenna Tavares",
+   "Xin Zhang",
+   "Edgar Minaysan",
+   "Javier Burroni",
+   "Rajesh Ranganath",
+   "Armando Solar Lezama"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "probabilistic programming",
+   "conditional distributions",
+   "higher-order inference",
+   "algorithmic fairness",
+   "robustness"
+  ],
+  "summary": "The paper introduces random conditional distributions in Omega to model uncertainty over distributional properties and enable inference for fairness and robustness."
+ },
+ "DBLP_journals_corr_abs-1906-04604.pdf": {
+  "title": "Write, Execute, Assess: Program Synthesis with a REPL",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Maxwell Nye",
+   "Yewen Pu",
+   "Felix Sosa",
+   "Joshua B. Tenenbaum",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2019,
+  "venue": "arXiv",
+  "topics": [
+   "program synthesis",
+   "read-eval-print-loop",
+   "semantic search",
+   "text editing",
+   "graphics programs"
+  ],
+  "summary": "A neural program synthesizer uses a REPL with policy and value models to search semantically for programs in text editing and graphics domains."
+ },
+ "DBLP_journals_corr_abs-2003-05562.pdf": {
+  "title": "Learning Compositional Rules via Neural Program Synthesis",
+  "first_author": "Nye",
+  "authors": [
+   "Maxwell I. Nye",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum",
+   "Brenden M. Lake"
+  ],
+  "year": 2020,
+  "venue": "34th Conference on Neural Information Processing Systems (NeurIPS 2020)",
+  "topics": [
+   "compositional rules",
+   "neural program synthesis",
+   "rule learning",
+   "systematic generalization",
+   "symbolic checking",
+   "neuro-symbolic models"
+  ],
+  "summary": "The paper presents a neuro-symbolic approach that induces explicit rule systems from few examples for compositional generalization."
+ },
+ "DBLP_journals_corr_abs-2006-08381.pdf": {
+  "title": "DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Catherine Wong",
+   "Maxwell Nye",
+   "Mathias Sablé-Meyer",
+   "Luc Cary",
+   "Lucas Morales",
+   "Luke Hewitt",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum"
+  ],
+  "year": 2020,
+  "venue": "arXiv",
+  "topics": [
+   "inductive programming",
+   "program synthesis",
+   "wake-sleep learning",
+   "symbolic abstraction",
+   "concept learning"
+  ],
+  "summary": "DreamCoder learns reusable programming languages and neural guidance through wake-sleep Bayesian program induction to solve diverse tasks and discover interpretable concepts."
+ },
+ "DBLP_journals_corr_abs-2101-03238.pdf": {
+  "title": "Neurosymbolic Transformers for Multi-Agent Communication",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Yichen Yang",
+   "James Paulos",
+   "Yewen Pu",
+   "Osbert Bastani",
+   "Vijay Kumar",
+   "Martin Rinard",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2020,
+  "venue": "34th Conference on Neural Information Processing Systems (NeurIPS 2020)",
+  "topics": [
+   "multi-agent communication",
+   "cooperative planning",
+   "communication graphs",
+   "transformer policies",
+   "neurosymbolic synthesis"
+  ],
+  "summary": "The paper synthesizes a neurosymbolic transformer policy that learns low-degree communication graphs for cooperative multi-agent planning with near-optimal performance."
+ },
+ "DBLP_journals_corr_abs-2102-11137.pdf": {
+  "title": "Program Synthesis Guided Reinforcement Learning for Partially Observed Environments",
+  "first_author": "Yang",
+  "authors": [
+   "Yichen David Yang",
+   "Jeevana Priya Inala",
+   "Osbert Bastani",
+   "Yewen Pu",
+   "Armando Solar-Lezama",
+   "Martin Rinard"
+  ],
+  "year": 2021,
+  "venue": "35th Conference on Neural Information Processing Systems (NeurIPS 2021)",
+  "topics": [
+   "reinforcement learning",
+   "program synthesis",
+   "partially observed environments",
+   "model predictive control",
+   "planning",
+   "generative models"
+  ],
+  "summary": "The paper proposes model predictive program synthesis to automatically generate guiding programs for reinforcement learning in partially observed environments."
+ },
+ "DBLP_journals_corr_abs-2110-05440.pdf": {
+  "title": "Safe Human-Interactive Control via Shielding",
+  "first_author": "Inala",
+  "authors": [
+   "Jeevana Priya Inala",
+   "Yecheng Jason Ma",
+   "Osbert Bastani",
+   "Xin Zhang",
+   "Armando Solar-Lezama"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "human-robot interaction",
+   "safety constraints",
+   "robot shielding",
+   "autonomous driving",
+   "backup actions"
+  ],
+  "summary": "The paper proposes a shielding approach that overrides a controller to ensure safety in human-interactive robotics using assumed backup actions."
+ },
+ "DBLP_journals_corr_abs-2111-12772.pdf": {
+  "title": "JoinABLe: Learning Bottom-up Assembly of Parametric CAD Joints",
+  "first_author": "Willis",
+  "authors": [
+   "Karl D.D. Willis",
+   "Pradeep Kumar Jayaraman",
+   "Hang Chu",
+   "Yunsheng Tian",
+   "Yifei Li",
+   "Daniele Grandi",
+   "Aditya Sanghi",
+   "Linh Tran",
+   "Joseph G. Lambourne",
+   "Armando Solar-Lezama",
+   "Wojciech Matusik"
+  ],
+  "year": 2021,
+  "venue": null,
+  "topics": [
+   "cad assemblies",
+   "parametric joints",
+   "weak supervision",
+   "assembly graph",
+   "joint prediction"
+  ],
+  "summary": "JoinABLe learns to assemble CAD parts bottom-up using weak supervision from parametric files and predicts joints with near-human accuracy."
+ },
+ "DBLP_journals_corr_abs-2206-06164.pdf": {
+  "title": "Metric Program Synthesis",
+  "first_author": "Feser",
+  "authors": [
+   "John Feser",
+   "Isil Dillig",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "Proc. ACM Pro",
+  "topics": [
+   "program synthesis",
+   "programming by example",
+   "input-output examples",
+   "observational equivalence",
+   "version space",
+   "distance metric"
+  ],
+  "summary": "Metric program synthesis clusters programs by distance, builds a compact approximate version space, and repairs a close program to match examples exactly."
+ },
+ "DBLP_journals_corr_abs-2206-07828.pdf": {
+  "title": "Searching Entangled Program Spaces",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Zheng Guo",
+   "Edsko de Vries",
+   "Armando Solar-Lezama",
+   "Nadia Polikarpova"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "program synthesis",
+   "rewrite-based optimization",
+   "tree automata",
+   "entangled subterms",
+   "e-graphs"
+  ],
+  "summary": "The paper introduces equality-constrained tree automata for compactly representing entangled program spaces and uses them in a Haskell synthesizer."
+ },
+ "DBLP_journals_corr_abs-2302-01976.pdf": {
+  "title": "SPARLING: End-to-End Spatial Concept Learning via Extremely Sparse Activations",
+  "first_author": "Gupta",
+  "authors": [
+   "Kavi Gupta",
+   "Osbert Bastani",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2026,
+  "venue": "International Conference on Learning Representations",
+  "topics": [
+   "spatial concept learning",
+   "sparse activations",
+   "latent intermediate representations",
+   "concept bottleneck models",
+   "motif identifiability"
+  ],
+  "summary": "The paper studies identifiability of sparse latent motifs and proposes SPARLING to learn them end-to-end with extreme sparsity."
+ },
+ "DBLP_journals_corr_abs-2401-03065.pdf": {
+  "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Baptiste Rozière",
+   "Hugh Leather",
+   "Armando Solar-Lezama",
+   "Gabriel Synnaeve",
+   "Sida I. Wang"
+  ],
+  "year": 2024,
+  "venue": "arXiv",
+  "topics": [
+   "code reasoning",
+   "code execution",
+   "benchmark evaluation",
+   "python functions",
+   "input prediction",
+   "output prediction"
+  ],
+  "summary": "CRUXEval introduces an 800-function Python benchmark for input and output prediction, showing current code models still struggle."
+ },
+ "DBLP_journals_corr_abs-2402-19475.pdf": {
+  "title": "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Wen-Ding Li",
+   "Naman Jain",
+   "Theo X. Olausson",
+   "Celine Lee",
+   "Koushik Sen",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "arXiv",
+  "topics": [
+   "code language models",
+   "incorrect program detection",
+   "program repair",
+   "execution behavior",
+   "counterfeit samples"
+  ],
+  "summary": "The paper studies code language models' ability to detect, reason about, and repair subtly incorrect generated programs called counterfeits."
+ },
+ "DBLP_journals_corr_abs-2403-07974.pdf": {
+  "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+  "first_author": "Jain",
+  "authors": [
+   "Naman Jain",
+   "King Han",
+   "Alex Gu",
+   "Wen-Ding Li",
+   "Fanjia Yan",
+   "Tianjun Zhang",
+   "Sida I. Wang",
+   "Armando Solar-Lezama",
+   "Koushik Sen",
+   "Ion Stoica"
+  ],
+  "year": 2024,
+  "venue": "arXiv",
+  "topics": [
+   "large language models",
+   "code evaluation",
+   "benchmark contamination",
+   "code generation",
+   "code repair",
+   "competition programming"
+  ],
+  "summary": "LiveCodeBench provides a contamination-free benchmark for evaluating large language models on diverse coding tasks from recent programming contests."
+ },
+ "DBLP_journals_corr_abs-2406-07897.pdf": {
+  "title": "When Do Skills Help Reinforcement Learning? A Theoretical Analysis of Temporal Abstractions",
+  "first_author": "Li",
+  "authors": [
+   "Zhening Li",
+   "Gabriel Poesia",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "Proceedings of the 41st International Conference on Machine Learning",
+  "topics": [
+   "temporal abstractions",
+   "sparse rewards",
+   "hierarchical reinforcement learning",
+   "skill discovery",
+   "state compressibility",
+   "exploration"
+  ],
+  "summary": "The paper characterizes when deterministic skills help RL, showing gains are worse when state solutions are less compressible."
+ },
+ "DBLP_journals_corr_abs-2407-01567.pdf": {
+  "title": "MeMo: Meaningful, Modular Controllers via Noise Injection",
+  "first_author": "Tjandrasuwita",
+  "authors": [
+   "Megan Tjandrasuwita",
+   "Jie Xu",
+   "Armando Solar-Lezama",
+   "Wojciech Matusik"
+  ],
+  "year": 2024,
+  "venue": "38th Conference on Neural Information Processing Systems (NeurIPS 2024)",
+  "topics": [
+   "robot morphology transfer",
+   "modular controllers",
+   "noise injection",
+   "behavior cloning",
+   "locomotion",
+   "grasping"
+  ],
+  "summary": "The paper learns modular robot controllers from a single robot using noise injection to improve transfer across morphologies and tasks."
+ },
+ "DBLP_journals_corr_abs-2409-17490.pdf": {
+  "title": "MathDSL: A Domain-Specific Language for Concise Mathematical Solutions Via Program Synthesis",
+  "first_author": "Anupam",
+  "authors": [
+   "Sagnik Anupam",
+   "Maddy Bowers",
+   "Omar Costilla-Reyes",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "arXiv",
+  "topics": [
+   "domain-specific language",
+   "program synthesis",
+   "mathematical equation solving",
+   "solution conciseness",
+   "linear equations"
+  ],
+  "summary": "MathDSL improves program-synthesis-based mathematical equation solving with more accurate and concise solutions than reinforcement-learning approaches."
+ },
+ "DBLP_journals_corr_abs-2501-02825.pdf": {
+  "title": "Randomly Sampled Language Reasoning Problems Elucidate Limitations of In-Context Learning",
+  "first_author": "Gupta",
+  "authors": [
+   "Kavi Gupta",
+   "Kate Sanders",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2025,
+  "venue": "arXiv",
+  "topics": [
+   "in-context learning",
+   "language reasoning",
+   "next token prediction",
+   "novel language tasks",
+   "n-gram models"
+  ],
+  "summary": "The paper shows that LLMs underperform n-gram models on simple unseen language tasks, revealing limits of in-context learning."
+ },
+ "DBLP_journals_corr_abs-2501-18623.pdf": {
+  "title": "VLMaterial: Procedural Material Generation with Large Vision-Language Models",
+  "first_author": "Li",
+  "authors": [
+   "Beichen Li",
+   "Rundi Wu",
+   "Armando Solar-Lezama",
+   "Changxi Zheng",
+   "Liang Shi",
+   "Bernd Bickel",
+   "Wojciech Matusik"
+  ],
+  "year": 2025,
+  "venue": "ICLR",
+  "topics": [
+   "procedural material generation",
+   "vision-language models",
+   "program synthesis",
+   "image-conditioned generation",
+   "python program generation"
+  ],
+  "summary": "The paper fine-tunes a vision-language model to generate procedural material Python programs from images using a new dataset and augmentation."
+ },
+ "DBLP_journals_corr_abs-2502-16671.pdf": {
+  "title": "MIMEQA: Towards Socially-Intelligent Nonverbal Foundation Models",
+  "first_author": "Li",
+  "authors": [
+   "Hengzhi Li",
+   "Megan Tjandrasuwita",
+   "Yi R. Fung",
+   "Armando Solar-Lezama",
+   "Paul Pu Liang"
+  ],
+  "year": null,
+  "venue": "39th Conference on Neural Info",
+  "topics": [
+   "mime question answering",
+   "nonverbal social reasoning",
+   "video large language models",
+   "gesture interpretation",
+   "social intelligence"
+  ],
+  "summary": "The paper introduces MIMEQA, a video question-answering benchmark for nonverbal social reasoning using mime performances and evaluates VideoLLMs on it."
+ },
+ "DBLP_journals_corr_abs-2503-22625.pdf": {
+  "title": "Challenges and Paths Towards AI for Software Engineering",
+  "first_author": "Gu",
+  "authors": [
+   "Alex Gu",
+   "Naman Jain",
+   "Wen-Ding Li",
+   "Manish Shetty",
+   "Yijia Shao",
+   "Ziyang Li",
+   "Diyi Yang",
+   "Kevin Ellis",
+   "Koushik Sen",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2025,
+  "venue": "arXiv",
+  "topics": [
+   "software engineering tasks",
+   "code generation",
+   "software automation",
+   "research bottlenecks",
+   "future research directions"
+  ],
+  "summary": "The paper surveys AI for software engineering, proposes a task taxonomy, identifies bottlenecks, and suggests promising research directions."
+ },
+ "DBLP_journals_debu_CheungMSAM14.pdf": {
+  "title": "Using Program Analysis to Improve Database Applications",
+  "first_author": "Cheung",
+  "authors": [
+   "Alvin Cheung",
+   "Owen Arden",
+   "Samuel Madden",
+   "Armando Solar-Lezama",
+   "Andrew C. Myers"
+  ],
+  "year": 2014,
+  "venue": "Bulletin of the IEEE Computer Society Technical Committee on Data Engineering",
+  "topics": [
+   "database applications",
+   "program analysis",
+   "query optimization",
+   "application server",
+   "database management systems"
+  ],
+  "summary": "The paper describes three projects that combine program analysis and database optimization to speed up database applications by orders of magnitude."
+ },
+ "DBLP_journals_fmsd_FismanSS21.pdf": {
+  "title": "Special Issue on Syntax-Guided Synthesis Preface",
+  "first_author": "Fisman",
+  "authors": [
+   "Dana Fisman",
+   "Rishabh Singh",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2021,
+  "venue": "Formal Methods in System Design",
+  "topics": [
+   "syntax-guided synthesis",
+   "program synthesis",
+   "SMT solvers",
+   "higher-order logic",
+   "parallel program synthesis"
+  ],
+  "summary": "This preface introduces a special issue on syntax-guided synthesis and briefly summarizes three papers spanning key research directions."
+ },
+ "DBLP_journals_fmsd_JeonQSF17.pdf": {
+  "title": "An empirical study of adaptive concretization for parallel program synthesis",
+  "first_author": "Jeon",
+  "authors": [
+   "Jinseong Jeon",
+   "Xiaokang Qiu",
+   "Armando Solar-Lezama",
+   "Jeffrey S. Foster"
+  ],
+  "year": 2017,
+  "venue": "Form Methods Syst Des",
+  "topics": [
+   "program synthesis",
+   "syntax-guided synthesis",
+   "adaptive concretization",
+   "parallelization",
+   "constraint solving"
+  ],
+  "summary": "The paper empirically evaluates design choices in adaptive concretization for program synthesis and finds the approach robust across those choices."
+ },
+ "DBLP_journals_ftpl_ChaudhuriEPSSY21.pdf": {
+  "title": "NeSyCat: A Monad-Based Categorical Semantics of the Neurosymbolic ULLER Framework",
+  "first_author": "Schellhorn",
+  "authors": [
+   "Daniel Romero Schellhorn",
+   "Till Mossakowski"
+  ],
+  "year": 2026,
+  "venue": null,
+  "topics": [
+   "neurosymbolic ai",
+   "category theory",
+   "monads",
+   "probability theory",
+   "fuzzy logic",
+   "categorical logic"
+  ],
+  "summary": "The paper gives a monad-based categorical semantics for ULLER, unifying classical, fuzzy, and probabilistic meanings and supporting modular translations."
+ },
+ "DBLP_journals_ftpl_CheungS16.pdf": {
+  "title": "Compact LLM Deployment and World Model Assisted Offloading in Mobile Edge Computing",
+  "first_author": "Zhang",
+  "authors": [
+   "Ruichen Zhang",
+   "Xiaofeng Luo",
+   "Jiayi He",
+   "Dusit Niyato",
+   "Jiawen Kang",
+   "Zehui Xiong",
+   "Yonghui Li"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "large language models",
+   "mobile edge computing",
+   "model compression",
+   "world model",
+   "reinforcement learning",
+   "inference offloading"
+  ],
+  "summary": "The paper proposes compact LLM deployment and world-model-assisted offloading for mobile edge computing, reducing latency, energy use, and hallucination while preserving accuracy."
+ },
+ "DBLP_journals_pacmpl_Bastani0S19.pdf": {
+  "title": "Probabilistic Verification of Fairness Properties via Concentration",
+  "first_author": "Bastani",
+  "authors": [
+   "Osbert Bastani",
+   "Xin Zhang",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2019,
+  "venue": "Proc. ACM Program. Lang. 3, OOPSLA",
+  "topics": [
+   "fairness verification",
+   "probabilistic verification",
+   "concentration inequalities",
+   "machine learning",
+   "program verification"
+  ],
+  "summary": "The paper presents VeriFair, a scalable probabilistic verifier for fairness specifications using adaptive concentration inequalities."
+ },
+ "DBLP_journals_pacmpl_BowersOWGTES23.pdf": {
+  "title": "Top-Down Synthesis for Library Learning",
+  "first_author": "Bowers",
+  "authors": [
+   "Matthew Bowers",
+   "Theo X. Olausson",
+   "Lionel Wong",
+   "Gabriel Grand",
+   "Joshua B. Tenenbaum",
+   "Kevin Ellis",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2023,
+  "venue": "Proc. ACM Program. Lang. 7, POPL",
+  "topics": [
+   "program synthesis",
+   "library learning",
+   "abstraction learning",
+   "corpus-guided synthesis",
+   "search pruning"
+  ],
+  "summary": "The paper presents Stitch, a corpus-guided top-down synthesis system for learning library functions from DSL program corpora."
+ },
+ "DBLP_journals_pacmpl_FeserM0S20.pdf": {
+  "title": "Deductive Optimization of Relational Data Storage",
+  "first_author": "Feser",
+  "authors": [
+   "John K. Feser",
+   "Samuel Madden",
+   "Nan Tang",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "PACMPL",
+  "topics": [
+   "relational data storage",
+   "physical data layout",
+   "deductive synthesis",
+   "query compilation",
+   "static databases"
+  ],
+  "summary": "Castor uses deductive synthesis to generate specialized relational storage layouts and query implementations for static databases."
+ },
+ "DBLP_journals_pacmpl_KoppelGVSP22.pdf": {
+  "title": "Searching Entangled Program Spaces",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Zheng Guo",
+   "Edsko de Vries",
+   "Armando Solar-Lezama",
+   "Nadia Polikarpova"
+  ],
+  "year": 2022,
+  "venue": "PACMPL",
+  "topics": [
+   "program synthesis",
+   "term space representation",
+   "equality-constrained tree automata",
+   "entangled subterms",
+   "haskell library"
+  ],
+  "summary": "The paper introduces equality-constrained tree automata for compactly representing entangled program spaces and builds a faster Haskell synthesizer."
+ },
+ "DBLP_journals_pacmpl_KoppelKS22.pdf": {
+  "title": "Automatically Deriving Control-Flow Graph Generators from Operational Semantics",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Jackson Kearl",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2022,
+  "venue": "Proc. ACM Program. Lang. 6, ICFP",
+  "topics": [
+   "control-flow graphs",
+   "operational semantics",
+   "abstract machines",
+   "abstract rewriting",
+   "static analysis"
+  ],
+  "summary": "The paper synthesizes control-flow graph generators from operational semantics and proves correctness and termination properties."
+ },
+ "DBLP_journals_pacmpl_KoppelPS18.pdf": {
+  "title": "One Tool, Many Languages: Language-Parametric Transformation with Incremental Parametric Syntax",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Varot Premtoon",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "Proc. ACM Program. Lang. 2, OOPSLA",
+  "topics": [
+   "source-to-source transformation",
+   "language-parametric refactoring",
+   "incremental parametric syntax",
+   "multi-language program transformation",
+   "program representation"
+  ],
+  "summary": "The paper presents incremental parametric syntax for building source-to-source transformations that work across multiple programming languages."
+ },
+ "DBLP_journals_pacmpl_KoppelSS18.pdf": {
+  "title": "Capturing the Future by Replaying the Past",
+  "first_author": "Koppel",
+  "authors": [
+   "James Koppel",
+   "Gabriel Scherer",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2018,
+  "venue": "Proc. ACM Program. Lang. 2, ICFP, Article 10",
+  "topics": [
+   "delimited continuations",
+   "thermometer continuations",
+   "monadic effects",
+   "exceptions",
+   "state",
+   "nondeterminism"
+  ],
+  "summary": "The paper presents thermometer continuations, which implement delimited continuations using exceptions and state by replaying computation from the start."
+ },
+ "DBLP_journals_pacmpl_PolikarpovaSYIH20.pdf": {
+  "title": "Liquid Information Flow Control",
+  "first_author": "Polikarpova",
+  "authors": [
+   "Nadia Polikarpova",
+   "Deian Stefan",
+   "Jean Yang",
+   "Shachar Itzhaky",
+   "Travis Hance",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2020,
+  "venue": "PACMPL",
+  "topics": [
+   "information flow control",
+   "liquid types",
+   "declarative security policies",
+   "data-dependent policies",
+   "type-driven repair"
+  ],
+  "summary": "Lifty uses liquid types to statically enforce sensitive-data policies and automatically synthesize repairs for policy violations."
+ },
+ "DBLP_journals_pvldb_SinghMEMPQST17.pdf": {
+  "title": "Synthesizing Entity Matching Rules by Examples",
+  "first_author": "Singh",
+  "authors": [
+   "Rohit Singh",
+   "Venkata Vamsikrishna Meduri",
+   "Ahmed Elmagarmid",
+   "Samuel Madden",
+   "Paolo Papotti",
+   "Jorge-Arnulfo Quian´e-Ruiz",
+   "Armando Solar-Lezama",
+   "Nan Tang"
+  ],
+  "year": 2017,
+  "venue": "Proceedings of the VLDB Endowment",
+  "topics": [
+   "entity matching",
+   "data integration",
+   "rule synthesis",
+   "positive-negative examples",
+   "boolean formulas"
+  ],
+  "summary": "The paper synthesizes interpretable entity matching rules from positive-negative examples using program synthesis over a boolean-formula grammar."
+ },
+ "DBLP_journals_sttt_Solar-Lezama13.pdf": {
+  "title": null,
+  "first_author": null,
+  "authors": [],
+  "year": 2001,
+  "venue": "Federal Information Processing Standards Publication 197",
+  "topics": [],
+  "summary": "This publication announces the Advanced Encryption Standard (AES) and describes its approved use for encrypting sensitive information."
+ },
+ "DBLP_journals_tocs_WangZKS15.pdf": {
+  "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics",
+  "first_author": "He",
+  "authors": [
+   "Yibo He",
+   "Cunjian Huang",
+   "Xianmiao Qu",
+   "Hongdeng Chen",
+   "Wei Yang",
+   "Tao Xie"
+  ],
+  "year": 2025,
+  "venue": "ACM Conference (Conference’17)",
+  "topics": [
+   "compiler testing",
+   "fuzzing",
+   "risc-v vector extension",
+   "simd intrinsics",
+   "differential testing"
+  ],
+  "summary": "RVISmith is a randomized fuzzer for RVV intrinsics that improves coverage and finds previously unknown compiler bugs in GCC, LLVM, and XuanTie."
+ },
+ "DBLP_journals_tog_WillisPLCDLSM21.pdf": {
+  "title": "Fusion 360 Gallery: A Dataset and Environment for Programmatic CAD Construction from Human Design Sequences",
+  "first_author": "Willis",
+  "authors": [
+   "Karl D.D. Willis",
+   "Yewen Pu",
+   "Jieliang Luo",
+   "Hang Chu",
+   "Tao Du",
+   "Joseph G. Lambourne",
+   "Armando Solar-Lezama",
+   "Wojciech Matusik"
+  ],
+  "year": 2021,
+  "venue": "ACM Transactions on Graphics",
+  "topics": [
+   "parametric cad",
+   "cad reconstruction",
+   "human design sequences",
+   "programmatic cad",
+   "sketch extrude modeling",
+   "markov decision process"
+  ],
+  "summary": "The paper introduces Fusion 360 Gallery, a dataset and environment for programmatic CAD, and evaluates CAD reconstruction from target geometry."
+ },
+ "DBLP_series_natosec_40.pdf": {
+  "title": "Beyond Rules: LLM-Powered Linting for Quantum Programs",
+  "first_author": "Cassieri",
+  "authors": [
+   "Pietro Cassieri",
+   "Giuseppe Scanniello",
+   "Seung Yeob Shin",
+   "Fabrizio Pastore",
+   "Domenico Bianculli"
+  ],
+  "year": null,
+  "venue": null,
+  "topics": [
+   "quantum software engineering",
+   "static analysis",
+   "large language models",
+   "retrieval-augmented generation",
+   "qiskit"
+  ],
+  "summary": "The paper presents LLM-based linters for Qiskit that outperform a rule-based tool in detecting quantum programming problems."
+ },
+ "DBLP_series_natosec_AlurBDF0JKMMRSSSSTU15.pdf": {
+  "title": "Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification",
+  "first_author": "Naduvodi Viswambharan",
+  "authors": [
+   "Vaisakh Naduvodi Viswambharan",
+   "Keerthan Kopparam Radhakrishna",
+   "Deepak Narayan Gadde",
+   "Aman Kumar"
+  ],
+  "year": 2026,
+  "venue": "IEEE International Conference on IC Design and Technology (ICICDT)",
+  "topics": [
+   "knowledge graphs",
+   "formal verification",
+   "systemverilog assertions",
+   "large language models",
+   "register transfer level",
+   "counterexample-guided refinement"
+  ],
+  "summary": "The paper proposes a verification-centric knowledge graph and multi-agent workflow to generate and refine SystemVerilog assertions from specifications and RTL."
+ },
+ "Ellis22Linguistics.pdf": {
+  "title": "Synthesizing theories of human language with Bayesian program induction",
+  "first_author": "Ellis",
+  "authors": [
+   "Kevin Ellis",
+   "Adam Albright",
+   "Armando Solar-Lezama",
+   "Joshua B. Tenenbaum",
+   "Timothy J. O’Donnell"
+  ],
+  "year": 2022,
+  "venue": "Nature Communications",
+  "topics": [
+   "morphophonology",
+   "language theory discovery",
+   "bayesian program induction",
+   "cross-linguistic typology",
+   "few-shot language learning"
+  ],
+  "summary": "The paper uses Bayesian program induction to synthesize interpretable morphophonological models and cross-linguistic meta-theories from diverse language data."
+ },
+ "Gupta2024.pdf": {
+  "title": "Improved modeling of RNA-binding protein motifs in an interpretable neural model of RNA splicing",
+  "first_author": "Gupta",
+  "authors": [
+   "Kavi Gupta",
+   "Chenxi Yang",
+   "Kayla McCue",
+   "Osbert Bastani",
+   "Phillip A. Sharp",
+   "Christopher B. Burge",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2024,
+  "venue": "Genome Biology",
+  "topics": [
+   "rna splicing",
+   "rna-binding protein motifs",
+   "neural network interpretability",
+   "genome interpretation",
+   "variant interpretation"
+  ],
+  "summary": "A modular neural splicing model with separable motif and aggregator components improves prediction of RNA-binding protein binding and splicing activity."
+ },
+ "conf_iclr_gupta2025sparling.pdf": {
+  "title": "SPARLING: END-TO-END SPATIAL CONCEPT LEARNING VIA EXTREMELY SPARSE ACTIVATIONS",
+  "first_author": "Gupta",
+  "authors": [
+   "Kavi Gupta",
+   "Osbert Bastani",
+   "Armando Solar-Lezama"
+  ],
+  "year": 2025,
+  "venue": "ICLR",
+  "topics": [
+   "spatial concept learning",
+   "extremely sparse activations",
+   "latent intermediate representations",
+   "motif identifiability",
+   "end-to-end supervision"
+  ],
+  "summary": "The paper studies identifiability of sparse latent motifs and introduces SPARLING to learn them end-to-end with extreme sparsity."
+ },
+ "conf_nips_li2025encompass.pdf": {
+  "title": "ENCOMPASS: Enhancing Agent Programming with Search Over Program Execution Paths",
+  "first_author": "Li",
+  "authors": [
+   "Zhening Li",
+   "Armando Solar-Lezama",
+   "Yisong Yue",
+   "Stephan Zheng"
+  ],
+  "year": 2025,
+  "venue": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+  "topics": [
+   "LLM agents",
+   "agent programming",
+   "inference-time search",
+   "probabilistic nondeterminism",
+   "program execution paths"
+  ],
+  "summary": "The paper introduces ENCOMPASS, a Python framework using probabilistic angelic nondeterminism to separate agent workflow design from inference-time search strategies."
+ }
+}

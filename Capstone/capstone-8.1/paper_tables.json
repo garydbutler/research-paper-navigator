@@ -1,0 +1,10901 @@
+[
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 41,
+  "index": 0,
+  "caption": "Table 2. Summary of NNrepair performance on all models. Repair column shows the type of repair, i.e., intermediate or last layer. Increase/decrease in accuracy shown in terms of the diﬀerence between ",
+  "header": [
+   "Model",
+   "Repair",
+   "Increase/Decrease in accuracy",
+   "",
+   "",
+   "",
+   "Strategy",
+   "F1-Filter"
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "Train",
+    "",
+    "Test",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(96.59%)",
+    "",
+    "(96.34%)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "MNIST-LQ",
+    "Interm",
+    "+0.22",
+    "",
+    "+0.20",
+    "",
+    "Votes",
+    "ON(3)"
+   ],
+   [
+    "MNIST-LQ",
+    "Last",
+    "+0.00",
+    "",
+    "+0.00",
+    "",
+    "ALL",
+    "ON(0"
+   ],
+   [
+    "",
+    "",
+    "Train",
+    "",
+    "Test",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(99.81%)",
+    "",
+    "(98.89%)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "MNIST-HQ",
+    "Interm",
+    "+0.01",
+    "",
+    "+0.02",
+    "",
+    "Merged",
+    "ON(3)"
+   ],
+   [
+    "MNIST-HQ",
+    "Last",
+    "+0.00",
+    "",
+    "+0.00",
+    "",
+    "ALL",
+    "ON(0)"
+   ],
+   [
+    "",
+    "",
+    "P-Train",
+    "",
+    "Test",
+    "P-Test",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(98.99%)",
+    "",
+    "(98.63%)",
+    "(10.38%)",
+    "",
+    ""
+   ],
+   [
+    "MNIST-Pois",
+    "Interm",
+    "+0.00",
+    "",
+    "−0.01",
+    "+1.81",
+    "Votes",
+    "ON(2)"
+   ],
+   [
+    "MNIST-Pois.",
+    "Last",
+    "−2.60",
+    "",
+    "−3.11",
+    "+45.56",
+    "Confidence",
+    "OFF"
+   ],
+   [
+    "",
+    "",
+    "Train",
+    "Adv-Train",
+    "Test",
+    "Adv-Test",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(98.67%)",
+    "(29.92%)",
+    "(97.87%)",
+    "(28.37%)",
+    "",
+    ""
+   ],
+   [
+    "MNIST-Adv",
+    "Interm",
+    "−4.35",
+    "+2.75",
+    "−4.15",
+    "+3.87",
+    "Confidence",
+    "ON(9)"
+   ],
+   [
+    "MNIST-Adv.",
+    "Last",
+    "−3.99",
+    "+11.15",
+    "−3.14",
+    "+10.40",
+    "Merged",
+    "ON(10)"
+   ],
+   [
+    "",
+    "",
+    "Train",
+    "",
+    "Test",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(87.25%)",
+    "",
+    "(81.04%)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "CIFAR10",
+    "Interm",
+    "+0.03",
+    "",
+    "+0.03",
+    "",
+    "Merged",
+    "ON(1)"
+   ],
+   [
+    "CIFAR10",
+    "Last",
+    "+0.12",
+    "",
+    "+0.16",
+    "",
+    "ALL",
+    "ON(1)"
+   ],
+   [
+    "",
+    "",
+    "P-Train",
+    "",
+    "Test",
+    "P-Test",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(96.97%)",
+    "",
+    "(72.26%)",
+    "(15.89%)",
+    "",
+    ""
+   ],
+   [
+    "CIFAR10-Pois",
+    "Interm",
+    "+0.03",
+    "",
+    "+0.02",
+    "+0.81",
+    "Merged",
+    "ON(4)"
+   ],
+   [
+    "CIFAR10-Pois.",
+    "Last",
+    "−0.89",
+    "",
+    "−0.61",
+    "+3.77",
+    "Merged",
+    "OFF"
+   ],
+   [
+    "",
+    "",
+    "Train",
+    "Adv-Train",
+    "Test",
+    "Adv-Test",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "(87.25%)",
+    "(34.39%)",
+    "(81.04%)",
+    "(35.96%)",
+    "",
+    ""
+   ],
+   [
+    "CIFAR10-Adv",
+    "Interm",
+    "+0.05",
+    "+0.22",
+    "−0.07",
+    "+0.34",
+    "Merged",
+    "ON(10)"
+   ],
+   [
+    "CIFAR10-Adv.",
+    "Last",
+    "−0.25",
+    "+0.37",
+    "−0.27",
+    "+0.27",
+    "Merged",
+    "ON(10)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 45,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Model",
+   "Test Acc. (%)"
+  ],
+  "rows": [
+   [
+    "MNIST-LQ",
+    "+0.37"
+   ],
+   [
+    "MNIST-HQ",
+    "−0.40"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 53,
+  "index": 0,
+  "caption": "Table 2. SHRD RCX, RDX, imm8: a concrete run",
+  "header": [
+   "Initial values",
+   "RDX := 0x1122 3344 5566 7788 _ _ _ RCX := 0x0123 4567 89AB CDEF _ _ _ imm8 := 16"
+  ],
+  "rows": [
+   [
+    "Expected values",
+    "RDX := 0x1122 3344 5566 7788 _ _ _ RCX := 0x7788 0123 4567 89AB _ _ _"
+   ],
+   [
+    "UOPs from front-end",
+    "Concrete Run & Description"
+   ],
+   [
+    "MOVSX G2, RCX (SSZ: 64; DSZ: 64)",
+    "G2 ← 0x0123 4567 89AB CDEF _ _ _ Move RCX to internal register G2"
+   ],
+   [
+    "MOVZX G3, <imm8> (SSZ: 8; DSZ: 64)",
+    "G3 ← 16 Move immediate to internal register G3"
+   ],
+   [
+    "UOPs in ROM",
+    "Concrete Run & Description"
+   ],
+   [
+    "AND G3, G3, 63 (SSZ: 8; DSZ: 64)",
+    "G3 ← 16 Mask immediate operand"
+   ],
+   [
+    "MOV G10, -1 (SSZ: 64; DSZ: 64)",
+    "G10 ← 0xFFFF FFFF FFFF FFFF _ _ _ Move -1 to internal register G10"
+   ],
+   [
+    "JE G3, 0, ent nop _ (SSZ: 16; DSZ: 16)",
+    "No jump taken Jump to routine ent nop if G3 == 0 _"
+   ],
+   [
+    "SUB G5, 0, G3 (SSZ: 32; DSZ: 32)",
+    "G5 ← 0xFFFF FFF0; ZF ← 0 _ Store -G3 in internal register G5; clear the zero flag because result is non-zero"
+   ],
+   [
+    "SHR<!ZF> G10, G10, G5 (SSZ: 64; DSZ: 64)",
+    "G10 ← 0xFFFF Shift G10 right by (G5 & 63) if ZF == 0"
+   ],
+   [
+    "AND<ZF> G10, G10, 0 (SSZ: 64; DSZ: 64)",
+    "G10 ← 0xFFFF Set G10 to 0 if ZF == 1"
+   ],
+   [
+    "AND G6, RDX, G10 (SSZ: 64; DSZ: 64)",
+    "G6 ← 0x7788 Store (RDX & G10) in internal register G6"
+   ],
+   [
+    "SHR G7, G2, G3 (SSZ: 64; DSZ: 64)",
+    "G7 ← 0x0000 0123 4567 89AB _ _ _ Store (G2 » G3) in G7"
+   ],
+   [
+    "SHL G2, G7, G3 (SSZ: 64; DSZ: 64)",
+    "G2 ← 0x0123 4567 89AB 0000 _ _ _ Store (G7 « G3) in G2"
+   ],
+   [
+    "OR G2, G2, G6 (SSZ: 64; DSZ: 64)",
+    "G2 ← 0x0123 4567 89AB 7788 _ _ _ Store (G2 | G6) in G2"
+   ],
+   [
+    "ROR G7, G2, G3 (SSZ: 64; DSZ: 64)",
+    "G7 ← 0x7788 0123 4567 89AB _ _ _ Rotate G2 right by G3 and store result in G7"
+   ],
+   [
+    "OR RCX, G7, G7 (SSZ: 64; DSZ: 64)",
+    "RCX ← 0x7788 0123 4567 89AB _ _ _ Store the result of G7 | G7 in RCX"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 99,
+  "index": 0,
+  "caption": "Table 1. Instantiations of the recipe for algebraic program analysis from Sect. 3.3.",
+  "header": [
+   "",
+   "Section 3.3",
+   "Section 4.3",
+   "Section 5.2"
+  ],
+  "rows": [
+   [
+    "Analysis type",
+    "Intraprocedural",
+    "Linear interprocedural",
+    "Termination"
+   ],
+   [
+    "Modeling",
+    "LFP of left-linear equations",
+    "LFP of linear equations",
+    "GFP of right-linear equations"
+   ],
+   [
+    "Closed-form solution",
+    "A regular expression (path expression over the CFG)",
+    "Detensor of a tensored path expression",
+    "An omega-regular expression"
+   ],
+   [
+    "Interpretation (concrete)",
+    "A Kleene algebra (Definition 1), e.g., transition relations (Sect. 3.1)",
+    "A Kronecker algebra (Definition 5), e.g., tensored transition relations (Example 10)",
+    "A Bu¨chi algebra (Definition 7), e.g., non-terminating states (Example 13)"
+   ],
+   [
+    "Interpretation (abstract)",
+    "A regular algebra (Sect. 2), e.g., a transition-formula interpretation (Sect. 2.1)",
+    "A tensor-product algebra (Definition 3), e.g., a tensored transition-formula interpretation (Example 11)",
+    "An ω algebra (Definition 6), e.g., a non-terminating state-formula interpretation (Sect. 5.1)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 140,
+  "index": 0,
+  "caption": "Table 1. SuSLik benchmarks and results. We report the number of Procedures gen- erated, total number Stmt of statements in those procedures, the ratio Code/Spec of code to speciﬁcation (in AST nodes),",
+  "header": [
+   "Data structure",
+   "Id",
+   "Description",
+   "Proc",
+   "Stmt",
+   "Code/Spec",
+   "Time",
+   "TimeSC",
+   "TimeNB"
+  ],
+  "rows": [
+   [
+    "Integers",
+    "1",
+    "Swap two",
+    "1",
+    "4",
+    "1.0x",
+    "0.2",
+    "1.2",
+    "0.2"
+   ],
+   [
+    "",
+    "2",
+    "Min of two1",
+    "1",
+    "3",
+    "1.1x",
+    "0.8",
+    "3.0",
+    "1.1"
+   ],
+   [
+    "Singly linked list",
+    "3",
+    "Length2",
+    "1",
+    "6",
+    "1.4x",
+    "0.4",
+    "0.5",
+    "0.6"
+   ],
+   [
+    "",
+    "4",
+    "Max2",
+    "1",
+    "11",
+    "1.9x",
+    "3.0",
+    "7.0",
+    "4.7"
+   ],
+   [
+    "",
+    "5",
+    "Min2",
+    "1",
+    "11",
+    "1.9x",
+    "2.9",
+    "6.7",
+    "4.1"
+   ],
+   [
+    "",
+    "6",
+    "Singleton1",
+    "1",
+    "4",
+    "0.9x",
+    "0.2",
+    "0.2",
+    "0.2"
+   ],
+   [
+    "",
+    "7",
+    "Deallocate",
+    "1",
+    "4",
+    "5.5x",
+    "0.2",
+    "0.2",
+    "0.2"
+   ],
+   [
+    "",
+    "8",
+    "Initialize",
+    "1",
+    "4",
+    "1.6x",
+    "0.4",
+    "0.4",
+    "0.6"
+   ],
+   [
+    "",
+    "9",
+    "Copy3",
+    "1",
+    "11",
+    "2.7x",
+    "0.6",
+    "1.0",
+    "393.3"
+   ],
+   [
+    "",
+    "10",
+    "Append3",
+    "1",
+    "6",
+    "1.1x",
+    "0.4",
+    "0.4",
+    "0.6"
+   ],
+   [
+    "",
+    "11",
+    "Delete3",
+    "1",
+    "12",
+    "2.6x",
+    "1.2",
+    "0.9",
+    "2.0"
+   ],
+   [
+    "",
+    "12",
+    "Deallocate two",
+    "2",
+    "9",
+    "6.2x",
+    "0.2",
+    "0.2",
+    "0.2"
+   ],
+   [
+    "",
+    "13",
+    "Append three",
+    "2",
+    "14",
+    "2.3x",
+    "1.0",
+    "2.5",
+    "1.7"
+   ],
+   [
+    "",
+    "14",
+    "Non- destructive append",
+    "2",
+    "21",
+    "3.0x",
+    "8.0",
+    "51.5",
+    "-"
+   ],
+   [
+    "",
+    "15",
+    "Union",
+    "2",
+    "23",
+    "5.5x",
+    "4.3",
+    "20.6",
+    "36.0"
+   ],
+   [
+    "",
+    "16",
+    "Intersection4",
+    "3",
+    "32",
+    "7.0x",
+    "101.1",
+    "121.2",
+    "-"
+   ],
+   [
+    "",
+    "17",
+    "Difference4",
+    "2",
+    "21",
+    "5.1x",
+    "4.7",
+    "55.0",
+    "29.5"
+   ],
+   [
+    "",
+    "18",
+    "Deduplicate4",
+    "2",
+    "22",
+    "7.3x",
+    "1.8",
+    "2.5",
+    "5.5"
+   ],
+   [
+    "Sorted list",
+    "19",
+    "Prepend2",
+    "1",
+    "4",
+    "0.4x",
+    "0.2",
+    "0.3",
+    "0.3"
+   ],
+   [
+    "",
+    "20",
+    "Insert2",
+    "1",
+    "19",
+    "3.1x",
+    "1.0",
+    "16.2",
+    "1.2"
+   ],
+   [
+    "",
+    "21",
+    "Insertion sort2",
+    "1",
+    "7",
+    "1.2x",
+    "0.7",
+    "2.7",
+    "42.7"
+   ],
+   [
+    "",
+    "22",
+    "Sort4",
+    "2",
+    "13",
+    "4.9x",
+    "1.0",
+    "1.5",
+    "2.9"
+   ],
+   [
+    "",
+    "23",
+    "Reverse4",
+    "2",
+    "11",
+    "4.0x",
+    "0.7",
+    "0.7",
+    "1.4"
+   ],
+   [
+    "",
+    "24",
+    "Merge2",
+    "2",
+    "30",
+    "4.4x",
+    "55.6",
+    "10.1",
+    "-"
+   ],
+   [
+    "Doubly linked list",
+    "25",
+    "Singleton1",
+    "1",
+    "5",
+    "1.1x",
+    "0.2",
+    "0.2",
+    "0.5"
+   ],
+   [
+    "",
+    "26",
+    "Copy",
+    "1",
+    "22",
+    "4.3x",
+    "7.2",
+    "9.9",
+    "-"
+   ],
+   [
+    "",
+    "27",
+    "Append3",
+    "1",
+    "10",
+    "1.6x",
+    "1.7",
+    "27.2",
+    "-"
+   ],
+   [
+    "",
+    "28",
+    "Delete3",
+    "1",
+    "19",
+    "3.7x",
+    "3.4",
+    "3.5",
+    "-"
+   ],
+   [
+    "",
+    "29",
+    "Single to double",
+    "1",
+    "23",
+    "6.0x",
+    "0.7",
+    "0.8",
+    "4.6"
+   ],
+   [
+    "List of lists",
+    "30",
+    "Deallocate",
+    "2",
+    "11",
+    "10.7x",
+    "0.2",
+    "0.3",
+    "0.3"
+   ],
+   [
+    "",
+    "31",
+    "Flatten4",
+    "2",
+    "17",
+    "4.4x",
+    "0.6",
+    "0.6",
+    "1.9"
+   ],
+   [
+    "",
+    "32",
+    "Length5",
+    "2",
+    "21",
+    "5.5x",
+    "22.8",
+    "-",
+    "-"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 141,
+  "index": 0,
+  "caption": "Table 1. (continued)",
+  "header": [
+   "Data structure",
+   "Id",
+   "Description",
+   "Proc",
+   "Stmt",
+   "Code/Spec",
+   "Time",
+   "TimeSC",
+   "TimeNB"
+  ],
+  "rows": [
+   [
+    "Binary tree",
+    "33",
+    "Size",
+    "1",
+    "9",
+    "2.5x",
+    "0.4",
+    "0.6",
+    "185.8"
+   ],
+   [
+    "",
+    "34",
+    "Deallocate",
+    "1",
+    "6",
+    "8.0x",
+    "0.2",
+    "0.2",
+    "0.2"
+   ],
+   [
+    "",
+    "35",
+    "Deallocate two",
+    "1",
+    "16",
+    "11.8x",
+    "0.4",
+    "0.5",
+    "0.5"
+   ],
+   [
+    "",
+    "36",
+    "Copy",
+    "1",
+    "16",
+    "3.8x",
+    "2.5",
+    "42.9",
+    "-"
+   ],
+   [
+    "",
+    "37",
+    "Flatten w/append",
+    "1",
+    "17",
+    "4.8x",
+    "0.4",
+    "0.6",
+    "0.7"
+   ],
+   [
+    "",
+    "38",
+    "Flatten w/acc",
+    "1",
+    "12",
+    "2.1x",
+    "0.6",
+    "0.9",
+    "1.9"
+   ],
+   [
+    "",
+    "39",
+    "Flatten",
+    "2",
+    "23",
+    "7.1x",
+    "1.5",
+    "1.0",
+    "5.5"
+   ],
+   [
+    "",
+    "40",
+    "Flatten to dll in place",
+    "2",
+    "15",
+    "9.6x",
+    "11.3",
+    "-",
+    "23.2"
+   ],
+   [
+    "",
+    "41",
+    "Flatten to dll w/null5",
+    "2",
+    "17",
+    "11.2x",
+    "106.1",
+    "1418.3",
+    "46.5"
+   ],
+   [
+    "BST",
+    "42",
+    "Insert2",
+    "1",
+    "19",
+    "2.8x",
+    "14.6",
+    "21.7",
+    "518.0"
+   ],
+   [
+    "",
+    "43",
+    "Rotate left2",
+    "1",
+    "5",
+    "0.2x",
+    "6.2",
+    "7.0",
+    "-"
+   ],
+   [
+    "",
+    "44",
+    "Rotate right2",
+    "1",
+    "5",
+    "0.2x",
+    "4.9",
+    "5.6",
+    "-"
+   ],
+   [
+    "",
+    "45",
+    "Find min5",
+    "1",
+    "11",
+    "1.4x",
+    "66.3",
+    "80.2",
+    "-"
+   ],
+   [
+    "",
+    "46",
+    "Find max5",
+    "1",
+    "18",
+    "2.2x",
+    "58.0",
+    "80.8",
+    "-"
+   ],
+   [
+    "",
+    "47",
+    "Delete root2",
+    "1",
+    "18",
+    "1.3x",
+    "13.9",
+    "-",
+    "-"
+   ],
+   [
+    "",
+    "48",
+    "From list4",
+    "2",
+    "27",
+    "5.7x",
+    "10.0",
+    "10.7",
+    "-"
+   ],
+   [
+    "",
+    "49",
+    "To sorted list4",
+    "3",
+    "32",
+    "7.7x",
+    "20.8",
+    "11.7",
+    "-"
+   ],
+   [
+    "Rose tree",
+    "50",
+    "Deallocate",
+    "2",
+    "9",
+    "12.0x",
+    "0.2",
+    "0.3",
+    "0.2"
+   ],
+   [
+    "",
+    "51",
+    "Flatten",
+    "3",
+    "25",
+    "8.0x",
+    "11.0",
+    "6.3",
+    "-"
+   ],
+   [
+    "",
+    "52",
+    "Copy5",
+    "2",
+    "32",
+    "7.9x",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Packed tree",
+    "53",
+    "Pack5",
+    "1",
+    "16",
+    "1.6x",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "",
+    "54",
+    "Unpack5",
+    "1",
+    "23",
+    "2.9x",
+    "21.0",
+    "-",
+    "-"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 160,
+  "index": 0,
+  "caption": "Table 1. The network and property formats supported by each veriﬁer. A * indicates that only a subset of the full input format speciﬁcation is supported.",
+  "header": [
+   "Verifier",
+   "Network format",
+   "Property format",
+   "Algorithmic approach"
+  ],
+  "rows": [
+   [
+    "Reluplex [16]",
+    "Reluplex-NNET",
+    "Hard-coded",
+    "Search"
+   ],
+   [
+    "Planet [10]",
+    "RLV",
+    "RLV",
+    "Search"
+   ],
+   [
+    "BaB [6]",
+    "RLV",
+    "RLV",
+    "Search"
+   ],
+   [
+    "BaBSB [6]",
+    "RLV",
+    "RLV",
+    "Search"
+   ],
+   [
+    "MIPVerify [29]",
+    "MIPVerify Julia API",
+    "MIPVerify Julia API",
+    "Optimization"
+   ],
+   [
+    "Neurify [30]",
+    "Neurify-NNET",
+    "Hard-coded",
+    "Search-optimization"
+   ],
+   [
+    "DeepZono [25]",
+    "ONNX*, ERAN-PYT, ERAN-TF",
+    "ERAN Python API",
+    "Reachability"
+   ],
+   [
+    "DeepPoly [26]",
+    "ONNX*, ERAN-PYT, ERAN-TF",
+    "ERAN Python API",
+    "Reachability"
+   ],
+   [
+    "RefineZono [27]",
+    "ONNX*, ERAN-PYT, ERAN-TF",
+    "ERAN Python API",
+    "Reachability"
+   ],
+   [
+    "RefinePoly [24]",
+    "ONNX*, ERAN-PYT, ERAN-TF",
+    "ERAN Python API",
+    "Reachability"
+   ],
+   [
+    "Marabou [17]",
+    "Reluplex-NNET or ONNX*",
+    "Marabou Python API",
+    "Search"
+   ],
+   [
+    "nnenum [1]",
+    "ONNX*",
+    "nnenum Python API",
+    "Search-reachability"
+   ],
+   [
+    "VeriNet [14]",
+    "ONNX* or Neurify-NNET",
+    "VeriNet Python API",
+    "Search-optimization"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 163,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "verifier.",
+   ""
+  ],
+  "rows": [
+   [
+    "Verifier",
+    "# ONNX operations"
+   ],
+   [
+    "DNNV",
+    "31"
+   ],
+   [
+    "ERAN",
+    "22"
+   ],
+   [
+    "nnenum",
+    "15"
+   ],
+   [
+    "marabou",
+    "12"
+   ],
+   [
+    "VeriNet",
+    "12"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 201,
+  "index": 0,
+  "caption": "Table 1. Deﬁnitions of layers in BNNs, where nd+2 = s and arg max(·) returns the index of the largest entry which occurs ﬁrst.",
+  "header": [
+   "Layer",
+   "Function",
+   "Parameters",
+   "Definition"
+  ],
+  "rows": [
+   [
+    "LIN",
+    "t ilin: Bn ±i →Rni+1 1",
+    "Weight matrix: W ∈Bni×ni+1 ±1 Bias (row) vector: b ∈Rni+1",
+    "t il in(x) = y where ∀j ∈[ni+1], y j = ⟨x,W:, j⟩+ b j"
+   ],
+   [
+    "BN",
+    "tbn: Rni+1 →Rni+1 i",
+    "Weight vectors: α ∈Rni+1 Bias vector: γ ∈Rni+1 Mean vector: μ ∈Rni+1 Std. dev. vector: σ ∈Rni+1",
+    "t ib n(x) = y where ∀j ∈[ni+1], y j = α j · (xj σ− jμ j) + γ j"
+   ],
+   [
+    "BIN",
+    "tbin: Rni+1 →Bni+1 i ±1",
+    "–",
+    "t ibin(x ⎧) = y where ∀j ∈[ni+1], y =⎪⎪⎨ ⎪⎪⎩−+ 11 ,, oif hx rj w≥ is0 e; j t e ."
+   ],
+   [
+    "ARGMAX",
+    "t dam : Rs →Bs +1",
+    "–",
+    "tam(x) = y where ∀j ∈[s], d+1 y = 1 ⇔ j = arg max(x) j"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 213,
+  "index": 0,
+  "caption": "Table 3. BNN benchmarks",
+  "header": [
+   "Name Architecture Accuracy",
+   "Name Architecture Accuracy"
+  ],
+  "rows": [
+   [
+    "P1 9:20:10 12.23% P2 16:32:10 28.63%",
+    "P7 100:100:10 75.16% P8 100:50:20:10 71.1%"
+   ],
+   [
+    "P3 16:64:32:10 25.14% P4 36:15:10:10 27.12%",
+    "P9 100:100:50:10 77.37% P10 100:50:30:30:10 80.63%"
+   ],
+   [
+    "P5 64:10:10 49.16% P6 100:50:10 73.25%",
+    "P11 784:30:50:50:50:10 88.23% P12 784:50:50:50:50:10 86.95%"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 214,
+  "index": 0,
+  "caption": "Table 5. BDD encoding under Hamming distance",
+  "header": [
+   "",
+   "r=2 Time(s) |G|",
+   "r=3 Time(s) |G|",
+   "r=4 Time(s) |G|",
+   "r=5 Time(s) |G|",
+   "r=6 Time(s) |G|"
+  ],
+  "rows": [
+   [
+    "P5 P6",
+    "0.01 1,559 0.25 4,670",
+    "0.03 9,795 4.17 84,037",
+    "0.11 36,796 109.26 1,018,571",
+    "0.74 176,107 2,292.5 11,375,842",
+    "2.94 592,104 (5) 17,811 41,883,970"
+   ],
+   [
+    "P7 P8",
+    "0.65 5,295 0.14 6,147",
+    "22.70 106,754 1.95 125,226",
+    "652.78 1,575,722 44.51 1,668,027",
+    "(1) 17,399 16,163,078 1,146.8 20,519,582",
+    "[10] - (1) 12,491 172,369,297"
+   ],
+   [
+    "P9 P10",
+    "1.99 6,139 0.30 4,630",
+    "63.30 136,126 4.87 100,054",
+    "1,428.6 2,005,666 101.41 1,603,920",
+    "[1](3) 17,039 29,323,244 1,909.9 19,844,299",
+    "[10] - (5) 20,484 173,316,483"
+   ],
+   [
+    "P11 P12",
+    "5.52 3,128 12.4 5,693",
+    "5.73 22,120 12.87 49,996",
+    "6.60 86,413 16.92 493,820",
+    "11.63 556,774 403.09 5,739,602",
+    "238.2 2,881,468 (1) 11,058 16,241,733"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 214,
+  "index": 1,
+  "caption": "Table 6. Robustness veriﬁcation under Hamming distance",
+  "header": [
+   "r",
+   "NPAQ [6] #(Adv) Time(s) Pr(adv)",
+   "BDD4BNN #(Adv) Time(s) Pr(adv)",
+   "Diff #(Adv) Speed Up"
+  ],
+  "rows": [
+   [
+    "2 P7 3 4",
+    "875 271.07 17.32%",
+    "1,806 0.65 35.76%",
+    "106.4% 416"
+   ],
+   [
+    "",
+    "39,587 919.88 23.74% 1,023,798 3,862.0 25.04%",
+    "65,054 22.71 39.01% 1,501,691 661.79 36.73%",
+    "64.33% 40 46.68% 5"
+   ],
+   [
+    "2 P8 3 4",
+    "1,601 187.78 31.70%",
+    "2,261 0.14 44.76%",
+    "41.22% 1,340"
+   ],
+   [
+    "",
+    "66,562 396.45 39.92% 1,636,070 1,861.7 40.02%",
+    "64,372 1.96 38.60% 1,829,103 45.0 44.74%",
+    "-3.29% 201 11.80% 40"
+   ],
+   [
+    "2 P9 3 4",
+    "1,214 363.44 24.03%",
+    "1,406 1.99 27.84%",
+    "15.82% 182"
+   ],
+   [
+    "",
+    "51,464 3,763.6 30.86% 1,316,181 (1) 9,007.8 32.20%",
+    "42,901 63.31 25.73% 3,968,609 1,505.0 97.08%",
+    "-16.64% 58 201.5% 5"
+   ],
+   [
+    "2 P11 3 4",
+    "12,083 3,831.0 3.93%",
+    "28,736 5.52 9.34%",
+    "137.8% 693"
+   ],
+   [
+    "",
+    "0 (2) 4,634.2 0% 0 (2) 7,979.1 0%",
+    "0 5.68 0% 0 6.38 0%",
+    "- 815 - 1,250"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 265,
+  "index": 0,
+  "caption": "Table 1. Certiﬁcation of several LSTM models using Prover with ϵ = 0.01. F, H, and L denote the number of frames, LSTM hidden units and layers respectively.",
+  "header": [
+   "F",
+   "H",
+   "L",
+   "Accuracy (%)",
+   "Certified (%) by OPT/LP",
+   "by OPT Running time (s)"
+  ],
+  "rows": [
+   [
+    "4",
+    "32",
+    "1",
+    "96.1",
+    "91/89",
+    "14.5"
+   ],
+   [
+    "4 4",
+    "32 32",
+    "2 3",
+    "96.7 95.8",
+    "92/73 95/65",
+    "29.1 43.1"
+   ],
+   [
+    "4 4",
+    "64 128",
+    "1 1",
+    "97.3 97.1",
+    "93/92 95/95",
+    "27.0 52.4"
+   ],
+   [
+    "7",
+    "32",
+    "1",
+    "96.5",
+    "63/56",
+    "32.1"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 278,
+  "index": 0,
+  "caption": "Table 1. List of benchmarks. Benchmarks B1−B5 and Tora were introduced by Huang et al. [17]; adaptive cruise control (ACC) was presented by Tran et al. [28]; mountain car (MC), quadrotor with model-pr",
+  "header": [
+   "Name",
+   "Dynamics",
+   "V",
+   "Initial set"
+  ],
+  "rows": [
+   [
+    "B1",
+    "x˙1 = x2, x˙2 = ux2 2 −x1",
+    "2",
+    "x1 ∈[0.8, 0.9], x2 ∈[0.5, 0.6]"
+   ],
+   [
+    "B2",
+    "x˙1 = x2 −x3 1, x˙2 = u",
+    "2",
+    "x1 ∈[0.7, 0.9], x2 ∈[0.7, 0.9]"
+   ],
+   [
+    "B3",
+    "x˙1 = −x1(0.1 + (x1 + x2)2), x˙2 = (u + x1)(0.1 + (x1 + x2)2)",
+    "2",
+    "x1 ∈[0.8, 0.9], x2 ∈[0.4, 0.5]"
+   ],
+   [
+    "B4",
+    "x˙1 = −x1 + x2 −x3, x˙2 = −x1(x3 + 1) −x2, x˙3 = −x1 + u",
+    "3",
+    "x1, x3 ∈[0.25, 0.27], x2 ∈[0.08, 0.1]"
+   ],
+   [
+    "B5",
+    "x˙1 = x3 1 −x2, x˙2 = x3, x˙3 = u",
+    "3",
+    "x1 ∈[0.38, 0.4], x2 ∈[0.45, 0.47] x3 ∈[0.25, 0.27],"
+   ],
+   [
+    "Tora",
+    "x˙1 = x2, x˙2 = −x1 + 0.1sin(x3), x˙3 = x4, x˙4 = u",
+    "4",
+    "x1 ∈[−0.77, −0.75], x2 ∈[−0.45, −0.43], x3 ∈[0.51, 0.54], x4 ∈[−0.3, −0.28]"
+   ],
+   [
+    "ACC",
+    "x˙1 = x2, x˙2 = x3, x˙3 = −4 −2x3 − 1x 002 2 0 x˙4 = x5, x˙5 = x6, x˙6 = 2u −2x6 − 1x 002 5 0",
+    "5",
+    "x1 ∈[90, 91], x2 ∈[32, 32.05] x4 ∈[10, 11], x5 ∈[30, 30.05]"
+   ],
+   [
+    "MC",
+    "x+ = x1 + x2, 1 x+ = x2 + 0.0015u −0.0025cos(3x1) 2",
+    "2",
+    "x1 ∈[−0.53, −0.5]"
+   ],
+   [
+    "QMPC",
+    "x˙1 = x4 −0.25, x˙2 = x5 + 0.25, x˙3 = x6 x˙4 = 9.81u1, x˙5 = −9.81u2, x˙6 = u3 −9.81",
+    "6",
+    "x1 ∈[0.025, 0.05], x2 ∈[0, 0.025]"
+   ],
+   [
+    "F1/10",
+    "x˙1 = x3cos(x4), x˙2 = x3sin(x4) x˙3 = −1.633x3 + 0.3266(u −4), x˙4 = x3 0t .a 2n 2( 5u)",
+    "21",
+    "x1 ∈[−0.0025, 0.0025], x3 ∈[−0.0025, 0.0025]"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 279,
+  "index": 0,
+  "caption": "Table 2. Veriﬁcation evaluation. The notation tanh/sig ( n × k) indicates a NN with tanh/sig activations, n hidden layers and k neurons per layer. For each tool, we provide the veriﬁcation time in sec",
+  "header": [
+   "Name",
+   "NN setup",
+   "Verisig 2.0 (40 cores)",
+   "Verisig 2.0 (1 core)",
+   "Verisig",
+   "ReachNN*",
+   "NNV"
+  ],
+  "rows": [
+   [
+    "B1",
+    "tanh (2 × 20) sig (2 × 20)",
+    "38 s 40 s",
+    "48 s 49 s",
+    "DNF Unknown",
+    "Unknown 69 s",
+    "Unknown Unknown"
+   ],
+   [
+    "B2",
+    "tanh (2 × 20) sig (2 × 20)",
+    "Unknown 6 s",
+    "Unknown 8 s",
+    "Unknown 12 s",
+    "Unknown 32 s",
+    "Unknown Unknown"
+   ],
+   [
+    "B3",
+    "tanh (2 × 20) sig (2 × 20)",
+    "32s 36 s",
+    "43 s 47 s",
+    "98 s 98 s",
+    "128 s 130 s",
+    "Unknown Unknown"
+   ],
+   [
+    "B4",
+    "tanh (2 × 20) sig (2 × 20)",
+    "9 s 10 s",
+    "11 s 12 s",
+    "23 s 24 s",
+    "20 s 20 s",
+    "DNF DNF"
+   ],
+   [
+    "B5",
+    "tanh (3 × 100)",
+    "48 s",
+    "168 s",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+   ],
+   [
+    "Tora",
+    "sig (3 × 100) tanh (3 × 20)",
+    "51s 43 s",
+    "196 s 70 s",
+    "1063 s 134 s",
+    "31 s 2524 s",
+    "Unknown Unknown"
+   ],
+   [
+    "ACC",
+    "sig (3 × 20) tanh (3 × 20)",
+    "50 s 529 s",
+    "83 s 1512 s",
+    "136 s Unknown",
+    "3402 s DNF",
+    "Unknown Unknown"
+   ],
+   [
+    "MC",
+    "sig (2 × 16) sig (2 × 200)",
+    "48 s 1241 s",
+    "52 s 4311 s",
+    "33 s Unknown",
+    "N/A N/A",
+    "N/A N/A"
+   ],
+   [
+    "QMPC",
+    "tanh (2 × 20)",
+    "636 s",
+    "697 s",
+    "703 s",
+    "N/A",
+    "N/A"
+   ],
+   [
+    "F1/10",
+    "tanh (2 × 64)",
+    "3411 s",
+    "3654 s",
+    "2021 s",
+    "N/A",
+    "N/A"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 315,
+  "index": 0,
+  "caption": "Table 1. Architecture of the NN models used in the experiments",
+  "header": [
+   "Models",
+   "# ReLUs",
+   "Architecture"
+  ],
+  "rows": [
+   [
+    "MNIST FC1",
+    "512",
+    "< 784, 256, 256, 10 >"
+   ],
+   [
+    "MNIST FC2",
+    "1024",
+    "< 784, 256, 256, 256, 256, 10 >"
+   ],
+   [
+    "MNIST FC3",
+    "1536",
+    "< 784, 256, 256, 256, 256, 256, 256, 10 >"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 346,
+  "index": 0,
+  "caption": "Table 2. Transition system of a 2-counter machine, array view.",
+  "header": [
+   "Address",
+   "l(Address)",
+   "c(Address)",
+   "g(Address)"
+  ],
+  "rows": [
+   [
+    "",
+    "0",
+    "1",
+    "0"
+   ],
+   [
+    "",
+    "1",
+    "1",
+    "c at #0 1"
+   ],
+   [
+    "",
+    "2",
+    "1",
+    "c at #0 2"
+   ],
+   [
+    "a 0",
+    "3",
+    "1",
+    "pc at #0 = 1"
+   ],
+   [
+    ". . .",
+    ". . .",
+    ". . .",
+    ". . ."
+   ],
+   [
+    "x 1",
+    "4i",
+    "1",
+    "0"
+   ],
+   [
+    "x 2",
+    "4i + 1",
+    "1",
+    "c at #i 1"
+   ],
+   [
+    "x 3",
+    "4i + 2",
+    "1",
+    "c at #i 2"
+   ],
+   [
+    "x 4",
+    "4i + 3",
+    "1",
+    "pc at #i"
+   ],
+   [
+    "x 5",
+    "4i + 4",
+    "1",
+    "0"
+   ],
+   [
+    "x 6",
+    "4i + 5",
+    "1",
+    "c at #(i + 1) 1"
+   ],
+   [
+    "x 7",
+    "4i + 6",
+    "1",
+    "c at #(i + 1) 2"
+   ],
+   [
+    "x 8",
+    "4i + 7",
+    "1",
+    "pc at #(i + 1)"
+   ],
+   [
+    ". . .",
+    ". . .",
+    ". . .",
+    ". . ."
+   ],
+   [
+    "",
+    "s −4 c",
+    "1",
+    "0"
+   ],
+   [
+    "",
+    "s −3 c",
+    "1",
+    "c at #n 1"
+   ],
+   [
+    "",
+    "s −2 c",
+    "1",
+    "c at #n 2"
+   ],
+   [
+    "a 1",
+    "s 1 c",
+    "1",
+    "pc at #n = H"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 355,
+  "index": 0,
+  "caption": "Table 3. Results of mint1 and transferFrom1 using nat and int, with/without the total constants and with/without surjectivity.",
+  "header": [
+   "mint1",
+   "",
+   "transferFrom1",
+   ""
+  ],
+  "rows": [
+   [
+    "no total nat nat surj. int int surj.",
+    "Z3 CVC4 Vampire 0.02 × 0.92 × × × 0.02 0.03 × × 5.96 ×",
+    "no total nat nat surj. int int surj.",
+    "Z3 CVC4 Vampire × × 15.35 100.03 × × 0.02 0.07 × 1.02 × ×"
+   ],
+   [
+    "with total nat nat surj. int int surj.",
+    "Z3 CVC4 Vampire 0.03 × 2.92 0.11 × × 0.02 0.03 × 3.81 5.95 ×",
+    "with total nat nat surj. int int surj.",
+    "Z3 CVC4 Vampire 0.28 × 22.54 38.24 × × 0.02 0.10 × × 6.56 ×"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 357,
+  "index": 0,
+  "caption": "Table 5. Arithmetic reasoning in the explicit SL encoding int.",
+  "header": [
+   "Task",
+   "",
+   "Time"
+  ],
+  "rows": [
+   [
+    "Transition",
+    "Impact",
+    ""
+   ],
+   [
+    "new-bal(a0) = old-bal(a0) + 3 new-bal(a1) = old-bal(a1) −3",
+    "new-sum = old-sum",
+    "Z3: 0.20 CVC4: 1.28 Vampire: ×"
+   ],
+   [
+    "new-bal(a0) = old-bal(a0) + 4 new-bal(a1) = old-bal(a1) −2",
+    "new-sum = old-sum + 2",
+    "Z3: 0.58 CVC4: 7.14 Vampire: ×"
+   ],
+   [
+    "new-bal(a0) = old-bal(a0) + 5 new-bal(a1) = old-bal(a1) −3 new-bal(a2) = old-bal(a2) −1",
+    "new-sum = old-sum + 1",
+    "Z3: 1.52 CVC4: 155.20 Vampire: ×"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 368,
+  "index": 1,
+  "caption": "",
+  "header": [
+   "",
+   "hr3"
+  ],
+  "rows": [
+   [
+    "w(y",
+    ", 1)"
+   ],
+   [
+    "r(",
+    "y)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 369,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "thr σ thr 1 2 2 w(x, 1) w(y, 1) w(x, 1) r(x) r(y) w(y, 2)",
+   ""
+  ],
+  "rows": [
+   [
+    "w(x",
+    ", 1)"
+   ],
+   [
+    "r(",
+    "x)"
+   ],
+   [
+    "w(y",
+    ", 2)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 382,
+  "index": 0,
+  "caption": "Table 1. Benchmarks with trace reduction achieved by RVF-SMC. The unroll bound is shown in the column U. Symbol “–” indicates one-hour timeout. Bold-font entries indicate the smallest numbers for resp",
+  "header": [
+   "Benchmark",
+   "",
+   "U",
+   "RVF-SMC",
+   "VC-DPOR",
+   "Nidh/rfsc",
+   "DC-DPOR",
+   "Nidh/source"
+  ],
+  "rows": [
+   [
+    "27 Boop4 threads: 4",
+    "Traces",
+    "10 12",
+    "1337215 2893039",
+    "1574287 –",
+    "11610040 –",
+    "– –",
+    "– –"
+   ],
+   [
+    "",
+    "Times",
+    "10 12",
+    "837 s 2017 s",
+    "1946 s –",
+    "2616 s –",
+    "– –",
+    "– –"
+   ],
+   [
+    "45 monabsex1 threads: U",
+    "Traces",
+    "7 8",
+    "1 1",
+    "423360 –",
+    "262144 4782969",
+    "7073803 –",
+    "25401600 –"
+   ],
+   [
+    "",
+    "Times",
+    "7 8",
+    "0.09 s 0.09 s",
+    "784 s –",
+    "33 s 677 s",
+    "3239 s –",
+    "2819 s –"
+   ],
+   [
+    "reorder 5 threads: U+1",
+    "Traces",
+    "9 30",
+    "4 4",
+    "1644716 –",
+    "1540 54901",
+    "1792290 –",
+    "– –"
+   ],
+   [
+    "",
+    "Times",
+    "9 30",
+    "0.10 s 0.09 s",
+    "1711 s –",
+    "0.44 s 49 s",
+    "974 s –",
+    "– –"
+   ],
+   [
+    "scull loop threads: 3",
+    "Traces",
+    "2 3",
+    "3908 115032",
+    "15394 –",
+    "749811 –",
+    "884443 –",
+    "3157281 –"
+   ],
+   [
+    "",
+    "Times",
+    "2 3",
+    "6.55 s 266 s",
+    "83 s –",
+    "403 s –",
+    "1659 s –",
+    "1116 s –"
+   ],
+   [
+    "singleton threads: U+1",
+    "Traces",
+    "20 30",
+    "2 2",
+    "2 –",
+    "20 30",
+    "20 –",
+    "– –"
+   ],
+   [
+    "",
+    "Times",
+    "20 30",
+    "0.07 s 0.08 s",
+    "179 s –",
+    "0.08 s 0.10 s",
+    "171 s –",
+    "– –"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 383,
+  "index": 0,
+  "caption": "Table 2. Benchmarks with little-to-no trace reduction by RVF-SMC. Symbol † indi- cates that a particular benchmark operation is not handled by the tool.",
+  "header": [
+   "Benchmark",
+   "",
+   "U",
+   "RVF-SMC",
+   "VC-DPOR",
+   "Nidh/rfsc",
+   "DC-DPOR",
+   "Nidh/source"
+  ],
+  "rows": [
+   [
+    "13 unverif threads: U",
+    "Traces",
+    "5 6",
+    "14400 518400",
+    "14400 –",
+    "14400 518400",
+    "14400 –",
+    "14400 518400"
+   ],
+   [
+    "",
+    "Times",
+    "5 6",
+    "7.45 s 376 s",
+    "63 s –",
+    "3.33 s 134 s",
+    "68 s –",
+    "2.72 s 84 s"
+   ],
+   [
+    "approxds append threads: U",
+    "Traces",
+    "6 7",
+    "50897 923526",
+    "1256381 –",
+    "198936 4645207",
+    "1114746 –",
+    "9847080 –"
+   ],
+   [
+    "",
+    "Times",
+    "6 7",
+    "60 s 2078 s",
+    "995 s –",
+    "67 s 2003 s",
+    "944 s –",
+    "2733 s –"
+   ],
+   [
+    "chase-lev-dq threads: 3",
+    "Traces",
+    "4 5",
+    "87807 227654",
+    "† †",
+    "175331 448905",
+    "† †",
+    "175331 448905"
+   ],
+   [
+    "",
+    "Times",
+    "4 5",
+    "289 s 995 s",
+    "† †",
+    "71 s 210 s",
+    "† †",
+    "71 s 200 s"
+   ],
+   [
+    "linuxrwlocks threads: U+1",
+    "Traces",
+    "1 2",
+    "56 62018",
+    "† †",
+    "59 70026",
+    "† †",
+    "59 70026"
+   ],
+   [
+    "",
+    "Times",
+    "1 2",
+    "0.12 s 42 s",
+    "† †",
+    "0.09 s 15 s",
+    "† †",
+    "0.13 s 9.50 s"
+   ],
+   [
+    "pgsql threads: 2",
+    "Traces",
+    "3 4",
+    "3906 335923",
+    "3906 335923",
+    "3906 335923",
+    "3906 335923",
+    "3906 335923"
+   ],
+   [
+    "",
+    "Times",
+    "3 4",
+    "3.30 s 412 s",
+    "5.98 s 911 s",
+    "1.01 s 107 s",
+    "4.00 s 616 s",
+    "0.51 s 51 s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 397,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "#",
+   "Example",
+   "LOC / Spec.",
+   "Viper LOC",
+   "T [s]",
+   "T [s] spec error",
+   "T [s] impl error"
+  ],
+  "rows": [
+   [
+    "1",
+    "binary search tree",
+    "125 / 140",
+    "632",
+    "10.88",
+    "10.50",
+    "11.67"
+   ],
+   [
+    "2",
+    "dutchflag",
+    "22 / 16",
+    "142",
+    "2.02",
+    "1.78",
+    "1.88"
+   ],
+   [
+    "3",
+    "heapsort",
+    "47 / 93",
+    "271",
+    "16.72",
+    "19.30",
+    "15.23"
+   ],
+   [
+    "4",
+    "dense and sparse matrix",
+    "69 / 62",
+    "326",
+    "10.46",
+    "10.55",
+    "10.06"
+   ],
+   [
+    "5",
+    "binary tree",
+    "59 / 20",
+    "217",
+    "2.09",
+    "2.08",
+    "2.11"
+   ],
+   [
+    "6",
+    "running ex. (Fig. 1)",
+    "10 / 11",
+    "164",
+    "1.71",
+    "1.70",
+    "1.70"
+   ],
+   [
+    "7",
+    "running ex. (Fig. 2)",
+    "24 / 16",
+    "186",
+    "1.04",
+    "0.98",
+    "1.01"
+   ],
+   [
+    "8",
+    "list of interfaces",
+    "46 / 27",
+    "219",
+    "1.45",
+    "1.41",
+    "1.54"
+   ],
+   [
+    "9",
+    "visitor pattern",
+    "76 / 30",
+    "475",
+    "4.38",
+    "4.22",
+    "5.45"
+   ],
+   [
+    "10",
+    "zune",
+    "31 / 12",
+    "141",
+    "1.08",
+    "1.07",
+    "1.06"
+   ],
+   [
+    "11",
+    "relaxed prefix",
+    "25 / 36",
+    "158",
+    "7.08",
+    "5.36",
+    "4.19"
+   ],
+   [
+    "12",
+    "pair insertion sort",
+    "50 / 105",
+    "353",
+    "15.55",
+    "12.64",
+    "13.96"
+   ],
+   [
+    "13",
+    "parallel search replace",
+    "35 / 94",
+    "565",
+    "53.18",
+    "51.97",
+    "61.54"
+   ],
+   [
+    "14",
+    "parallel sum",
+    "31 / 98",
+    "527",
+    "58.39",
+    "50.25",
+    "57.69"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 595,
+  "index": 0,
+  "caption": "Table 1. Safe zone for longitudinal and lateral state variables",
+  "header": [
+   "V (Feet/sec.)",
+   "α (Radians)",
+   "θ (Radians)",
+   "Q (Radians/sec.)",
+   "β (Radians)",
+   "φ (Radians)",
+   "P (Radians/sec.)"
+  ],
+  "rows": [
+   [
+    "−15",
+    "−0.087",
+    "−0.262",
+    "−0.262",
+    "−0.122",
+    "−0.785",
+    "−0.873"
+   ],
+   [
+    "15",
+    "0.087",
+    "0.262",
+    "0.262",
+    "0.122",
+    "0.785",
+    "0.873"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 596,
+  "index": 0,
+  "caption": "Table 2. Number of sample iterations for ANN and LQR controller",
+  "header": [
+   "",
+   "N for T = 0.05",
+   "N for T = 0.15",
+   "N for T = 0.25",
+   "N for T = 0.35"
+  ],
+  "rows": [
+   [
+    "ANN",
+    "3181",
+    "3269",
+    "3295",
+    "3345"
+   ],
+   [
+    "LQR",
+    "220",
+    "132",
+    "106",
+    "56"
+   ],
+   [
+    "Total",
+    "3401",
+    "3401",
+    "3401",
+    "3401"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 611,
+  "index": 0,
+  "caption": "Table 2. Comparison between Φs. In addition to the statisitics of Table 1, this table reports the number of modes and edges in the initial and ﬁnal (after reﬁnement) abstractions (|Sv|i, |Ev|i; |Sv|f ",
+  "header": [
+   "Sc",
+   "NRef",
+   "Φ",
+   "|S|",
+   "|Sv|i",
+   "|Ev|i",
+   "|Sv|f",
+   "|Ev|f",
+   "Rc",
+   "Rt",
+   "Tt"
+  ],
+  "rows": [
+   [
+    "CNN-S2",
+    "6",
+    "TR",
+    "140",
+    "1",
+    "1",
+    "7",
+    "17",
+    "19",
+    "1.51",
+    "3.05"
+   ],
+   [
+    "CNN-S4",
+    "9",
+    "TR",
+    "520",
+    "1",
+    "1",
+    "10",
+    "28",
+    "47",
+    "3.77",
+    "11.25"
+   ],
+   [
+    "QNN-S2",
+    "3",
+    "TR",
+    "140",
+    "1",
+    "1",
+    "4",
+    "9",
+    "9",
+    "0.61",
+    "3.55"
+   ],
+   [
+    "QNN-S3",
+    "5",
+    "TR",
+    "458",
+    "1",
+    "1",
+    "6",
+    "16",
+    "15",
+    "1.51",
+    "12.7"
+   ],
+   [
+    "QNN-S4",
+    "4",
+    "TR",
+    "520",
+    "1",
+    "1",
+    "5",
+    "13",
+    "11",
+    "1.11",
+    "7.43"
+   ],
+   [
+    "QNN-S2",
+    "0",
+    "T",
+    "140",
+    "7",
+    "19",
+    "7",
+    "19",
+    "8",
+    "0.53",
+    "1.38"
+   ],
+   [
+    "QNN-S3",
+    "4",
+    "T",
+    "458",
+    "7",
+    "30",
+    "11",
+    "58",
+    "29",
+    "2.92",
+    "16.88"
+   ],
+   [
+    "QNN-S4",
+    "0",
+    "T",
+    "520",
+    "7",
+    "30",
+    "7",
+    "30",
+    "13",
+    "1.32",
+    "5.34"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 0,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "AT1 12 67.0 AT2 18 208.5 AT3 0 - AT4 8 414.0 AT5 13 44.7 AT6 14 630.5 AT7 20 24.9 AT8 17 418.5 AT9 9 298.6 AT10 14 99.4 AT11 17 58.1",
+    "29 90.3 30 155.5 29 87.3 30 376.6 30 159.0 20 545.9 30 5.8 13 547.0 29 208.0 30 89.7 30 39.6",
+    "+17 +23.3 +12 -53.0 +29 - +12 -37.4 +17 +114.3 +6 -84.6 +10 -19.1 -4 +128.5 +20 -90.6 +16 -9.7 +13 -18.5"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 1,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "AT12 5 379.2 AT13 2 75.2 AT14 24 184.9 AT15 1 66.1 AT16 1 13.0 AT17 0 - AT18 18 160.0 AT19 15 81.8 AT20 1 97.7 AT21 10 239.0 AT22 13 72.0",
+    "28 381.4 29 98.3 1 601.5 9 331.8 30 6.7 30 208.8 24 234.3 30 154.3 5 286.2 29 425.5 30 113.3",
+    "+23 +2.2 +27 +23.1 -23 +416.6 +8 +265.7 +29 -6.3 +30 - +6 +74.3 +15 +72.5 +4 +188.5 +19 +186.5 +17 +41.3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 2,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "AFC1 10 532.2 AFC2 12 546.9 AFC3 8 727.6",
+    "12 458.0 30 218.3 28 232.5",
+    "+2 -74.2 +18 -328.6 +20 -495.1"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 3,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "AFC4 7 634.5 AFC5 8 576.9 AFC6 10 518.2",
+    "22 500.3 9 322.0 6 344.2",
+    "+15 -134.2 +1 -254.9 -4 -174.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 4,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "FFR1 7 132.1",
+    "7 399.3",
+    "+0 +267.2"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 631,
+  "index": 5,
+  "caption": "Table 2. Falsiﬁcation performance comparison between Breach and ForeSee on bench- marks. Timeout: 900 s. FR in (/30), time in secs.",
+  "header": [
+   "Breach",
+   "ForeSee",
+   ""
+  ],
+  "rows": [
+   [
+    "FR time",
+    "FR time",
+    "ΔFR Δtime"
+   ],
+   [
+    "FFR2 30 38.0",
+    "27 348.0",
+    "-3 +310.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 0,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "-2 30 126.5 -1 25 64.4 0 12 67.0 1 9 92.4 2 9 131.9",
+    "26 77.5 29 107.9 29 90.3 28 81.8 30 94.2"
+   ],
+   [
+    "min 9 64.4 max 30 131.9 mean 17 96.4",
+    "26 77.5 30 107.9 28 90.3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 1,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "-3 30 124.9 -2 30 135.9 -1 1 136.7 0 0 - 1 0 -",
+    "30 81.2 28 82.6 28 101.6 29 87.3 30 103.4"
+   ],
+   [
+    "min 0 124.9 max 30 136.7 mean 12 132.5",
+    "28 81.2 30 103.4 29 91.2"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 2,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "-2 29 247.2 -1 29 243.5 0 8 414.0 1 0 - 2 0 -",
+    "29 329.4 28 332.2 30 376.6 29 377.6 29 333.2"
+   ],
+   [
+    "min 0 243.5 max 29 414.0 mean 13 301.6",
+    "28 329.4 30 377.6 29 349.8"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 3,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "-1 11 202.6 0 9 298.6 1 10 197.4 2 28 175.4 3 30 162.6",
+    "28 259.8 29 208.0 29 221.2 29 248.9 29 209.6"
+   ],
+   [
+    "min 9 162.6 max 30 298.6 mean 18 207.3",
+    "28 208.0 29 259.8 29 229.5"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 4,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "-5 20 138.3 -4 13 158.1 -3 4 144.6 -2 0 - 0 1 66.1",
+    "6 222.3 10 258.8 5 313.6 9 268.6 9 331.8"
+   ],
+   [
+    "min 0 66.1 max 20 158.1 mean 10 126.8",
+    "5 222.3 10 331.8 8 279.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 632,
+  "index": 5,
+  "caption": "Table 3. Falsiﬁcation performance under diﬀerent scales. Each rescaled signal is rescaled by 10k.",
+  "header": [
+   "Breach",
+   "ForeSee"
+  ],
+  "rows": [
+   [
+    "k FR time",
+    "FR time"
+   ],
+   [
+    "0 8 727.6 -1 18 574.2 -2 29 401.2 -3 30 215.0 -4 29 198.2",
+    "28 232.5 29 284.1 29 211.5 29 230.1 30 236.2"
+   ],
+   [
+    "min 8 198.2 max 30 727.7 mean 23 423.2",
+    "28 211.5 30 284.1 29 238.9"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 659,
+  "index": 0,
+  "caption": "Table 2. Results on the Benchmarks. Time recorded in ms, and timeout (T.O.) used is 120 s. OoM stands for Out of Memory kill. Results rounded up to 1 decimal. # nodes refers to the number of nodes in ",
+  "header": [
+   "Benchmark",
+   "⪯ LU Time",
+   "⪯ LU # nodes",
+   "∼ LU Time",
+   "∼ LU # nodes",
+   "RB Time",
+   "RB # nodes"
+  ],
+  "rows": [
+   [
+    "B 1",
+    "0.2",
+    "17",
+    "0.2",
+    "17",
+    "235.6",
+    "4100"
+   ],
+   [
+    "B (10) 2",
+    "0.8",
+    "77",
+    "0.8",
+    "77",
+    "6835.8",
+    "30200"
+   ],
+   [
+    "B (100) 2",
+    "20.0",
+    "5252",
+    "20.7",
+    "5252",
+    "T.O",
+    "≥154700"
+   ],
+   [
+    "B (4, 3) 3",
+    "0.2",
+    "6",
+    "0.2",
+    "6",
+    "1043.8",
+    "14300"
+   ],
+   [
+    "B (3, 4) 3",
+    "0.2",
+    "9",
+    "0.2",
+    "9",
+    "98.8",
+    "3400"
+   ],
+   [
+    "B 4",
+    "0.2",
+    "8",
+    "0.1",
+    "8",
+    "0.3",
+    "17"
+   ],
+   [
+    "B (100, 10) 5",
+    "0.8",
+    "202",
+    "5.4",
+    "2212",
+    "OoM",
+    "OoM"
+   ],
+   [
+    "B (100, 1000) 5",
+    "0.7",
+    "202",
+    "3564.3",
+    "201202",
+    "OoM",
+    "OoM"
+   ],
+   [
+    "B (5000, 100) 5",
+    "23.2",
+    "10002",
+    "3429.3",
+    "1010102",
+    "OoM",
+    "OoM"
+   ],
+   [
+    "B (5, 4, 1000) 6",
+    "0.3",
+    "30",
+    "611.8",
+    "30047",
+    "NA",
+    "NA"
+   ],
+   [
+    "B (5, 4, 10000) 6",
+    "0.3",
+    "30",
+    "60271.9",
+    "300047",
+    "NA",
+    "NA"
+   ],
+   [
+    "B (501, 500, 100) 6",
+    "38.2",
+    "3006",
+    "501.0",
+    "34799",
+    "NA",
+    "NA"
+   ],
+   [
+    "B 7",
+    "112.4",
+    "4475",
+    "113.1",
+    "4475",
+    "NA",
+    "NA"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 704,
+  "index": 0,
+  "caption": "Table 3. The 46 reachability problems selected for our evaluation",
+  "header": [
+   "Type",
+   "Description",
+   "",
+   "Controlled variable"
+  ],
+  "rows": [
+   [
+    "Real",
+    "Vulnerability",
+    "CVE-2019-14192 (U-boot) CVE-2019-20839 (libvncserver) CVE-2019-19307 (mongoose) CVE-2019-15900 (doas) CVE-2015-8370 (grub, simplified)",
+    "Network packet Socket path Network packet Configuration file Password entry"
+   ],
+   [
+    "",
+    "CTF",
+    "Flare-on 2015 1 & 2 Nintendo Coding Game Manticore",
+    "Text entry Input to hash function to invert Text entry"
+   ],
+   [
+    "",
+    "Function inversion",
+    "musl (strptime, strverscmp, atoi, strtol) busybox (chmod mode and ip parsing) μclibc (fnmatch) openssl (base64 decoding)",
+    "Preimage"
+   ],
+   [
+    "Synthetic",
+    "Motivating example of [25] and variants Motivating example of [24, Figure 2.2]",
+    "",
+    "Coefficients to affine function Text entry"
+   ],
+   [
+    "",
+    "SSP bypass ASLR bypass Undefined behavior Other",
+    "See Sect. 2 2 examples Overflow flag after 3-bit shl in x86 Various",
+    "Overflowing buffer Various None Various"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 705,
+  "index": 0,
+  "caption": "Table 4. Comparison of standard and robust algorithms over our 46 test cases",
+  "header": [
+   "",
+   "SE",
+   "BMC",
+   "RSE ∀",
+   "RSE + ∀",
+   "RSE",
+   "RSE+",
+   "RBMC"
+  ],
+  "rows": [
+   [
+    "Correct False positive Inconclusive Resource exhaustion",
+    "30 16",
+    "22 14 10",
+    "30 16",
+    "34 11 1",
+    "37 7 2",
+    "44 2",
+    "32 1 13"
+   ],
+   [
+    "Total time (s) . . . w/o resource exhaustion",
+    "2725 2725",
+    "36911 911",
+    "3947 3947",
+    "4374 3589",
+    "13590 6390",
+    "11534 4334",
+    "47784 984"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 755,
+  "index": 0,
+  "caption": "Table 1. Programs evaluated for proving information ﬂow security. We show the total lines of code (LOC) including implementation and speciﬁcation but excluding whites- pace, lines of speciﬁcation and ",
+  "header": [
+   "",
+   "LOC",
+   "Ann.",
+   "Prop.",
+   "T"
+  ],
+  "rows": [
+   [
+    "banerjee",
+    "77",
+    "21",
+    "NI",
+    "5.19"
+   ],
+   [
+    "constanzo",
+    "21",
+    "12",
+    "NI",
+    "5.39"
+   ],
+   [
+    "darvas",
+    "38",
+    "18",
+    "NI",
+    "4.20"
+   ],
+   [
+    "example",
+    "27",
+    "12",
+    "NI",
+    "5.39"
+   ],
+   [
+    "Example-decl",
+    "27",
+    "12",
+    "NI",
+    "5.76"
+   ],
+   [
+    "Example-term",
+    "8",
+    "4",
+    "TNI",
+    "3.59"
+   ],
+   [
+    "joana-1-tl",
+    "22",
+    "7",
+    "NI",
+    "3.87"
+   ],
+   [
+    "joana-2-bl",
+    "13",
+    "5",
+    "NI",
+    "3.64"
+   ],
+   [
+    "joana-2-t",
+    "12",
+    "4",
+    "NI",
+    "3.72"
+   ],
+   [
+    "joana-3-bl",
+    "36",
+    "15",
+    "TNI",
+    "3.55"
+   ],
+   [
+    "joana-3-br",
+    "33",
+    "14",
+    "TNI",
+    "4.60"
+   ],
+   [
+    "joana-3-tl",
+    "23",
+    "9",
+    "TNI",
+    "4.50"
+   ],
+   [
+    "joana-3-tr",
+    "25",
+    "10",
+    "TNI",
+    "4.19"
+   ],
+   [
+    "joana-13-l",
+    "11",
+    "2",
+    "NI",
+    "4.54"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 755,
+  "index": 1,
+  "caption": "Table 1. Programs evaluated for proving information ﬂow security. We show the total lines of code (LOC) including implementation and speciﬁcation but excluding whites- pace, lines of speciﬁcation and ",
+  "header": [
+   "",
+   "LOC",
+   "Ann.",
+   "Prop.",
+   "T"
+  ],
+  "rows": [
+   [
+    "kusters",
+    "28",
+    "12",
+    "NI",
+    "4.35"
+   ],
+   [
+    "naumann",
+    "27",
+    "17",
+    "NI",
+    "8.46"
+   ],
+   [
+    "product",
+    "39",
+    "18",
+    "NI",
+    "11.35"
+   ],
+   [
+    "smith",
+    "39",
+    "21",
+    "NI",
+    "6.81"
+   ],
+   [
+    "terauchi1",
+    "10",
+    "3",
+    "NI",
+    "3.59"
+   ],
+   [
+    "terauchi3",
+    "19",
+    "6",
+    "NI",
+    "3.69"
+   ],
+   [
+    "terauchi4",
+    "18",
+    "8",
+    "NI",
+    "3.97"
+   ],
+   [
+    "Fig. 4",
+    "19",
+    "6",
+    "NI",
+    "3.82"
+   ],
+   [
+    "loop leak [45]",
+    "53",
+    "17",
+    "PS",
+    "4.92"
+   ],
+   [
+    "high loop",
+    "24",
+    "11",
+    "PS",
+    "4.19"
+   ],
+   [
+    "Fig. 7",
+    "23",
+    "8",
+    "PS",
+    "4.37"
+   ],
+   [
+    "Fig. 8",
+    "36",
+    "15",
+    "PS",
+    "4.40"
+   ],
+   [
+    "Fig. 9",
+    "34",
+    "15",
+    "PS",
+    "4.57"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 756,
+  "index": 0,
+  "caption": "Table 2. Comparison with SecC. We show the total lines of code and lines of speci- ﬁcation for Nagini (LOCN, AnnN) and SecC (LOCS, AnnS), the property we proved (Prop., where NI = noninterference, PR ",
+  "header": [
+   "",
+   "LOC N",
+   "Ann N",
+   "LOC S",
+   "Ann S",
+   "Prop.",
+   "T S",
+   "T N",
+   "T NP"
+  ],
+  "rows": [
+   [
+    "SecC CAV",
+    "40",
+    "13",
+    "50",
+    "11",
+    "PR",
+    "1.33",
+    "4.21",
+    "3.56"
+   ],
+   [
+    "SecC CDDC",
+    "278",
+    "105",
+    "214",
+    "47",
+    "PR",
+    "21.20",
+    "52.20",
+    "8.60"
+   ],
+   [
+    "SecC CT",
+    "64",
+    "35",
+    "211",
+    "159",
+    "PR",
+    "1.87",
+    "5.41",
+    "3.97"
+   ],
+   [
+    "SecC DB",
+    "100",
+    "48",
+    "256",
+    "167",
+    "NI",
+    "2.75",
+    "182.60",
+    "6.23"
+   ],
+   [
+    "SecC Encrypt",
+    "29",
+    "12",
+    "49",
+    "18",
+    "NI",
+    "1.45",
+    "4.76",
+    "3.66"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 780,
+  "index": 0,
+  "caption": "Table 1. Experimental results of PCSat on the relational veriﬁcation benchmarks",
+  "header": [
+   "Program",
+   "Time (s)",
+   "#Iters",
+   "Program",
+   "Time (s)",
+   "#Iters"
+  ],
+  "rows": [
+   [
+    "DoubleSquareNI hFT",
+    "17.762",
+    "42",
+    "HalfSquareNI",
+    "11.853",
+    "35"
+   ],
+   [
+    "DoubleSquareNI hTF",
+    "26.495",
+    "55",
+    "ArrayInsert‡",
+    "118.671",
+    "73"
+   ],
+   [
+    "DoubleSquareNI hFF",
+    "2.944",
+    "9",
+    "SquareSum†‡",
+    "337.596",
+    "117"
+   ],
+   [
+    "DoubleSquareNI hTT",
+    "4.055",
+    "11",
+    "SimpleTS GNI1",
+    "5.397",
+    "14"
+   ],
+   [
+    "CotermIntro1",
+    "19.322",
+    "80",
+    "SimpleTS GNI2",
+    "8.919",
+    "26"
+   ],
+   [
+    "CotermIntro2",
+    "15.871",
+    "73",
+    "InfBranchTS GNI",
+    "2.607",
+    "4"
+   ],
+   [
+    "TS GNI hFT†",
+    "47.083",
+    "78",
+    "TI GNI hFT†",
+    "4.389",
+    "16"
+   ],
+   [
+    "TS GNI hTF",
+    "5.076",
+    "17",
+    "TI GNI hTF",
+    "2.277",
+    "6"
+   ],
+   [
+    "TS GNI hFF",
+    "7.174",
+    "24",
+    "TI GNI hFF",
+    "2.968",
+    "6"
+   ],
+   [
+    "TS GNI hTT†",
+    "23.495",
+    "53",
+    "TI GNI hTT",
+    "4.148",
+    "22"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 792,
+  "index": 0,
+  "caption": "Table 1. Evaluation results (mean times in millisec).",
+  "header": [
+   "ID",
+   "N",
+   "N RT",
+   "ENC",
+   "N α",
+   "INF",
+   "USAT",
+   "SAT0",
+   "SAT+"
+  ],
+  "rows": [
+   [
+    "05",
+    "6",
+    "6",
+    "44.53",
+    "814",
+    "30.64",
+    "0.67",
+    "–",
+    "2.46"
+   ],
+   [
+    "11",
+    "8",
+    "8",
+    "79.22",
+    "917",
+    "37.09",
+    "0.72",
+    "–",
+    "2.86"
+   ],
+   [
+    "03",
+    "10",
+    "7",
+    "59.94",
+    "886",
+    "35.65",
+    "0.64",
+    "2.23",
+    "1.56"
+   ],
+   [
+    "09",
+    "10",
+    "9",
+    "76.33",
+    "940",
+    "38.66",
+    "0.68",
+    "5.03",
+    "2.96"
+   ],
+   [
+    "02",
+    "11",
+    "8",
+    "76.73",
+    "1194",
+    "49.99",
+    "0.85",
+    "2.66",
+    "2.02"
+   ],
+   [
+    "01",
+    "16",
+    "7",
+    "94.95",
+    "1007",
+    "43.38",
+    "0.66",
+    "3.96",
+    "1.83"
+   ],
+   [
+    "08",
+    "19",
+    "8",
+    "87.66",
+    "1051",
+    "50.93",
+    "0.78",
+    "5.40",
+    "3.23"
+   ],
+   [
+    "10",
+    "30",
+    "9",
+    "89.07",
+    "1177",
+    "71.23",
+    "0.86",
+    "2.62",
+    "2.08"
+   ],
+   [
+    "06",
+    "30",
+    "12",
+    "102.00",
+    "1666",
+    "108.30",
+    "1.05",
+    "–",
+    "4.91"
+   ],
+   [
+    "12",
+    "31",
+    "21",
+    "185.06",
+    "2798",
+    "301.61",
+    "4.99",
+    "24.93",
+    "36.43"
+   ],
+   [
+    "13",
+    "51",
+    "32",
+    "241.17",
+    "3835",
+    "608.09",
+    "7.16",
+    "38.56",
+    "47.93"
+   ],
+   [
+    "14",
+    "73",
+    "31",
+    "264.56",
+    "4143",
+    "847.36",
+    "2.83",
+    "51.36",
+    "19.20"
+   ],
+   [
+    "15",
+    "79",
+    "21",
+    "313.40",
+    "4596",
+    "901.18",
+    "2.86",
+    "–",
+    "17.55"
+   ],
+   [
+    "04",
+    "132",
+    "33",
+    "363.58",
+    "4834",
+    "2100.85",
+    "2.94",
+    "162.95",
+    "23.21"
+   ],
+   [
+    "07",
+    "508",
+    "21",
+    "1005.46",
+    "10161",
+    "15834.14",
+    "7.34",
+    "40.86",
+    "13.52"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 867,
+  "index": 0,
+  "caption": "Table 1. Experimental Results. Benchmarks are grouped by categories introduced in Sect. 7.1. # steps indicates the number of reﬁnement rounds. Tlast is the elapsed time before the last call to the SyG",
+  "header": [
+   "Class",
+   "Benchmark",
+   "Inv.",
+   "Synduce",
+   "",
+   "",
+   "Baseline Method",
+   "",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "",
+    "time",
+    "# steps",
+    "T last",
+    "time",
+    "# steps",
+    "T last"
+   ],
+   [
+    "Changing Tree Traversals",
+    "sum max max 2 min min-max max weighted path sorted in-order pre-order poly. mips in-order mts post-order mps",
+    "no no no no no no no no yes yes yes",
+    "0.03 0.33 0.25 0.23 0.85 0.09 0.01 16.09 0.29 0.41 132.14",
+    "2 1 1 1 3 3 1 2 2 2 4",
+    "0.01 0.00 0.00 0.00 0.15 0.03 0.00 0.06 0.04 0.04 82.56",
+    "0.04 0.34 0.34 0.32 73.16 0.07 43.97 - - - -",
+    "3 2 2 2 3 3 4 4 4 4 6",
+    "0.02 0.01 0.01 0.01 0.06 0.02 1.98 0.97 2.70 4.84 39.29"
+   ],
+   [
+    "From Tree to Path",
+    "sum height max weighted path max w. path (hom) leftmost odd mips",
+    "no no no no no yes",
+    "0.07 0.90 0.15 0.01 0.01 1.57",
+    "2 1 2 1 1 3",
+    "0.02 0.00 0.03 0.00 0.00 0.50",
+    "0.06 1.24 0.12 1.42 - -",
+    "3 5 3 4 4 7",
+    "0.02 0.43 0.03 0.69 0.27 322.45"
+   ],
+   [
+    "Enforcing Tail Recursion",
+    "sum mts mps",
+    "no no no",
+    "0.02 5.86 1.68",
+    "2 2 2",
+    "0.01 0.02 0.02",
+    "0.03 115.58 0.34",
+    "3 3 3",
+    "0.02 0.06 0.03"
+   ],
+   [
+    "Combining Traversals",
+    "mts + sum sum + mts + mps",
+    "no yes",
+    "9.71 0.26",
+    "2 3",
+    "0.02 0.12",
+    "5.42 -",
+    "3 3",
+    "0.03 0.04"
+   ],
+   [
+    "Tree Flattening",
+    "sum product max of heads max of lasts max sibling sum",
+    "no no no no no",
+    "0.07 0.07 0.21 0.21 5.26",
+    "3 2 2 2 2",
+    "0.04 0.01 0.02 0.02 0.03",
+    "0.07 0.16 0.18 0.33 2.72",
+    "2 2 3 3 3",
+    "0.01 0.01 0.03 0.03 0.04"
+   ],
+   [
+    "Parallelizing Functions on Lists",
+    "sum sum of even elts. length last product polynomial hamming min is sorted linear search line of sight mts mps mts and mps combined mss count max elements",
+    "no no no no no no no no no no no yes yes yes yes no",
+    "0.08 0.10 0.07 0.01 0.07 0.07 0.10 0.02 3.45 0.08 0.86 0.10 0.09 0.38 4.82 138.20",
+    "1 1 1 1 1 1 1 1 2 1 2 1 1 2 3 1",
+    "0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.11 0.00 0.09 0.00 0.00 0.11 1.53 0.00",
+    "0.30 0.39 0.22 0.03 0.31 0.71 0.46 0.08 3.12 0.35 7.67 4.80 4.73 210.84 - -",
+    "3 3 4 2 3 5 3 2 4 3 4 4 4 6 6 3",
+    "0.04 0.04 0.05 0.01 0.04 0.10 0.04 0.01 0.14 0.04 0.34 0.08 0.08 36.77 24.23 0.46"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_BraggFRS21.pdf",
+  "page": 882,
+  "index": 0,
+  "caption": "Table 1. Case study statistics and PAYNT synthesis times versus the naive 1-by-1 enu- meration. Two problems per model are considered: an optimal synthesis problem (hard) and a feasibility problem (ea",
+  "header": [
+   "Model",
+   "Number of parameters",
+   "Family size",
+   "Average MC size",
+   "1-by-1 enumeration",
+   "Tool performance",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Hard",
+    "Easy"
+   ],
+   [
+    "DPM Maze Herman Pole Grid",
+    "16 22 7 17 8",
+    "43M 9.4M 3.1M 1.3M 65k",
+    "3.6k 0.2k 1.1k 5.6k 1.2k",
+    "35 days * 1.8 days* 1.5 days * 1 day * 32 min",
+    "9.3 h 1 h 17 min 8.5 min 37 s",
+    "1.1 h 54 min 1.1 min 5 s 21 s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 168,
+  "index": 0,
+  "caption": "Table 2. Results for the ε-barrier functions. Each barrier function B(x) is of the form zT Pz −ℓ, where z is a vector of monomials over x. We indicate the highest degree of the monomials used in z, th",
+  "header": [
+   "Example",
+   "ℓ",
+   "ε",
+   "γ",
+   "degree (z)",
+   "Size of P",
+   "Time (s)"
+  ],
+  "rows": [
+   [
+    "T.R. Van der Pol",
+    "90",
+    "10−5",
+    "10−5",
+    "3",
+    "9 × 9",
+    "6.47"
+   ],
+   [
+    "Norm. Pend.",
+    "[0.1, 10]",
+    "10−2",
+    "10−2",
+    "1",
+    "2 × 2",
+    "0.08"
+   ],
+   [
+    "Moore-Greitzer",
+    "[1.0, 10]",
+    "10−1",
+    "10−1",
+    "4",
+    "5 × 5",
+    "13.80"
+   ],
+   [
+    "PTC",
+    "0.01",
+    "10−5",
+    "10−5",
+    "2",
+    "14 × 14",
+    "428.75"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 177,
+  "index": 0,
+  "caption": "Table 1. Rewrites currently supported in Icing (◦∈{+, ∗})",
+  "header": [
+   "",
+   "Name",
+   "Rewrite",
+   "Precondition"
+  ],
+  "rows": [
+   [
+    "1",
+    "fma introduction",
+    "x * y + z → fma (x,y,z)",
+    "application precond."
+   ],
+   [
+    "2",
+    "◦ associative",
+    "(x ◦y) ◦z → x ◦(y ◦z)",
+    "application precond."
+   ],
+   [
+    "3",
+    "◦ commutative",
+    "x ◦y → y ◦x",
+    "application precond."
+   ],
+   [
+    "4",
+    "double negation",
+    "- (- x) → x",
+    "x well-typed"
+   ],
+   [
+    "5",
+    "∗ distributive",
+    "x * (y + z) → (x * y) + (x * z)",
+    "no control dependency on optimization result"
+   ],
+   [
+    "6",
+    "NaN check removal",
+    "isNaN x → false",
+    "x is not a NaN"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 216,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Description",
+   "Files",
+   "Number of lines"
+  ],
+  "rows": [
+   [
+    "Preliminaries",
+    "Complex Matrix, Matrix Limit, Gates",
+    "4197"
+   ],
+   [
+    "Semantics",
+    "Quantum Program",
+    "1110"
+   ],
+   [
+    "Hoare logic",
+    "Quantum Hoare",
+    "1417"
+   ],
+   [
+    "Tensor product",
+    "Partial State",
+    "1664"
+   ],
+   [
+    "Grover’s algorithm",
+    "Grover",
+    "3184"
+   ],
+   [
+    "Total",
+    "",
+    "11572"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 313,
+  "index": 0,
+  "caption": "Table 1. An overview of the analysis results. CDG stands for commutativity depen- dency graph. The columns PO and PT show the number of proof obligations and proof time in second, respectively. T stan",
+  "header": [
+   "Application",
+   "#Transactions",
+   "Robustness",
+   "Reachability analysis CDG Analysis",
+   "",
+   "",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "",
+    "PO",
+    "PT",
+    "PO",
+    "PT"
+   ],
+   [
+    "Auction",
+    "4",
+    "✓",
+    "70",
+    "0.3",
+    "20",
+    "0.5"
+   ],
+   [
+    "Courseware",
+    "5",
+    "✗",
+    "59",
+    "0.37",
+    "na",
+    "na"
+   ],
+   [
+    "FusionTicket",
+    "4",
+    "✓",
+    "72",
+    "0.3",
+    "34",
+    "0.5"
+   ],
+   [
+    "SmallBank",
+    "5",
+    "✗",
+    "48",
+    "0.28",
+    "na",
+    "na"
+   ],
+   [
+    "TPC-C",
+    "5",
+    "✓",
+    "54",
+    "0.7",
+    "82",
+    "3.7"
+   ],
+   [
+    "Cassieq-Core",
+    "8",
+    "✓",
+    "173",
+    "0.55",
+    "104",
+    "2.9"
+   ],
+   [
+    "Currency-Exchange",
+    "6",
+    "✓",
+    "88",
+    "0.35",
+    "26",
+    "3.5"
+   ],
+   [
+    "PlayList",
+    "14",
+    "✓",
+    "99",
+    "4.63",
+    "236",
+    "7.3"
+   ],
+   [
+    "RoomStore",
+    "5",
+    "✓",
+    "85",
+    "0.3",
+    "22",
+    "0.5"
+   ],
+   [
+    "Shopping-Cart",
+    "4",
+    "✓",
+    "58",
+    "0.25",
+    "T",
+    "T"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 330,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Topo",
+   "Con V/E",
+   "Fail",
+   "Abs V/E",
+   "Ratio",
+   "Abs Time",
+   "SMT Calls",
+   "SMT Time"
+  ],
+  "rows": [
+   [
+    "FT20",
+    "500/8000",
+    "1 3 5 10",
+    "9/20 40/192 96/720 59/440",
+    "55.5/400 12.5/41.67 5.20/11.1 8.48/18.18",
+    "0.1 1.0 2.5 0.9",
+    "1 2 2 -",
+    "0.1 7.6 248 -"
+   ],
+   [
+    "FT40",
+    "2000/64000",
+    "1 3 5",
+    "12/28 45/220 109/880",
+    "166.7/2285.7 44.4/290.9 18.34/72.72",
+    "0.1 33 762.3",
+    "1 2 2",
+    "0.1 12.3 184.1"
+   ],
+   [
+    "SP40",
+    "2000/64000",
+    "1 3 5",
+    "13/32 39/176 79/522",
+    "153.8/2000 51.3/363.6 25.3/122.6",
+    "0.2 30.3 372.2",
+    "1 1 1",
+    "0.1 2 22"
+   ],
+   [
+    "FbFT",
+    "744/10880",
+    "1 3 5",
+    "20/66 57/360 93/684",
+    "37.2/164.8 13.05/30.22 8/15.9",
+    "0.1 1 408.9",
+    "3 4 -",
+    "1 18.3 -"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 411,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Program",
+   "p",
+   "k max",
+   "Time",
+   "Mem.",
+   "Invariant"
+  ],
+  "rows": [
+   [
+    "German-1",
+    "0",
+    "4",
+    "15.65",
+    "45.65",
+    "Server: #req excl ≤1 ∧#req share ≤1"
+   ],
+   [
+    "German-2",
+    "0",
+    "4",
+    "629.43",
+    "284.75",
+    "Client: #ask excl ≤1 ∧#ask share ≤1"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 474,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Consistency scheme",
+   "Ψ(Δ, vis, eo)"
+  ],
+  "rows": [
+   [
+    "Eventual Consistency [3]",
+    "∀η, η′ ∈Δ.¬eo(η, η′)"
+   ],
+   [
+    "Causal Consistency [14]",
+    "∀η, η′ ∈Δ.vis(η, η′) ⇔eo(η, η′) ∧∀η, η′, η′′ ∈Δ.vis(η, η′) ∧vis(η′, η′′) ⇒vis(η, η′′)"
+   ],
+   [
+    "RedBlue Consistency (Or) [13]",
+    "∀η, η′ ∈Δ.o(η) ∈Or ∧o(η′) ∈Or ∧vis(η, η′) ⇔eo(η, η′) ∧∀η, η′ ∈Δ.o(η) ∈Or ∧o(η′) ∈Or ⇒vis(η, η′) ∨vis(η′, η)"
+   ],
+   [
+    "Parallel Snapshot Isolation [23]",
+    "∀η, η′ ∈Δ.(Wr(ηe) ∩Wr(η′e)̸ = φ ∧vis(η, η′)) ⇔eo(η, η′) ∧∀η, η′ ∈Δ.Wr(ηe) ∩Wr(η′e)̸ = φ ⇒vis(η, η′) ∨vis(η′, η)"
+   ],
+   [
+    "Strong Consistency",
+    "∀η, η′ ∈Δ.vis(η, η′) ⇔eo(η, η′) ∧∀η, η′ ∈Δ.vis(η, η′) ∨vis(η′, η)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 518,
+  "index": 0,
+  "caption": "Table 2. Proof eﬀort",
+  "header": [
+   "Feature",
+   "Changes (LoC)"
+  ],
+  "rows": [
+   [
+    "Adding a schedule field to RT-CertiKOS",
+    "15"
+   ],
+   [
+    "Interface (with proofs)",
+    "380"
+   ],
+   [
+    "Simplified scheduling",
+    "100"
+   ],
+   [
+    "Proving the invariants about the simplified scheduling",
+    "950"
+   ],
+   [
+    "Translation RT-CertiKOS → simplified scheduling",
+    "380"
+   ],
+   [
+    "Conversion between ZArith and SSReflect",
+    "280"
+   ],
+   [
+    "Translation interface → Prosa",
+    "1900"
+   ],
+   [
+    "Using the schedulability analysis of Prosa",
+    "130"
+   ],
+   [
+    "Total",
+    "4135"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_GaoKDRSAK19.pdf",
+  "page": 539,
+  "index": 0,
+  "caption": "Table 1. Speciﬁcation and proof statistics",
+  "header": [
+   "π-Core language",
+   "",
+   "Memory management",
+   ""
+  ],
+  "rows": [
+   [
+    "Item",
+    "LOS/LOP",
+    "Item",
+    "LOS/LOP"
+   ],
+   [
+    "Language and proof rules",
+    "700",
+    "Specification",
+    "400"
+   ],
+   [
+    "Lemmas of language/semantics",
+    "3000",
+    "Auxiliary lemmas/invariant",
+    "1700"
+   ],
+   [
+    "Soundness",
+    "7100",
+    "Proof of allocation",
+    "10600"
+   ],
+   [
+    "Invariant",
+    "100",
+    "Proof of free",
+    "4950"
+   ],
+   [
+    "Total",
+    "10,900",
+    "Total",
+    "17,650"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 34,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "T(SMT)",
+   "T(MaxSMT)",
+   "Unfulfilled",
+   "T(Relaxed)",
+   "Pytype"
+  ],
+  "rows": [
+   [
+    "adventure",
+    "2.99s / 6.30s",
+    "3.27s / 6.76s",
+    "42 / 2",
+    "1.95s / 8.83s",
+    "0 [0]"
+   ],
+   [
+    "icemu",
+    "9.45s / 6.79s",
+    "9.51s / 3.63s",
+    "4 / 2",
+    "0.08s / 21.76s",
+    "18 [2]"
+   ],
+   [
+    "imp",
+    "16.88s / 59.95s",
+    "16.91s / 15.87s",
+    "67 / 2",
+    "0.82s / 82.56s",
+    "3 [2]"
+   ],
+   [
+    "scion",
+    "4.65s / 3.35s",
+    "4.72s / 2.97s",
+    "28 / 2",
+    "0.16s / 3.39s",
+    "0 [0]"
+   ],
+   [
+    "test suite",
+    "14.66s / 1.63s",
+    "14.66s / 2.17s",
+    "-",
+    "-",
+    "55 [34]"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 57,
+  "index": 0,
+  "caption": "Table 1. Sequences in Backward-CAR.",
+  "header": [
+   "",
+   "F-sequence (under)",
+   "B-sequence (over)"
+  ],
+  "rows": [
+   [
+    "Init",
+    "F0 = I",
+    "B0 = ¬P"
+   ],
+   [
+    "Constraint",
+    "Fi+1 ⊆R(Fi)",
+    "Bi+1 ⊇R−1 \u0002(Bi)"
+   ],
+   [
+    "Safety check",
+    "-",
+    "∃i · Bi+1 ⊆ Bj 0≤j≤i"
+   ],
+   [
+    "Unsafety check",
+    "∃i · Fi ∩¬P̸ = ∅",
+    "-"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 164,
+  "index": 0,
+  "caption": "Table 1. Ifc-CEGAR results (time in seconds)",
+  "header": [
+   "Benchmark",
+   "Parameter",
+   "Eager SC",
+   "Ifc-CEGAR",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "Time (s)",
+    "Time (s)",
+    "#Refinements"
+   ],
+   [
+    "pwdcheck safe",
+    "4",
+    "8.8",
+    "0.2",
+    "0"
+   ],
+   [
+    "",
+    "8",
+    "TO",
+    "0.2",
+    "0"
+   ],
+   [
+    "",
+    "16",
+    "TO",
+    "0.2",
+    "0"
+   ],
+   [
+    "",
+    "32",
+    "TO",
+    "0.2",
+    "0"
+   ],
+   [
+    "pwdcheck2 safe",
+    "N > 8",
+    "TO",
+    "61",
+    "1"
+   ],
+   [
+    "modadd safe",
+    "2048b",
+    "180",
+    "0.2",
+    "0"
+   ],
+   [
+    "",
+    "4096b",
+    "TO",
+    "0.3",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 164,
+  "index": 1,
+  "caption": "Table 2. Ifc-BMC results (time in seconds)",
+  "header": [
+   "Benchmark",
+   "Result",
+   "Eager SC",
+   "Ifc-BMC",
+   "Taint checks",
+   "#Taint checks"
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "Time (s)",
+    "Time (s)",
+    "Time (s)",
+    ""
+   ],
+   [
+    "fibonacci",
+    "SAFE",
+    "0.55",
+    "0.1",
+    "0.07",
+    "85"
+   ],
+   [
+    "list 4",
+    "SAFE",
+    "2.9",
+    "0.15",
+    "0.007",
+    "72"
+   ],
+   [
+    "list 8",
+    "SAFE",
+    "3.1",
+    "0.6",
+    "0.02",
+    "144"
+   ],
+   [
+    "list 16",
+    "SAFE",
+    "3.2",
+    "1.83",
+    "0.08",
+    "288"
+   ],
+   [
+    "modexp safe",
+    "SAFE",
+    "TO",
+    "0.05",
+    "0.01",
+    "342"
+   ],
+   [
+    "modexp unsafe",
+    "UNSAFE",
+    "TO",
+    "1.63",
+    "1.5",
+    "364"
+   ],
+   [
+    "pwdcheck safe",
+    "SAFE",
+    "TO",
+    "0.05",
+    "0.01",
+    "1222"
+   ],
+   [
+    "pwdcheck unsafe",
+    "UNSAFE",
+    "TO",
+    "1.63",
+    "1.5",
+    "809"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 165,
+  "index": 0,
+  "caption": "Table 3. Ifc-BMC results on modexp (time in seconds)",
+  "header": [
+   "Benchmark",
+   "Parameter",
+   "Time (s)",
+   "#Taint checks"
+  ],
+  "rows": [
+   [
+    "modexp",
+    "8",
+    "0.19",
+    "180"
+   ],
+   [
+    "",
+    "16",
+    "1.6",
+    "364"
+   ],
+   [
+    "",
+    "24",
+    "3.11",
+    "548"
+   ],
+   [
+    "",
+    "32",
+    "8.35",
+    "732"
+   ],
+   [
+    "",
+    "40",
+    "11.5",
+    "916"
+   ],
+   [
+    "",
+    "48",
+    "21.6",
+    "1123"
+   ],
+   [
+    "",
+    "56",
+    "35.6",
+    "1284"
+   ],
+   [
+    "",
+    "64",
+    "85.44",
+    "1468"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 184,
+  "index": 0,
+  "caption": "Table 1. Benchmark statistics.",
+  "header": [
+   "Name",
+   "Description",
+   "♯Loc",
+   "♯Nodes",
+   "|k|",
+   "|p|",
+   "|r|"
+  ],
+  "rows": [
+   [
+    "P1",
+    "CHES13 Masked Key Whitening",
+    "79",
+    "32",
+    "16",
+    "16",
+    "16"
+   ],
+   [
+    "P2",
+    "CHES13 De-mask and then Mask",
+    "67",
+    "38",
+    "8",
+    "0",
+    "16"
+   ],
+   [
+    "P3",
+    "CHES13 AES Shift Rows",
+    "21",
+    "6",
+    "2",
+    "0",
+    "2"
+   ],
+   [
+    "P4",
+    "CHES13 Messerges Boolean to Arithmetic (bit0)",
+    "23",
+    "6",
+    "2",
+    "0",
+    "2"
+   ],
+   [
+    "P5",
+    "CHES13 Goubin Boolean to Arithmetic (bit0)",
+    "27",
+    "8",
+    "1",
+    "0",
+    "2"
+   ],
+   [
+    "P6",
+    "Logic Design for AES S-Box (1st implementation)",
+    "32",
+    "9",
+    "2",
+    "0",
+    "2"
+   ],
+   [
+    "P7",
+    "Logic Design for AES S-Box (2nd implementation)",
+    "40",
+    "11",
+    "2",
+    "0",
+    "3"
+   ],
+   [
+    "P8",
+    "Masked Chi function MAC-Keccak (1st implementation)",
+    "59",
+    "18",
+    "3",
+    "0",
+    "4"
+   ],
+   [
+    "P9",
+    "Masked Chi function MAC-Keccak (2nd implementation)",
+    "60",
+    "18",
+    "3",
+    "0",
+    "4"
+   ],
+   [
+    "P10",
+    "Syn. Masked Chi func MAC-Keccak (1st implementation)",
+    "66",
+    "28",
+    "3",
+    "0",
+    "4"
+   ],
+   [
+    "P11",
+    "Syn. Masked Chi func MAC-Keccak (2nd implementation)",
+    "66",
+    "28",
+    "3",
+    "0",
+    "4"
+   ],
+   [
+    "P12",
+    "MAC-Keccak 512b Perfect masked",
+    "426k",
+    "197k",
+    "288",
+    "288",
+    "3205"
+   ],
+   [
+    "P13",
+    "MAC-Keccak 512b De-mask and then mask (compiler error)",
+    "426k",
+    "197k",
+    "288",
+    "288",
+    "3205"
+   ],
+   [
+    "P14",
+    "MAC-Keccak 512b Not-perfect Masking of Chi function (v1)",
+    "426k",
+    "197k",
+    "288",
+    "288",
+    "3205"
+   ],
+   [
+    "P15",
+    "MAC-Keccak 512b Not-perfect Masking of Chi function (v2)",
+    "429k",
+    "198k",
+    "288",
+    "288",
+    "3205"
+   ],
+   [
+    "P16",
+    "MAC-Keccak 512b Not-perfect Masking of Chi function (v3)",
+    "426k",
+    "197k",
+    "288",
+    "288",
+    "3205"
+   ],
+   [
+    "P17",
+    "MAC-Keccak 512b Unmasking of Pi function",
+    "442k",
+    "205k",
+    "288",
+    "288",
+    "3205"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 185,
+  "index": 0,
+  "caption": "Table 2. Experimental results: comparison of three approaches.",
+  "header": [
+   "Name",
+   "Masked",
+   "Syn. Infer [47]",
+   "",
+   "SMT App [26,27]",
+   "",
+   "",
+   "SCInfer",
+   "",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "",
+    "UKD",
+    "Time",
+    "NPM",
+    "By SMT",
+    "Time",
+    "NPM",
+    "By SMT",
+    "Time"
+   ],
+   [
+    "P1",
+    "No",
+    "16",
+    "≈0 s",
+    "16",
+    "16",
+    "0.39 s",
+    "16",
+    "16",
+    "0.39 s"
+   ],
+   [
+    "P2",
+    "No",
+    "8",
+    "≈0 s",
+    "8",
+    "8",
+    "0.28 s",
+    "8",
+    "8",
+    "0.57 s"
+   ],
+   [
+    "P3",
+    "Yes",
+    "0",
+    "≈0 s",
+    "0",
+    "0",
+    "≈0 s",
+    "0",
+    "0",
+    "≈0 s"
+   ],
+   [
+    "P4",
+    "Yes",
+    "3",
+    "≈0 s",
+    "0",
+    "3",
+    "0.16 s",
+    "0",
+    "0",
+    "0.06 s"
+   ],
+   [
+    "P5",
+    "Yes",
+    "3",
+    "≈0 s",
+    "0",
+    "3",
+    "0.15 s",
+    "0",
+    "2",
+    "0.25 s"
+   ],
+   [
+    "P6",
+    "No",
+    "2",
+    "≈0 s",
+    "2",
+    "2",
+    "0.11 s",
+    "2",
+    "2",
+    "0.16 s"
+   ],
+   [
+    "P7",
+    "No",
+    "2",
+    "0.01 s",
+    "1",
+    "2",
+    "0.11 s",
+    "1",
+    "1",
+    "0.26 s"
+   ],
+   [
+    "P8",
+    "No",
+    "3",
+    "≈0 s",
+    "3",
+    "3",
+    "0.15 s",
+    "3",
+    "3",
+    "0.29 s"
+   ],
+   [
+    "P9",
+    "No",
+    "2",
+    "≈0 s",
+    "2",
+    "2",
+    "0.11 s",
+    "2",
+    "2",
+    "0.23 s"
+   ],
+   [
+    "P10",
+    "No",
+    "3",
+    "≈0 s",
+    "1",
+    "2",
+    "0.15 s",
+    "1",
+    "2",
+    "0.34 s"
+   ],
+   [
+    "P11",
+    "No",
+    "4",
+    "≈0 s",
+    "1",
+    "3",
+    "0.2 s",
+    "1",
+    "3",
+    "0.5 s"
+   ],
+   [
+    "P12",
+    "Yes",
+    "0",
+    "1 min 5 s",
+    "0",
+    "0",
+    "92 min 8 s",
+    "0",
+    "0",
+    "3.8 s"
+   ],
+   [
+    "P13",
+    "No",
+    "4800",
+    "1 min 11 s",
+    "4800",
+    "4800",
+    "95 min 30 s",
+    "4800",
+    "4800",
+    "47 min 8 s"
+   ],
+   [
+    "P14",
+    "No",
+    "3200",
+    "1 min 11 s",
+    "3200",
+    "3200",
+    "118 min 1 s",
+    "3200",
+    "3200",
+    "53 min 40 s"
+   ],
+   [
+    "P15",
+    "No",
+    "3200",
+    "1 min 21 s",
+    "1600",
+    "3200",
+    "127 min 45 s",
+    "1600",
+    "3200",
+    "69 min 6 s"
+   ],
+   [
+    "P16",
+    "No",
+    "4800",
+    "1 min 13 s",
+    "4800",
+    "4800",
+    "123 min 54 s",
+    "4800",
+    "4800",
+    "61 min 15 s"
+   ],
+   [
+    "P17",
+    "No",
+    "17600",
+    "1 min 14 s",
+    "17600",
+    "16000",
+    "336 min 51 s",
+    "17600",
+    "12800",
+    "121 min 28 s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 195,
+  "index": 0,
+  "caption": "Table 1. Symbolic algorithms for Streett objectives and MEC decomposition.",
+  "header": [
+   "Problem",
+   "Symbolic operations",
+   "",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "Basic algorithm",
+    "Improved algorithm √",
+    "Reference"
+   ],
+   [
+    "Graphs with Streett",
+    "O(n · min(n, k))",
+    "O(n m log n) √",
+    "Theorem 2"
+   ],
+   [
+    "MDPs with Streett",
+    "O(n2 · min(n, k))",
+    "O(n m log n) √",
+    "Theorem 4"
+   ],
+   [
+    "MEC decomposition",
+    "O(n2)",
+    "O(n m)",
+    "Theorem 3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 223,
+  "index": 0,
+  "caption": "Table 1. Runtimes in sec. and number of timeouts (20 min) of the solvers Zielonka (zlk), priority promotion (pp), and tangle learning (tl, atl, otftl, otfatl).",
+  "header": [
+   "Solver",
+   "MC&EC",
+   "Random",
+   "Random (large)",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "Time",
+    "Time",
+    "Time",
+    "Timeouts"
+   ],
+   [
+    "pp",
+    "503",
+    "21",
+    "12770",
+    "6"
+   ],
+   [
+    "zlk",
+    "576",
+    "21",
+    "23119",
+    "13"
+   ],
+   [
+    "otfatl",
+    "808",
+    "21",
+    "2281",
+    "0"
+   ],
+   [
+    "atl",
+    "817",
+    "21",
+    "2404",
+    "0"
+   ],
+   [
+    "otftl",
+    "825",
+    "21",
+    "2238",
+    "0"
+   ],
+   [
+    "tl",
+    "825",
+    "21",
+    "2312",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 263,
+  "index": 0,
+  "caption": "Table 4. Results on satisﬁable and unsatisﬁable benchmarks with a 300 s timeout.",
+  "header": [
+   "unsat",
+   "Boolector",
+   "CVC4",
+   "Q3B",
+   "Z3",
+   "cegqi m",
+   "cegqi k",
+   "cegqi s",
+   "cegqi b"
+  ],
+  "rows": [
+   [
+    "h-uauto",
+    "14",
+    "12",
+    "93",
+    "24",
+    "10",
+    "103",
+    "105",
+    "106"
+   ],
+   [
+    "keymaera",
+    "3917",
+    "3790",
+    "3781",
+    "3923",
+    "3803",
+    "3798",
+    "3888",
+    "3918"
+   ],
+   [
+    "psyco",
+    "62",
+    "62",
+    "49",
+    "62",
+    "62",
+    "39",
+    "62",
+    "61"
+   ],
+   [
+    "scholl",
+    "57",
+    "36",
+    "13",
+    "67",
+    "36",
+    "27",
+    "36",
+    "35"
+   ],
+   [
+    "tptp",
+    "55",
+    "52",
+    "56",
+    "56",
+    "56",
+    "56",
+    "56",
+    "56"
+   ],
+   [
+    "uauto",
+    "137",
+    "72",
+    "131",
+    "137",
+    "72",
+    "72",
+    "135",
+    "137"
+   ],
+   [
+    "ws-fixpoint",
+    "74",
+    "71",
+    "75",
+    "74",
+    "75",
+    "74",
+    "75",
+    "75"
+   ],
+   [
+    "ws-ranking",
+    "16",
+    "8",
+    "18",
+    "19",
+    "15",
+    "11",
+    "12",
+    "11"
+   ],
+   [
+    "Total unsat",
+    "4332",
+    "4103",
+    "4216",
+    "4362",
+    "4129",
+    "4180",
+    "4369",
+    "4399"
+   ],
+   [
+    "sat",
+    "Boolector",
+    "CVC4",
+    "Q3B",
+    "Z3",
+    "cegqi m",
+    "cegqi k",
+    "cegqi s",
+    "cegqi b"
+   ],
+   [
+    "h-uauto",
+    "15",
+    "10",
+    "17",
+    "13",
+    "16",
+    "17",
+    "16",
+    "17"
+   ],
+   [
+    "keymaera",
+    "108",
+    "21",
+    "24",
+    "108",
+    "20",
+    "13",
+    "36",
+    "75"
+   ],
+   [
+    "psyco",
+    "131",
+    "132",
+    "50",
+    "131",
+    "132",
+    "60",
+    "132",
+    "129"
+   ],
+   [
+    "scholl",
+    "232",
+    "160",
+    "201",
+    "204",
+    "203",
+    "188",
+    "208",
+    "211"
+   ],
+   [
+    "tptp",
+    "17",
+    "17",
+    "17",
+    "17",
+    "17",
+    "17",
+    "17",
+    "17"
+   ],
+   [
+    "uauto",
+    "14",
+    "14",
+    "15",
+    "16",
+    "14",
+    "14",
+    "14",
+    "14"
+   ],
+   [
+    "ws-fixpoint",
+    "45",
+    "49",
+    "54",
+    "36",
+    "45",
+    "51",
+    "49",
+    "50"
+   ],
+   [
+    "ws-ranking",
+    "19",
+    "15",
+    "37",
+    "33",
+    "33",
+    "31",
+    "31",
+    "32"
+   ],
+   [
+    "Total sat",
+    "581",
+    "418",
+    "415",
+    "558",
+    "480",
+    "391",
+    "503",
+    "545"
+   ],
+   [
+    "Total (5151)",
+    "4913",
+    "4521",
+    "4631",
+    "4920",
+    "4609",
+    "4571",
+    "4872",
+    "4944"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cav_KongSG18.pdf",
+  "page": 361,
+  "index": 0,
+  "caption": "Table 1. Benchmark results. The second column (RB) stands for the robustness status of the original program according to our extended hb deﬁnition. RA column shows the number of read abstractions perf",
+  "header": [
+   "Name",
+   "RB",
+   "RA",
+   "RM",
+   "LM",
+   "PO",
+   "VT"
+  ],
+  "rows": [
+   [
+    "Chase-Lev",
+    "−",
+    "1",
+    "2",
+    "-",
+    "149",
+    "0.332"
+   ],
+   [
+    "FIFO-iWSQ",
+    "+",
+    "-",
+    "2",
+    "-",
+    "124",
+    "0.323"
+   ],
+   [
+    "LIFO-iWSQ",
+    "+",
+    "-",
+    "1",
+    "-",
+    "109",
+    "0.305"
+   ],
+   [
+    "Anchor-iWSQ",
+    "+",
+    "-",
+    "1",
+    "-",
+    "109",
+    "0.309"
+   ],
+   [
+    "MCSLock",
+    "+",
+    "2",
+    "2",
+    "-",
+    "233",
+    "0.499"
+   ],
+   [
+    "r+detour",
+    "+",
+    "-",
+    "1",
+    "-",
+    "53",
+    "0.266"
+   ],
+   [
+    "r+detours",
+    "+",
+    "-",
+    "1",
+    "-",
+    "64",
+    "0.273"
+   ],
+   [
+    "sb+detours+coh",
+    "+",
+    "-",
+    "2",
+    "-",
+    "108",
+    "0.322"
+   ],
+   [
+    "sb+detours",
+    "+",
+    "-",
+    "1",
+    "1",
+    "125",
+    "0.316"
+   ],
+   [
+    "write+r+coh",
+    "+",
+    "-",
+    "1",
+    "-",
+    "78",
+    "0.289"
+   ],
+   [
+    "write+r",
+    "+",
+    "-",
+    "1",
+    "-",
+    "48",
+    "0.261"
+   ],
+   [
+    "dc-locking",
+    "+",
+    "1",
+    "4",
+    "1",
+    "52",
+    "0.284"
+   ],
+   [
+    "inline pgsql",
+    "+",
+    "2",
+    "2",
+    "-",
+    "90",
+    "0.286"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cvpr_WillisJCT0GSTLS22.pdf",
+  "page": 7,
+  "index": 0,
+  "caption": "Table 2. Joint pose prediction results using average chamfer dis- tance (CD) where lower is better. We show results for all sam- ples in the test set (All), and the subset of data samples with holes (",
+  "header": [
+   "",
+   "All Hole No Hole Param."
+  ],
+  "rows": [
+   [
+    "",
+    "CD ↓ CD ↓ CD↓ # ↓"
+   ],
+   [
+    "Ours + Search Ours B-Pose",
+    "0.0580 0.0570 0.0628 1.3M 0.0627 0.0624 0.0657 1.3M 0.0700 0.0693 0.0730 2.3M"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cvpr_WillisJCT0GSTLS22.pdf",
+  "page": 7,
+  "index": 1,
+  "caption": "Table 1. Joint axis prediction accuracy results are shown for all data samples in the test set (All), the subset of data samples with holes (Hole) and without holes (No Hole). The number of network pa",
+  "header": [
+   "",
+   "Acc.% ↑ Acc.% ↑ Acc.% ↑ # ↓"
+  ],
+  "rows": [
+   [
+    "Ours B-Dense B-Discrete B-Grid B-Heuristic B-Random",
+    "79.53 80.15 76.59 1.3M 10.59 10.36 10.59 3.2M 4.28 4.18 4.79 4.0M 65.21 65.09 65.81 3.1M 71.39 72.74 64.97 - 21.55 21.92 23.29 -"
+   ],
+   [
+    "Human",
+    "80.00 - - -"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_cvpr_WillisJCT0GSTLS22.pdf",
+  "page": 24,
+  "index": 0,
+  "caption": "Table 6. Joint axis prediction accuracy results are shown for all data samples in the uniform distribution test set (All), the subset of data samples with holes (Hole) and without holes (No Hole). The",
+  "header": [
+   "",
+   "All Hole No Hole Param."
+  ],
+  "rows": [
+   [
+    "",
+    "Acc.% ↑ Acc.% ↑ Acc.% ↑ # ↓"
+   ],
+   [
+    "Ours B-Dense B-Discrete B-Grid B-Heuristic B-Random",
+    "62.22 63.47 56.91 1.3M 6.00 5.24 10.00 3.2M 2.71 2.86 2.09 4.0M 50.34 51.19 46.72 3.1M 57.99 60.54 47.11 - 15.85 16.08 15.59 -"
+   ],
+   [
+    "Human",
+    "69.00 - - -"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_iclr_InalaBTS20.pdf",
+  "page": 18,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Performance on Train dist.",
+   "Performance on Test dist."
+  ],
+  "rows": [
+   [
+    "Bench Algorithm",
+    "G T G _",
+    "G T G _"
+   ],
+   [
+    "Ours RL Acrobot Direct-opt",
+    "0.08 7.9s 0.16 6.5s ⊥ ⊥",
+    "0.02 31.8s 0.0 45.2s ⊥ ⊥"
+   ],
+   [
+    "Ours RL Mountain car Direct-opt",
+    "0.001 168.5s 0.0 98.7s 0.006 105.3s",
+    "0.008 290.1s 0.0 214.7s 2.18 216.0s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_iclr_NyePBATS21.pdf",
+  "page": 8,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "List Processing",
+   "",
+   "s (ours) 12000 d"
+  ],
+  "rows": [
+   [
+    "100 80 correct 60",
+    "Blended semantic Neural semantics RNN DeepCoder",
+    "s (ours)"
+   ],
+   [
+    "Percent 40 20 0 0 2000 4000 6000 8000 10000 Number of partial programs considere",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_icml_GuRLSS024.pdf",
+  "page": 6,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "gpt4_cot"
+  ],
+  "rows": [
+   [
+    "gpt35_cot",
+    "gpt4"
+   ],
+   [
+    "gpt35",
+    ""
+   ],
+   [
+    "codellama_ codellama_34B",
+    "cot34B"
+   ],
+   [
+    "cc oo dd ee ll ll aa mm aa __1co 3t B13B",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_nips_ZhangSS18.pdf",
+  "page": 9,
+  "index": 0,
+  "caption": "Table 2: Effect of varying the maximum number of regions to consider.",
+  "header": [
+   "m",
+   "# explored regions",
+   "volume",
+   "time (in seconds)"
+  ],
+  "rows": [
+   [
+    "100",
+    "88, 100, 100, 100",
+    "2.4, 10.3, 9.2, 1.29",
+    "102, 191, 141, 118"
+   ],
+   [
+    "500",
+    "88, 205, 214, 500",
+    "2.4, 26.3, 21.9, 6.9",
+    "100, 374, 288, 517"
+   ],
+   [
+    "1000",
+    "88, 205, 214, 1000",
+    "2.4, 26.3, 21.9, 10.2",
+    "100, 375, 290, 1115"
+   ],
+   [
+    "2000",
+    "88, 205, 214, 1325",
+    "2.4, 26.3, 21.9, 11.2",
+    "101, 375, 291, 1655"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_oopsla_PuNSB16.pdf",
+  "page": 9,
+  "index": 0,
+  "caption": "Table 1. Data breakdown for each benchmarks",
+  "header": [
+   "benchmarks",
+   "training",
+   "validation",
+   "testing"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "1252",
+    "140",
+    "263"
+   ],
+   [
+    "computeRoot",
+    "1617",
+    "180",
+    "84"
+   ],
+   [
+    "evaluatePoly",
+    "2313",
+    "258",
+    "97"
+   ],
+   [
+    "getAvailableLetters",
+    "1051",
+    "117",
+    "59"
+   ],
+   [
+    "getGuessedWord",
+    "315",
+    "35",
+    "127"
+   ],
+   [
+    "isWordGuessed",
+    "902",
+    "101",
+    "109"
+   ],
+   [
+    "oddTuples",
+    "8720",
+    "969",
+    "1981"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_oopsla_PuNSB16.pdf",
+  "page": 9,
+  "index": 1,
+  "caption": "Table 1. Data breakdown for each benchmarks",
+  "header": [
+   "benchmark",
+   "#test",
+   "sk p acc _"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "263",
+    "33 0.125"
+   ],
+   [
+    "computeRoot",
+    "84",
+    "15 0.179"
+   ],
+   [
+    "evaluatePoly",
+    "97",
+    "47 0.485"
+   ],
+   [
+    "getAvailableLetters",
+    "59",
+    "19 0.322"
+   ],
+   [
+    "getGuessedWord",
+    "127",
+    "33 0.260"
+   ],
+   [
+    "isWordGuessed",
+    "109",
+    "21 0.193"
+   ],
+   [
+    "oddTuples",
+    "1981",
+    "871 0.440"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_oopsla_PuNSB16.pdf",
+  "page": 9,
+  "index": 2,
+  "caption": "Table 3. Comparison between sk_p and autograder",
+  "header": [
+   "benchmark",
+   "#tests",
+   "sk p auto _",
+   "sk p acc auto acc _"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "263",
+    "33 131",
+    "0.125 0.498"
+   ],
+   [
+    "evaluatePoly",
+    "97",
+    "47 19",
+    "0.485 0.196"
+   ],
+   [
+    "oddTuples",
+    "1981",
+    "871 383",
+    "0.440 0.193"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_oopsla_PuNSB16.pdf",
+  "page": 9,
+  "index": 3,
+  "caption": "Table 4. Breakdown of different kinds of corrections",
+  "header": [
+   "benchmark",
+   "syn",
+   "sem",
+   "fresh",
+   "syn%",
+   "fresh%"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "4",
+    "29",
+    "29",
+    "12.12%",
+    "87.88%"
+   ],
+   [
+    "computeRoot",
+    "6",
+    "9",
+    "12",
+    "40.00%",
+    "80.00%"
+   ],
+   [
+    "getGuessedWord",
+    "17",
+    "30",
+    "16",
+    "36.17%",
+    "34.04%"
+   ],
+   [
+    "isWordGuessed",
+    "2",
+    "17",
+    "11",
+    "10.53%",
+    "57.89%"
+   ],
+   [
+    "getAvailableLetters",
+    "0",
+    "33",
+    "13",
+    "0.00%",
+    "39.39%"
+   ],
+   [
+    "evaluatePoly",
+    "1",
+    "20",
+    "12",
+    "4.76%",
+    "57.14%"
+   ],
+   [
+    "oddTuples",
+    "195",
+    "676",
+    "117",
+    "22.39%",
+    "13.43%"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_oopsla_PuNSB16.pdf",
+  "page": 10,
+  "index": 0,
+  "caption": "Table 5. Comparison of different models",
+  "header": [
+   "benchmark",
+   "#frag",
+   "#tr/#fr",
+   "sk p _",
+   "exact",
+   "aprox"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "7444",
+    "0.168",
+    "0.125",
+    "0.240",
+    "0.183"
+   ],
+   [
+    "computeRoot",
+    "8366",
+    "0.193",
+    "0.179",
+    "0.250",
+    "0.238"
+   ],
+   [
+    "getGuessedW",
+    "1418",
+    "0.222",
+    "0.260",
+    "0.339",
+    "0.346"
+   ],
+   [
+    "isWordGuess",
+    "3156",
+    "0.286",
+    "0.193",
+    "0.514",
+    "0.339"
+   ],
+   [
+    "getAvailabl",
+    "2503",
+    "0.420",
+    "0.322",
+    "0.356",
+    "0.356"
+   ],
+   [
+    "evaluatePoly",
+    "3925",
+    "0.589",
+    "0.485",
+    "0.371",
+    "0.423"
+   ],
+   [
+    "oddTuples",
+    "5323",
+    "1.638",
+    "0.440",
+    "0.409",
+    "0.439"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_pldi_PolikarpovaKS16.pdf",
+  "page": 15,
+  "index": 0,
+  "caption": "Table 2. Comparison to other synthesizers. For each benchmark we report: Spec, speciﬁcation size (or the number of input-output ex- amples) for respective tool; SpecS, speciﬁcation size for SYNQUID (f",
+  "header": [
+   "",
+   "Benchmark",
+   "Spec SpecS Time TimeS"
+  ],
+  "rows": [
+   [
+    "LEON",
+    "strict sorted list delete strict sorted list insert merge sort",
+    "14 8 15.1 0.10 14 8 14.1 0.18 9 11 14.3 2.1"
+   ],
+   [
+    "JEN",
+    "BST find bin. heap 1-element bin. heap find",
+    "51 6 64.8 0.09 80 5 61.6 0.02 76 6 51.9 0.38"
+   ],
+   [
+    "MYTH",
+    "sorted list insert list rm adjacent dupl. BST insert",
+    "12 8 0.12 0.25 13 5 0.07 1.33 20 8 0.37 0.91"
+   ],
+   [
+    "λ2",
+    "list remove duplicates list drop tree find",
+    "7 13 231 0.36 6 11 316.4 0.1 12 6 4.7 0.29"
+   ],
+   [
+    "ESC",
+    "list rm adjacent dupl. tree create balanced list duplicate each",
+    "n/a 5 1 1.33 n/a 7 0.24 0.14 n/a 7 0.16 0.05"
+   ],
+   [
+    "MYTH2",
+    "BST insert sorted list insert tree count nodes",
+    "n/a 8 1.81 0.91 n/a 8 1.02 0.25 n/a 4 0.45 0.20"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sat_Inala0S16.pdf",
+  "page": 12,
+  "index": 0,
+  "caption": "Table 1: Encoder statistics and Sketch running times Domain # boolean # bit # non bit Total Synthesis time parallel parallel patterns gen sel gen sel gen sel gen sel (cpu hrs) (clock hrs) general 336 ",
+  "header": [
+   "Domain",
+   "# boolean",
+   "# bit parallel",
+   "# non bit parallel",
+   "Total patterns",
+   "Synthesis time"
+  ],
+  "rows": [
+   [
+    "",
+    "gen sel",
+    "gen sel",
+    "gen sel",
+    "gen sel",
+    "(cpu hrs) (clock hrs)"
+   ],
+   [
+    "general asp brummayerbiere2 brummayerbiere3 bruttomesso float log-slicing mcm",
+    "336 336 29 22 66 0 35 0 21 4 272 17 19 0 13 3",
+    "334 334 0 0 12 7 13 3 1 0 294 18 86 60 2 1",
+    "12 12 4 3 2 2 5 3 1 0 3 0 5 5 4 1",
+    "682 682 33 25 80 9 53 6 23 4 569 35 110 65 19 5",
+    "497 17 8 2 16 2 15 3 5 2 360 13 49 4 7 2"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sat_Inala0S16.pdf",
+  "page": 13,
+  "index": 0,
+  "caption": "Table 2 also presents the performance of the Boolector solver (the best bit-vector solver in SMT-COMP’15) on the same test set benchmarks for refer- ence. CVC4 is already better than Boolector on two ",
+  "header": [
+   "",
+   "CVC4",
+   "general",
+   "Domain-Specific"
+  ],
+  "rows": [
+   [
+    "Benchmark category",
+    "solved time (s)",
+    "solved time (s)",
+    "solved time (s)"
+   ],
+   [
+    "asp (365) brummayerbiere2 (33) brummayerbiere3 (40) bruttomesso (676) float (62) log-slicing (79) mcm (61)",
+    "240 32652.8 28 1202.8 23 1165.2 623 32880.8 59 4015.9 33 12636.1 40 3933.9",
+    "238 33291.8 24 1653.2 23 2239.4 604 35808.6 55 3599.6 57 17290.6 38 3355.0",
+    "288 34971.5 29 1691.0 24 1272.1 623 32840.2 60 4395.5 62 21115.4 43 4193.0"
+   ],
+   [
+    "",
+    "1046 88487.5",
+    "1039 97238.2",
+    "1129 100479.8"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sat_Inala0S16.pdf",
+  "page": 21,
+  "index": 0,
+  "caption": "Table 5 shows the performance comparison of CVC4 with general solver on domains we didn’t run auto-tuning on. Here, we eliminate rows where the perfor- mance of both the solvers were similar.",
+  "header": [
+   "",
+   "CVC4",
+   "general",
+   "Domain-Specific"
+  ],
+  "rows": [
+   [
+    "Benchmark category",
+    "solved time (s)",
+    "solved time (s)",
+    "solved time (s)"
+   ],
+   [
+    "asp (365) brummayerbiere2 (32) brummayerbiere3 (39) bruttomesso (676) float (62) log-slicing (79) mcm (61)",
+    "237 36330.9 228 33828.7 26 1030.6 21 1885.6 17 1653.4 16 2333.7 621 30642.0 610 35967.9 53 3829.2 53 7670.0 29 9340.1 57 17955.2 39 3159.6 39 6382.2",
+    "",
+    "273 37212.5 29 3390.7 18 2465.4 620 31492.5 54 4086.5 58 17465.5 43 4274.5"
+   ],
+   [
+    "",
+    "1022 85985.8 1024 106023.3",
+    "",
+    "1095 100387.6"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sat_Inala0S16.pdf",
+  "page": 21,
+  "index": 1,
+  "caption": "Table 5: Performance comparison between general optimal solver and CVC4 on the other domains of QF_BV benchmarks",
+  "header": [
+   "",
+   "CVC4",
+   "general"
+  ],
+  "rows": [
+   [
+    "Benchmark category",
+    "solved time (s)",
+    "solved time (s)"
+   ],
+   [
+    "VS3 (10) uclid (416) tacas07 (5) stp samples (426) _ spear (15) sage (22390) brummayerbiere (52) bmc-bv (135) fft (16) calypto (16)",
+    "2 742.2 416 1625.3 5 1257.0 424 72.4 12 251.8 22390 6225.7 39 2611.4 135 520.2 8 886.2 9 2.99",
+    "0 0.0 416 1981.6 5 831.1 424 182.3 12 786.1 22390 7683.3 39 1714.7 135 473.9 7 41.0 11 985.1"
+   ],
+   [
+    "",
+    "23440 14195.2",
+    "23339 14679.1"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sigsoft_SinghS11.pdf",
+  "page": 6,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Statement",
+   "Transition rule"
+  ],
+  "rows": [
+   [
+    "x = null",
+    "∀l ∈L : x′(l) = 0"
+   ],
+   [
+    "x = t",
+    "∀l ∈L : x′(l) = t(l)"
+   ],
+   [
+    "x = t.sel",
+    "assert ¬∃l1, l2 ∈L : t(l1) ∧sel(l1, l2) ∧sm(l2) ∀l ∈L : x′(l) = ∃l1 t(l1) ∧sel(l1, l)"
+   ],
+   [
+    "x.sel = null",
+    "assert ¬∃l1, l2 ∈L : x(l1) ∧sel(l1, l2) ∧sm(l2) ∀l1, l2 ∈L : sel′(l1, l2) = ¬x(l1) ∧sel(l1, l2)"
+   ],
+   [
+    "x.sel = t",
+    "∀l1, l2 ∈L : sel′(l1, l2) = sel(l1, l2) ∨(x(l1) ∧t(l2)))"
+   ],
+   [
+    "unfold x",
+    "unfoldPred(E, M, C) ∧x(E) =⇒ ((∀l1→in l2 ∈M : fresh(l2)∧ ∀v ∈V : v′(l2) = v(l1) ∧v′(l1) = 0 ∧ ∀l ∈L : sel′(l, l2) = sel(l, l1) ∧sel′(l, l1) = 0)∧ (∀l1→outl2 ∈M : fresh(l2)∧ ∀l ∈L : sel′(l2, l) = sel(l1, l) ∧sel′(l1, l) = 0) ∧C)"
+   ],
+   [
+    "fold x",
+    "foldPred(E, M, C) ∧(x(E) ∧C) =⇒ ((∀l1→in l2 ∈M : fresh(l2)∧ ∀v ∈V : v′(l2) = v(l1) ∧v′(l1) = 0 ∧ ∀l ∈L : sel′(l, l2) = sel(l, l1) ∧sel′(l, l1) = 0)∧ (∀l1→outl2 ∈M : fresh(l2)∧ ∀l ∈L : sel′(l2, l) = sel(l1, l) ∧sel′(l1, l) = 0))"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sigsoft_SinghS11.pdf",
+  "page": 7,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Conditional",
+   "Transition rule"
+  ],
+  "rows": [
+   [
+    "x == null",
+    "∀l ∈L : ¬x(l)"
+   ],
+   [
+    "x != null",
+    "∃l ∈L : x(l)"
+   ],
+   [
+    "x == t",
+    "∀l ∈L : x(l) ⇐⇒ t(l)"
+   ],
+   [
+    "x.data > t.data",
+    "∀l1, l2 ∈L : x(l1) ∧t(l2) =⇒ gt(data, l1, l2)"
+   ],
+   [
+    "x.data ≥t.data",
+    "∀l1, l2 ∈L : x(l1) ∧t(l2) =⇒ gte(data, l1, l2)"
+   ],
+   [
+    "x.data == t.data",
+    "∀l1, l2 ∈L : x(l1) ∧t(l2) =⇒ eq(data, l1, l2)"
+   ],
+   [
+    "x.data != t.data",
+    "∀l1, l2 ∈L : x(l1) ∧t(l2) =⇒ ¬eq(data, l1, l2)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_sigsoft_SinghS11.pdf",
+  "page": 10,
+  "index": 0,
+  "caption": "Table 1: Experimental results for case studies",
+  "header": [
+   "Manipulation",
+   "#Scens",
+   "Time",
+   "#Clauses",
+   "Memory",
+   "Loops",
+   "Interm"
+  ],
+  "rows": [
+   [
+    "ll-insertion",
+    "4",
+    "2m9s",
+    "1.99M",
+    "0.75GB",
+    "1",
+    "Yes"
+   ],
+   [
+    "ll-deletion",
+    "4",
+    "1m48s",
+    "1.88M",
+    "0.54GB",
+    "1",
+    "Yes"
+   ],
+   [
+    "ll-reversal",
+    "4",
+    "1m49s",
+    "1.3M",
+    "0.35GB",
+    "1",
+    "No"
+   ],
+   [
+    "ll-find-last",
+    "4",
+    "0m56s",
+    "1.02M",
+    "0.29GB",
+    "1",
+    "No"
+   ],
+   [
+    "ll-swap-first-last",
+    "4",
+    "4m18s",
+    "1.08M",
+    "0.31GB",
+    "1",
+    "Yes"
+   ],
+   [
+    "dll-traversal",
+    "4",
+    "1m58s",
+    "1.72M",
+    "0.88GB",
+    "1",
+    "No"
+   ],
+   [
+    "dll-reversal",
+    "4",
+    "3m47s",
+    "2.04M",
+    "0.49GB",
+    "1",
+    "No"
+   ],
+   [
+    "bst-search(contains)",
+    "1",
+    "1m02s",
+    "0.62M",
+    "0.37GB",
+    "1",
+    "No"
+   ],
+   [
+    "bst-search",
+    "1",
+    "6m07s",
+    "0.77M",
+    "0.45GB",
+    "1",
+    "No"
+   ],
+   [
+    "bst-find-min",
+    "1",
+    "0m58s",
+    "0.63M",
+    "0.18GB",
+    "1",
+    "No"
+   ],
+   [
+    "bst-find-max",
+    "1",
+    "0m23s",
+    "0.57M",
+    "0.16GB",
+    "1",
+    "No"
+   ],
+   [
+    "bst-left-rotate",
+    "3",
+    "3m18s",
+    "1.41M",
+    "0.50GB",
+    "0",
+    "No"
+   ],
+   [
+    "bst-right-rotate",
+    "3",
+    "3m15s",
+    "1.47M",
+    "0.43GB",
+    "0",
+    "No"
+   ],
+   [
+    "bst-insertion∗",
+    "3",
+    "1m52s",
+    "1.04M",
+    "0.46GB",
+    "1",
+    "Yes"
+   ],
+   [
+    "bst-deletion∗",
+    "6",
+    "3m13s",
+    "0.63M",
+    "0.62GB",
+    "2",
+    "Yes"
+   ],
+   [
+    "aig-insertion∗",
+    "4",
+    "1m04s",
+    "0.17M",
+    "0.31GB",
+    "1",
+    "Yes"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 52,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Lime"
+  ],
+  "rows": [
+   [
+    "Op Time",
+    "83.3 ms"
+   ],
+   [
+    "Freq",
+    "100 Mhz"
+   ],
+   [
+    "LUT",
+    "11.8%"
+   ],
+   [
+    "BRAM",
+    "23%"
+   ],
+   [
+    "DSP",
+    "1.2%"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 120,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "AnalogInput \"sensor\"",
+   ""
+  ],
+  "rows": [
+   [
+    "INP",
+    "@sensor-hw-id"
+   ],
+   [
+    "SCAN",
+    "1 second"
+   ],
+   [
+    "FLNK",
+    "\"plus10\""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 120,
+  "index": 2,
+  "caption": "",
+  "header": [
+   "AnalogOutput \"device\"",
+   ""
+  ],
+  "rows": [
+   [
+    "DOL",
+    "\"plus 10\""
+   ],
+   [
+    "OUT",
+    "@device-hw-id"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 208,
+  "index": 0,
+  "caption": "Table 1 Various implementations of pointer-based checking developed as part of the SoftBound- CETS project, distinguished based on instrumentation method (Instr.), support for spatial safety, temporal",
+  "header": [
+   "",
+   "Instr.",
+   "Spatial safety",
+   "Temporal safety",
+   "Instr. integer ops",
+   "Check Opts",
+   "Slow -down",
+   "Disjoint meta- data"
+  ],
+  "rows": [
+   [
+    "HardBound [11]",
+    "Hardware",
+    "Yes",
+    "No",
+    "Yes",
+    "No",
+    "5-20%",
+    "Shadow"
+   ],
+   [
+    "SoftBound [35]",
+    "Compiler",
+    "Yes",
+    "No",
+    "No",
+    "Yes",
+    "50-60%",
+    "Hash/ Shadow"
+   ],
+   [
+    "CETS [36]",
+    "Compiler",
+    "No",
+    "Yes",
+    "No",
+    "Yes",
+    "30-40%",
+    "Trie"
+   ],
+   [
+    "SoftBound- CETS [31]",
+    "Compiler",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "70-80%",
+    "Trie"
+   ],
+   [
+    "Watchdog [32, 33]",
+    "Hardware",
+    "Yes/No",
+    "Yes",
+    "No",
+    "No",
+    "10–25%",
+    "Shadow"
+   ],
+   [
+    "WatchdogLite [34]",
+    "Hybrid",
+    "Yes",
+    "Yes",
+    "No",
+    "Yes",
+    "10–20%",
+    "Shadow"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 262,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "type T = Double",
+   "type T = Double",
+   "type T = Double",
+   "type T = Double"
+  ],
+  "rows": [
+   [
+    "add[Rep,Real,NoRep,SISD,T]",
+    "add[NoRep,Real,Rep,SISD,T]",
+    "add[Rep,Real,NoRep,SIMD,T]",
+    "add[NoRep,Real,Rep,SIMD,T]"
+   ],
+   [
+    "#define T double",
+    "#define T double",
+    "#define T double",
+    "#define T double"
+   ],
+   [
+    "#define N 4",
+    "void add(T* x, T* y, T* z) {",
+    "#define N 1",
+    "void add(T* x, T* y, T* z) {"
+   ],
+   [
+    "void add(T* x, T* y, T* z) {",
+    "T x1 = x[0]; T x2 = x[1];",
+    "void add(T* x, T* y, T* z) {",
+    "__m256d x1, y1, z1;"
+   ],
+   [
+    "int i = 0;",
+    "T x3 = x[2]; T x4 = x[3];",
+    "int i = 0;",
+    "x1 = _mm256_loadu_pd(x + 0);"
+   ],
+   [
+    "for(; i < N; ++i) {",
+    "T y1 = y[0]; T y2 = y[1];",
+    "for(; i < N; ++i) {",
+    "y1 = _mm256_loadu_pd(y + 0);"
+   ],
+   [
+    "T x1 = x[i];",
+    "T y3 = y[2]; T y4 = y[3];",
+    "__m256d x1, y1, z1;",
+    "z1 = _mm256_add_pd(x1, y1);"
+   ],
+   [
+    "T y1 = y[i];",
+    "T z1 = x1 + y1;",
+    "x1 = _mm256_loadu_pd(x + i);",
+    "_mm256_storeu_pd(z + 0, y1);"
+   ],
+   [
+    "T z1 = x1 + y1;",
+    "T z2 = x2 + y2;",
+    "y1 = _mm256_loadu_pd(y + i);",
+    "}"
+   ],
+   [
+    "z[i] = z1;",
+    "T z3 = x3 + y3;",
+    "z1 = _mm256_add_pd(x1, y1);",
+    ""
+   ],
+   [
+    "}",
+    "T z4 = x4 + y4;",
+    "_mm256_storeu_pd(z + i, y1);",
+    ""
+   ],
+   [
+    "}",
+    "z[0] = z1; z[1] = z2;",
+    "}",
+    ""
+   ],
+   [
+    "",
+    "z[2] = z3; z[3] = z4;",
+    "}",
+    ""
+   ],
+   [
+    "",
+    "}",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_snapl_2015.pdf",
+  "page": 311,
+  "index": 0,
+  "caption": "Table 1 Seven diﬀerences to be observed by the object-oriented programmer when implementing relationships to many, rather than one or no, objects using collections (see [19, 20] for details).",
+  "header": [
+   "Manifestation of Difference in",
+   "Multiplicity none or one many",
+   ""
+  ],
+  "rows": [
+   [
+    "1: type of expression",
+    "Account a; a = new Account(); //OK ... a.owner ... //OK",
+    "Set<Account> as; as = new Account(); //type error ... as.owner ... //type error"
+   ],
+   [
+    "2: “no object”",
+    "a == null? ...",
+    "a.isEmpty()? ..."
+   ],
+   [
+    "3: subtyping conditions",
+    "Account a = new SavAccount();",
+    "Set<? extends Account> as = new HashSet<SavAccount>();"
+   ],
+   [
+    "4: encapsulation",
+    "Account getA() { return a; }",
+    "Set<Account> getAs() { return as.clone(); }"
+   ],
+   [
+    "5: assignment semantics",
+    "Account backup = a; a = null; // oops! a = backup; // phew!",
+    "Set<Account> backups = as; as.clear(); // oops! as = backups; // what??!"
+   ],
+   [
+    "6: call semantics",
+    "swap(a, backup); //cannot work",
+    "sort(as); //no problem"
+   ],
+   [
+    "7: meaning of final",
+    "final Account forLife = new Account(); forLife = null; //compile error",
+    "final Set<Account> allForLife = Arrays.asSet(forLife); allForLife.remove(forLife); //OK"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 31,
+  "index": 2,
+  "caption": "Table 1. Various types of Uppaal Stratego queries: “strategy S =” means strategy assignment and “under S” is strategy usage via strategy identiﬁer S. Here the variables NS, DS and SS correspond to non",
+  "header": [
+   "Hypothesis testing:",
+   "Pr[bound](<> prop)>=0.1 under SS"
+  ],
+  "rows": [
+   [
+    "Evaluation:",
+    "Pr[bound](<> prop) under SS"
+   ],
+   [
+    "Comparison:",
+    "Pr[bound](<> prop1) under SS1 >= Pr[<=20](<> prop2) under SS2"
+   ],
+   [
+    "Expected value:",
+    "value E[bound;n](min: prop) under SS"
+   ],
+   [
+    "Simulations",
+    "simulate n [bound] { expr1, expr2 } under SS"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 93,
+  "index": 0,
+  "caption": "Table 1. Summary of experimental results.",
+  "header": [
+   "",
+   "Total (114)",
+   "Handcrafted (14)",
+   "HyComp (7)",
+   "HYST (65)",
+   "ISAT3 (1)",
+   "ISAT3-CFG (10)",
+   "nuXmv (2)",
+   "SAS13 (13)",
+   "TCM (2)"
+  ],
+  "rows": [
+   [
+    "IC3-NRA-prove iSAT3[1e-1] iSAT3[1e-9] NRA-K-induction-Z3 NUXMV-LRA-static NRA-BMC-Z3 NRA-K-induction-DREAL NRA-BMC-DREAL",
+    "60/15 48/2(47) 47/2(19) 22/25 37/0 0/26 16/0(32) 0/0(39)",
+    "9/1 2/0(8) 2/0(3) 2/1 4/0 0/1 2/0(4) 0/0(8)",
+    "3/0 0/0(3) 0/0(2) 0/2 1/0 0/2 0/0(2) 0/0(2)",
+    "33/7 34/2(23) 32/2(3) 12/15 19/0 0/15 9/0(19) 0/0(19)",
+    "0/0 0/0 0/0 0/0 0/0 0/0 0/0 0/0",
+    "6/2 6/0(4) 6/0(3) 6/2 4/0 0/3 5/0(2) 0/0(3)",
+    "2/0 0/0 0/0 0/0 2/0 0/0 0/0 0/0",
+    "5/5 4/0(9) 5/0(8) 0/5 5/0 0/5 0/0(5) 0/0(7)",
+    "2/0 2/0 2/0 2/0 2/0 0/0 0/0 0/0"
+   ],
+   [
+    "virtual-best",
+    "66/26",
+    "9/1",
+    "3/2",
+    "38/15",
+    "0/0",
+    "7/3",
+    "2/0",
+    "5/5",
+    "2/0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 94,
+  "index": 0,
+  "caption": "Table 2. Comparitive summary of total solved benchmarks.",
+  "header": [
+   "",
+   "# Solved",
+   "# Uniquely Solved",
+   "Difference wrt. IC3-NRA-prove",
+   "Gained",
+   "Lost"
+  ],
+  "rows": [
+   [
+    "IC3-NRA-prove",
+    "60/15",
+    "9/0",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "NUXMV-LRA-static",
+    "37/0",
+    "0/0",
+    "-38",
+    "1/0",
+    "24/15"
+   ],
+   [
+    "iSAT3[1e-1] iSAT3[1e-9]",
+    "48/2(47) 47/2(19)",
+    "4/0",
+    "-25 -26",
+    "4/0 3/0",
+    "16/13 16/13"
+   ],
+   [
+    "NRA-K-induction-Z3 NRA-BMC-Z3",
+    "22/25 0/26",
+    "0/11",
+    "-28 -49",
+    "2/11 0/11",
+    "40/1 60/0"
+   ],
+   [
+    "NRA-K-induction-DREAL NRA-BMC-DREAL",
+    "16/2(32) 0/0(39)",
+    "0/0",
+    "-59 -75",
+    "2/0 0/0",
+    "46/15 60/15"
+   ],
+   [
+    "virtual-best",
+    "66/26",
+    "-",
+    "17",
+    "6/11",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 112,
+  "index": 0,
+  "caption": "Table 1. Experimental results.",
+  "header": [
+   "Program",
+   "#∀",
+   "#Func",
+   "#Consts",
+   "#∀↓",
+   "B1 Total",
+   "B1 Solve",
+   "Baseline Z3"
+  ],
+  "rows": [
+   [
+    "Client-server",
+    "14",
+    "1",
+    "15",
+    "2",
+    "58 ms",
+    "3 ms",
+    "3 ms"
+   ],
+   [
+    "List reverse",
+    "47",
+    "3",
+    "15",
+    "4",
+    "319 ms",
+    "211 ms",
+    "50 ms"
+   ],
+   [
+    "Learning switch",
+    "70",
+    "1",
+    "7",
+    "37",
+    "245 ms",
+    "65 ms",
+    "33 ms"
+   ],
+   [
+    "Hole-punching firewall with ghost",
+    "15",
+    "1",
+    "18",
+    "3",
+    "75 ms",
+    "4 ms",
+    "4 ms"
+   ],
+   [
+    "Hole-punching firewall ∃time",
+    "32",
+    "2",
+    "21",
+    "3",
+    "102 ms",
+    "4 ms",
+    "4 ms"
+   ],
+   [
+    "Leader-election in a ring (correct)",
+    "41",
+    "1",
+    "21",
+    "1",
+    "113 ms",
+    "36 ms",
+    "27 ms"
+   ],
+   [
+    "Leader-election in a ring (incorrect)",
+    "40",
+    "1",
+    "20",
+    "1",
+    "1112 ms",
+    "1008 ms",
+    "—"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 133,
+  "index": 1,
+  "caption": "Table 3. Impact of narrowing on non- termination proofs.",
+  "header": [
+   "",
+   "NTerm",
+   "Exclusive"
+  ],
+  "rows": [
+   [
+    "Narrowing",
+    "412",
+    "82"
+   ],
+   [
+    "Original",
+    "334",
+    "4"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 220,
+  "index": 0,
+  "caption": "Table 1. Results on x86-64 and ARM architectures",
+  "header": [
+   "Architecture",
+   "Err (LR)",
+   "Err (RR)",
+   "Err (NNLS)",
+   "Err (GC)"
+  ],
+  "rows": [
+   [
+    "x86-64",
+    "13.29",
+    "13.04",
+    "13.32",
+    "19.80"
+   ],
+   [
+    "ARM v8-A",
+    "21.81",
+    "22.94",
+    "21.36",
+    "20.12"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 220,
+  "index": 1,
+  "caption": "Table 2. Symbolic bounds from RAML on x86-64",
+  "header": [
+   "Program",
+   "Time bound (ns)",
+   "Heap bound (B)",
+   "Time (s)",
+   "#Cons"
+  ],
+  "rows": [
+   [
+    "append",
+    "0.45 + 11.28M",
+    "24M",
+    "0.02",
+    "50"
+   ],
+   [
+    "map",
+    "0.60 + 13.16M",
+    "24M",
+    "0.02",
+    "59"
+   ],
+   [
+    "insertion sort",
+    "0.45 + 6.06M + 5.83M 2",
+    "12M + 12M 2",
+    "0.04",
+    "298"
+   ],
+   [
+    "echelon",
+    "0.60 + 17.29LM 2+ 23.11M + 37.38M 2",
+    "24LM 2 + 24M + 72M 2",
+    "0.59",
+    "16297"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 273,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "uncti s(e) d as",
+   "ion t whe the"
+  ],
+  "rows": [
+   [
+    "e′",
+    ". 2."
+   ],
+   [
+    "of",
+    "e′"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 276,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Bench",
+   "Description",
+   "template code",
+   "T-opt T-parallel T-search T-unopt"
+  ],
+  "rows": [
+   [
+    "Desugar",
+    "lang langState regex elimBo ol compAssign langLarge arrAssertions NegNorm lcB lcP",
+    "Running example Running example with mutable state Desugaring regular expressions Boolean operations to if else Eliminates compound assignments Desugaring a large language Add out of bounds assertions Computes negation normal form Boolean operations to λ-calculus Pairs to λ-calculus",
+    "1 50 1 62 1 22 1 21 1 42 1 126 3 40 3 57 1 55 1 41",
+    "7.5 8.6 85.9 152.5 ⊥ 527.2 1746.9 ⊥ 2.0 3.3 9.1 3.3 1.5 2.9 7.5 2.4 16.6 20.9 31.8 176.2 61.2 58.0 49.7 ⊥ 37.2 50.5 66.7 53.0 21.2 13.6 64.4 ⊥ 43.1 47.4 40.6 47.4 163.6 258.2 288.3 258.2"
+   ],
+   [
+    "Analysis",
+    "tc",
+    "Type constraints for λ-calculus",
+    "8 41",
+    "168.9 68.0 201.9 68.0"
+   ],
+   [
+    "optim AST",
+    "andLt andNot andOr plusEq mux",
+    "AST optimization 1 AST optimization 2 AST optimization 3 AST optimization 4 AST optimization 5",
+    "1 15 1 6 1 12 1 18 1 6",
+    "3.1 3.1 13.2 N/A 2.6 3.0 13.0 N/A 3.7 3.1 14.0 N/A 3.3 3.0 14.0 N/A 2.4 3.0 12.4 N/A"
+   ],
+   [
+    "List",
+    "lIns lDel lUnion",
+    "List insertion List deletion Union of two lists",
+    "1 12 2 14 1 10",
+    "1.5 2.3 2.2 2.1 4.0 4.6 4.1 3.1 8.7 2.7 4.8 2.1"
+   ],
+   [
+    "Tree",
+    "tIns tDel tDelMin tDelMax",
+    "Binary search tree insertion Binary search tree deletion Binary search tree delete min Binary search tree delete max",
+    "1 48 4 63 2 18 2 18",
+    "20.7 14.5 41.6 11.6 224.8 227.4 286.1 298.9 27.1 32.2 57.7 24.9 25.9 30.8 54.4 25.9"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 294,
+  "index": 2,
+  "caption": "Table 2. Results for all solvers on the BV and BVLNIRA benchmarks with a CPU time limit of 1200 seconds (not wall clock time).",
+  "header": [
+   "BV (191) Solved Sa",
+   "BV (4838) LNIRA t Unsat Time [s] Uniq Solved Sat Unsat Time [s] Uniq",
+   "",
+   ""
+  ],
+  "rows": [
+   [
+    "Btor+ds 172 77",
+    "95 24163",
+    "2 4704 517 418",
+    "7 187411 19"
+   ],
+   [
+    "CVC4 145 64",
+    "81 57652",
+    "0 4362 339 402",
+    "3 580402 3"
+   ],
+   [
+    "Q3B 187 93",
+    "94 9086",
+    "9 4367 327 404",
+    "0 581252 5"
+   ],
+   [
+    "Z3 161 69",
+    "92 36593",
+    "0 4732 476 425",
+    "6 130405 11"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 309,
+  "index": 0,
+  "caption": "Table 1. Summary of reﬁnement results on benchmarks",
+  "header": [
+   "Specification",
+   "In",
+   "Out",
+   "A",
+   "G",
+   "MaxPlay",
+   "MaxUnr",
+   "TreeDepth",
+   "MaxAltRef",
+   "#Ref"
+  ],
+  "rows": [
+   [
+    "Lift",
+    "3",
+    "3",
+    "7",
+    "12",
+    "2",
+    "2",
+    "1",
+    "3",
+    "3"
+   ],
+   [
+    "AMBA02",
+    "7",
+    "16",
+    "10",
+    "66",
+    "4",
+    "2",
+    "3",
+    "6",
+    "17"
+   ],
+   [
+    "AMBA04",
+    "11",
+    "23",
+    "16",
+    "97",
+    "7",
+    "1",
+    "2",
+    "2",
+    "8"
+   ],
+   [
+    "AMBA08",
+    "19",
+    "36",
+    "28",
+    "157",
+    "18",
+    "1",
+    "7",
+    "2",
+    "80"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 328,
+  "index": 0,
+  "caption": "Table 1. Repair results for 41 Tcas defects",
+  "header": [
+   "",
+   "Bug type",
+   "R-Progs",
+   "T(s)",
+   "Repair?",
+   "",
+   "Bug type",
+   "R-Progs",
+   "T(s)",
+   "Repair?"
+  ],
+  "rows": [
+   [
+    "v1",
+    "incorrect op",
+    "6143",
+    "21",
+    "✓",
+    "v22",
+    "missing code",
+    "5553",
+    "175",
+    "–"
+   ],
+   [
+    "v2",
+    "missing code",
+    "6993",
+    "27",
+    "✓",
+    "v23",
+    "missing code",
+    "5824",
+    "164",
+    "–"
+   ],
+   [
+    "v3",
+    "incorrect op",
+    "8006",
+    "18",
+    "✓",
+    "v24",
+    "missing code",
+    "6050",
+    "231",
+    "–"
+   ],
+   [
+    "v4",
+    "incorrect op",
+    "5900",
+    "27",
+    "✓",
+    "v25",
+    "incorrect op",
+    "5983",
+    "19",
+    "✓"
+   ],
+   [
+    "v5",
+    "missing code",
+    "8440",
+    "394",
+    "–",
+    "v26",
+    "missing code",
+    "8004",
+    "195",
+    "–"
+   ],
+   [
+    "v6",
+    "incorrect op",
+    "5872",
+    "19",
+    "✓",
+    "v27",
+    "missing code",
+    "8440",
+    "270",
+    "–"
+   ],
+   [
+    "v7",
+    "incorrect const",
+    "7302",
+    "18",
+    "✓",
+    "v28",
+    "incorrect op",
+    "9072",
+    "11",
+    "✓"
+   ],
+   [
+    "v8",
+    "incorrect const",
+    "6013",
+    "19",
+    "✓",
+    "v29",
+    "missing code",
+    "6914",
+    "195",
+    "–"
+   ],
+   [
+    "v9",
+    "incorrect op",
+    "5938",
+    "24",
+    "✓",
+    "v30",
+    "missing code",
+    "6533",
+    "170",
+    "–"
+   ],
+   [
+    "v10",
+    "incorrect op",
+    "7154",
+    "18",
+    "✓",
+    "v31",
+    "multiple",
+    "4302",
+    "16",
+    "✓"
+   ],
+   [
+    "v11",
+    "multiple",
+    "6308",
+    "123",
+    "–",
+    "v32",
+    "multiple",
+    "4493",
+    "17",
+    "✓"
+   ],
+   [
+    "v12",
+    "incorrect op",
+    "8442",
+    "25",
+    "✓",
+    "v33",
+    "multiple",
+    "9070",
+    "224",
+    "–"
+   ],
+   [
+    "v13",
+    "incorrect const",
+    "7845",
+    "21",
+    "✓",
+    "v34",
+    "incorrect op",
+    "8442",
+    "75",
+    "✓"
+   ],
+   [
+    "v14",
+    "incorrect const",
+    "1252",
+    "22",
+    "✓",
+    "v35",
+    "multiple",
+    "9070",
+    "184",
+    "–"
+   ],
+   [
+    "v15",
+    "multiple",
+    "7760",
+    "258",
+    "–",
+    "v36",
+    "incorrect const",
+    "6334",
+    "10",
+    "✓"
+   ],
+   [
+    "v16",
+    "incorrect const",
+    "5470",
+    "19",
+    "✓",
+    "v37",
+    "missing code",
+    "7523",
+    "174",
+    "–"
+   ],
+   [
+    "v17",
+    "incorrect const",
+    "7302",
+    "12",
+    "✓",
+    "v38",
+    "missing code",
+    "7685",
+    "209",
+    "–"
+   ],
+   [
+    "v18",
+    "incorrect const",
+    "7383",
+    "18",
+    "✓",
+    "v39",
+    "incorrect op",
+    "5983",
+    "20",
+    "✓"
+   ],
+   [
+    "v19",
+    "incorrect const",
+    "6920",
+    "19",
+    "✓",
+    "v40",
+    "missing code",
+    "7364",
+    "136",
+    "–"
+   ],
+   [
+    "v20",
+    "incorrect op",
+    "5938",
+    "19",
+    "✓",
+    "v41",
+    "missing code",
+    "5899",
+    "29",
+    "✓"
+   ],
+   [
+    "v21",
+    "missing code",
+    "5939",
+    "31",
+    "✓",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 337,
+  "index": 0,
+  "caption": "Table 1. Example run of the basic enumerative algorithm",
+  "header": [
+   "Round no",
+   "Enumerated expressions",
+   "Candidate expression",
+   "Point added"
+  ],
+  "rows": [
+   [
+    "1",
+    "0",
+    "0",
+    "{x \u0002→1, y \u0002→0}"
+   ],
+   [
+    "2",
+    "0, 1",
+    "1",
+    "{x \u0002→0, y \u0002→2}"
+   ],
+   [
+    "3",
+    "0, 1, x, y, . . ., x + y,",
+    "x + y",
+    "{x \u0002→1, y \u0002→2}"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 337,
+  "index": 2,
+  "caption": "Table 2. Example run of the divide-and-conquer enumerative algorithm",
+  "header": [
+   "Round no",
+   "Enumerated terms",
+   "Enumerated predicates",
+   "Candidate expression",
+   "Point added"
+  ],
+  "rows": [
+   [
+    "1",
+    "0",
+    "0",
+    "∅",
+    "{x \u0002→1, y \u0002→0}"
+   ],
+   [
+    "2",
+    "0, 1",
+    "1",
+    "∅",
+    "{x \u0002→0, y \u0002→2}"
+   ],
+   [
+    "3",
+    "0, 1, x, y",
+    "0 ≤0, . . . 0 ≤y, 1 ≤0, . . . 1 ≤y",
+    "if 1 ≤y then y else 1",
+    "{x \u0002→2, y \u0002→0}"
+   ],
+   [
+    "4",
+    "0, 1, x, y",
+    "0 ≤0, . . . x ≤y",
+    "if x ≤y then y else x",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 379,
+  "index": 0,
+  "caption": "Table 1. The table compares the encodings with respect to the number of variables and the size of the constraint system. We indicate the number of states of the transition system and the automaton by ",
+  "header": [
+   "",
+   "# existentials",
+   "# universals",
+   "Constraint size \u0002 \u0002"
+  ],
+  "rows": [
+   [
+    "Basic",
+    "n(m log(nm) + 2|I| · (|O| + n))",
+    "-",
+    "nm2 · 2|I| · \u0002(\u0002δ q,q′\u0002 + n log(nm)) \u0002"
+   ],
+   [
+    "Input-symbolic",
+    "n(m log(nm) + |O| + n)",
+    "|I|",
+    "nm2 \u0002(\u0002δ q,q\u0002′\u0002 + n log(nm))"
+   ],
+   [
+    "State-symbolic",
+    "n + m log(nm) + |O|",
+    "n + |I|",
+    "m2(\u0002δ q,q′\u0002 + log(nm))"
+   ],
+   [
+    "Symbolic",
+    "log n + |O|",
+    "n + m + |I|",
+    "n + m + |δ| + log(nm)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 381,
+  "index": 0,
+  "caption": "Table 3. Experimental results on selected scalable instances. Reported is the maximal parameter value k for which the instance could be solved and the cumulative solving time t (in seconds) up to this",
+  "header": [
+   "instance",
+   "basic input-sym max k sum t max k sum t m",
+   "state-sym Acacia Party ax k sum t max k sum t max k sum t"
+  ],
+  "rows": [
+   [
+    "simple-arbiter",
+    "7 1008.7 8 2.7",
+    "3 100.5 8 59.2 6 902.7"
+   ],
+   [
+    "full-arbiter",
+    "4 2994.5 3 0.6",
+    "2 13.3 5 2683.4 3 111.7"
+   ],
+   [
+    "roundrob-arbiter",
+    "4 143.1 4 227.0",
+    "2 11.0 4 345.6 4 19.2"
+   ],
+   [
+    "loadfull",
+    "5 268.7 8 44.2",
+    "2 25.1 4 83.7 4 213.5"
+   ],
+   [
+    "prio-abiter",
+    "4 176.5 4 1.6",
+    "2 0.4 6 701.2 3 69.0"
+   ],
+   [
+    "loadcomp",
+    "5 36.9 6 639.4",
+    "3 432.1 5 387.8 5 212.7"
+   ],
+   [
+    "genbuf",
+    "2 1840.3 2 2711.8",
+    "0 – 5 159.3 0 –"
+   ],
+   [
+    "generalized-buffer",
+    "2 2093.8 2 3542.8",
+    "0 – 6 3194.8 2 792.5"
+   ],
+   [
+    "load-balancer",
+    "5 1148.8 8 83.2",
+    "2 75.3 5 270.8 0 –"
+   ],
+   [
+    "detector",
+    "6 1769.0 8 1010.7",
+    "3 239.4 8 261.6 5 370.3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 397,
+  "index": 0,
+  "caption": "Table 1. Number of QBF instances decided by diﬀerent preprocessors.",
+  "header": [
+   "",
+   "#sat",
+   "#unsat",
+   "#fails",
+   "Time (s)"
+  ],
+  "rows": [
+   [
+    "sQueezeBF",
+    "73",
+    "64",
+    "53",
+    "47548.7"
+   ],
+   [
+    "Bloqqer",
+    "177",
+    "171",
+    "44",
+    "41872.0"
+   ],
+   [
+    "HQSpre g",
+    "162",
+    "209",
+    "29",
+    "25660.6"
+   ],
+   [
+    "HQSpre",
+    "236",
+    "242",
+    "31",
+    "32127.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 397,
+  "index": 1,
+  "caption": "Table 2. Formula changes by preprocessing QBF: For each preprocessor, data is shown as “before →after” for just reduced formulas (“r”); for solved (“s”) and failed (“f ”) instances we show their origi",
+  "header": [
+   "",
+   "",
+   "∃-Vars",
+   "∀-Vars",
+   "Vars",
+   "Clauses",
+   "Q-alt"
+  ],
+  "rows": [
+   [
+    "Original",
+    "",
+    "23769",
+    "570",
+    "24339",
+    "85984",
+    "17.0"
+   ],
+   [
+    "sQueezeBF",
+    "r",
+    "8748→3674",
+    "303→261",
+    "9051→3935",
+    "40907→25782",
+    "17.2→10.2"
+   ],
+   [
+    "",
+    "s",
+    "77096",
+    "259",
+    "77355",
+    "167100",
+    "20.7"
+   ],
+   [
+    "",
+    "f",
+    "65893",
+    "4573",
+    "70466",
+    "416385",
+    "4.6"
+   ],
+   [
+    "Bloqqer",
+    "r",
+    "8729→3256",
+    "608→548",
+    "9336→3805",
+    "50015→28933",
+    "13.4→6.6"
+   ],
+   [
+    "",
+    "s",
+    "25938",
+    "142",
+    "26080",
+    "55860",
+    "19.9"
+   ],
+   [
+    "",
+    "f",
+    "154630",
+    "3584",
+    "158214",
+    "678207",
+    "28.9"
+   ],
+   [
+    "HQSpre g",
+    "r",
+    "9194→12027",
+    "943→889",
+    "10137→12916",
+    "37949→68601",
+    "12.9→8.8"
+   ],
+   [
+    "",
+    "s",
+    "28303",
+    "104",
+    "28407",
+    "91853",
+    "22.4"
+   ],
+   [
+    "",
+    "f",
+    "179367",
+    "1066",
+    "180433",
+    "714867",
+    "6.7"
+   ],
+   [
+    "HQSpre",
+    "r",
+    "12775→13232",
+    "1317→1232",
+    "14092→14463",
+    "54693→99763",
+    "11.1→7.1"
+   ],
+   [
+    "",
+    "s",
+    "25797",
+    "109",
+    "25905",
+    "81852",
+    "21.4"
+   ],
+   [
+    "",
+    "f",
+    "104575",
+    "77",
+    "104652",
+    "468670",
+    "8.1"
+   ],
+   [
+    "Original",
+    "",
+    "7037",
+    "661",
+    "7698",
+    "29498",
+    "11.3"
+   ],
+   [
+    "sQueezeBF",
+    "",
+    "3695",
+    "566",
+    "4226",
+    "13889",
+    "7.4"
+   ],
+   [
+    "Bloqqer",
+    "",
+    "2389",
+    "584",
+    "2973",
+    "13628",
+    "6.7"
+   ],
+   [
+    "HQSpre g",
+    "",
+    "15354",
+    "634",
+    "15988",
+    "89002",
+    "7.1"
+   ],
+   [
+    "HQSpre",
+    "",
+    "10572",
+    "619",
+    "11191",
+    "77491",
+    "7.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 398,
+  "index": 0,
+  "caption": "Table 3. Overall results using the original QBF instances, preprocessed by Bloqqer, sQueezeBF, and HQSpre. We give the number of solved instances together with the accumulated computation times in sec",
+  "header": [
+   "Solver",
+   "Original",
+   "",
+   "sQueezeBF",
+   "",
+   "Bloqqer",
+   "",
+   "HQSpre g",
+   "",
+   "HQSpre",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)"
+   ],
+   [
+    "AQuA",
+    "330",
+    "306288",
+    "496",
+    "208396",
+    "574",
+    "163106",
+    "463",
+    "222542",
+    "592",
+    "149602"
+   ],
+   [
+    "DepQBF",
+    "434",
+    "243677",
+    "520",
+    "196531",
+    "585",
+    "157570",
+    "509",
+    "196605",
+    "600",
+    "148303"
+   ],
+   [
+    "AIGSolve",
+    "532",
+    "188046",
+    "480",
+    "212830",
+    "518",
+    "194297",
+    "559",
+    "171348",
+    "544",
+    "175234"
+   ],
+   [
+    "AIG-HQS",
+    "507",
+    "203696",
+    "440",
+    "239303",
+    "499",
+    "206756",
+    "560",
+    "172549",
+    "536",
+    "180341"
+   ],
+   [
+    "Caqe",
+    "358",
+    "290370",
+    "534",
+    "195257",
+    "576",
+    "169814",
+    "485",
+    "213024",
+    "637",
+    "132017"
+   ],
+   [
+    "RAReQS",
+    "337",
+    "300562",
+    "517",
+    "204385",
+    "615",
+    "144281",
+    "458",
+    "227326",
+    "638",
+    "127443"
+   ],
+   [
+    "Qesto",
+    "360",
+    "291301",
+    "550",
+    "184821",
+    "606",
+    "148490",
+    "477",
+    "217943",
+    "652",
+    "122782"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 400,
+  "index": 0,
+  "caption": "Table 5. Decided instances of diﬀerent preprocessors for DQBF.",
+  "header": [
+   "",
+   "#sat",
+   "#unsat",
+   "#fails",
+   "Time (s)"
+  ],
+  "rows": [
+   [
+    "HQSpre g",
+    "7",
+    "60",
+    "0",
+    "29441.2"
+   ],
+   [
+    "HQSpre",
+    "5",
+    "71",
+    "0",
+    "162615.8"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 401,
+  "index": 0,
+  "caption": "Table 6. Formula shrinking after preprocessing DQBF: For each preprocessing setting, data is shown as “before →after” for just reduced (“r”) formulas, and for solved (“s”) formulas we show their origi",
+  "header": [
+   "",
+   "",
+   "∃-Vars",
+   "∀-Vars",
+   "Vars",
+   "Clauses",
+   "Deps"
+  ],
+  "rows": [
+   [
+    "Original",
+    "",
+    "367.7",
+    "70.5",
+    "438.3",
+    "1165.1",
+    "8425.8"
+   ],
+   [
+    "HQSpre g",
+    "r",
+    "390.3→243.3",
+    "78.3→77.2",
+    "468.6→320.5",
+    "1187.9→883.7",
+    "9038.3→37.7"
+   ],
+   [
+    "",
+    "s",
+    "222.3",
+    "20.4",
+    "242.7",
+    "1018.2",
+    "4476.7"
+   ],
+   [
+    "HQSpre",
+    "r",
+    "402.4→96.1",
+    "79.6→78.2",
+    "482.1→174.3",
+    "1229.9→540.7",
+    "9540.8→589.8"
+   ],
+   [
+    "",
+    "s",
+    "174.5",
+    "19.9",
+    "194.4",
+    "804.1",
+    "2219.8"
+   ],
+   [
+    "Original",
+    "",
+    "407.1",
+    "81.9",
+    "489.0",
+    "1240.0",
+    "9544.8"
+   ],
+   [
+    "HQSpre g",
+    "",
+    "257.4",
+    "81.0",
+    "338.4",
+    "933.8",
+    "39.8"
+   ],
+   [
+    "HQSpre",
+    "",
+    "97.2",
+    "80.6",
+    "177.8",
+    "543.6",
+    "612.4"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 401,
+  "index": 1,
+  "caption": "Table 7. Overall results using the original DQBF instances and preprocessed by HQSpre and HQSpreg. The accumulated computation times are given in seconds. Best results for each DQBF solver are highlig",
+  "header": [
+   "Solver",
+   "Original",
+   "",
+   "HQSpre g",
+   "",
+   "HQSpre",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)",
+    "#",
+    "Time (s)"
+   ],
+   [
+    "iDQ",
+    "151",
+    "214404",
+    "170",
+    "201165",
+    "214",
+    "171676"
+   ],
+   [
+    "HQS",
+    "223",
+    "176222",
+    "326",
+    "108788",
+    "351",
+    "93912"
+   ],
+   [
+    "HQSI",
+    "456",
+    "30946",
+    "450",
+    "34621",
+    "228",
+    "164299"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 435,
+  "index": 0,
+  "caption": "Table 1. UABE experiments",
+  "header": [
+   "Formula",
+   "Mona",
+   "",
+   "Gaston",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "Time",
+    "Space",
+    "Time",
+    "Space"
+   ],
+   [
+    "a-a",
+    "1.71",
+    "30 253",
+    ">2m",
+    ">2m"
+   ],
+   [
+    "ex10",
+    "7.71",
+    "131 835",
+    "12.67",
+    "82 236"
+   ],
+   [
+    "ex11",
+    "4.40",
+    "2 393",
+    "0.18",
+    "4 156"
+   ],
+   [
+    "ex12",
+    "0.13",
+    "2 591",
+    "6.31",
+    "68 159"
+   ],
+   [
+    "ex13",
+    "0.04",
+    "2 601",
+    "1.19",
+    "16 883"
+   ],
+   [
+    "ex16",
+    "0.04",
+    "3 384",
+    "0.28",
+    "3 960"
+   ],
+   [
+    "ex17",
+    "3.52",
+    "165 173",
+    "0.17",
+    "3 952"
+   ],
+   [
+    "ex18",
+    "0.27",
+    "19 463",
+    ">2m",
+    ">2m"
+   ],
+   [
+    "ex2",
+    "0.18",
+    "26 565",
+    "0.01",
+    "1 841"
+   ],
+   [
+    "ex20",
+    "1.46",
+    "1 077",
+    "0.27",
+    "12 266"
+   ],
+   [
+    "ex21",
+    "1.68",
+    "30 253",
+    ">2m",
+    ">2m"
+   ],
+   [
+    "ex4",
+    "0.08",
+    "6 797",
+    "0.50",
+    "22 442"
+   ],
+   [
+    "ex6",
+    "4.05",
+    "27 903",
+    "22.69",
+    "132 848"
+   ],
+   [
+    "ex7",
+    "0.90",
+    "857",
+    "0.01",
+    "594"
+   ],
+   [
+    "ex8",
+    "7.69",
+    "106 555",
+    "0.03",
+    "1 624"
+   ],
+   [
+    "ex9",
+    "7.16",
+    "586 447",
+    "9.41",
+    "412 417"
+   ],
+   [
+    "fib",
+    "0.10",
+    "8 128",
+    "24.19",
+    "126 688"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 436,
+  "index": 0,
+  "caption": "Table 2. Strand experiments",
+  "header": [
+   "Formula",
+   "Mona",
+   "",
+   "Gaston",
+   ""
+  ],
+  "rows": [
+   [
+    "",
+    "Time",
+    "Space",
+    "Time",
+    "Space"
+   ],
+   [
+    "bs-loop-else",
+    "0.05",
+    "14 469",
+    "0.04",
+    "2 138"
+   ],
+   [
+    "bs-loop-if-else",
+    "0.19",
+    "61 883",
+    "0.08",
+    "3 207"
+   ],
+   [
+    "bs-loop-if-if",
+    "0.38",
+    "127 552",
+    "0.18",
+    "5 428"
+   ],
+   [
+    "sl-insert-after-loop",
+    "0.01",
+    "2 634",
+    "0.36",
+    "5 066"
+   ],
+   [
+    "sl-insert-before-head",
+    "0.01",
+    "678",
+    "0.01",
+    "541"
+   ],
+   [
+    "sl-insert-before-loop",
+    "0.01",
+    "1 448",
+    "0.01",
+    "656"
+   ],
+   [
+    "sl-insert-in-loop",
+    "0.02",
+    "5 945",
+    "0.01",
+    "1 079"
+   ],
+   [
+    "sl-reverse-after-loop",
+    "0.01",
+    "1 941",
+    "0.01",
+    "579"
+   ],
+   [
+    "sl-search-in-loop",
+    "0.08",
+    "23 349",
+    "0.03",
+    "3 247"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 437,
+  "index": 0,
+  "caption": "Table 3. Experiments with parametric families of formulae",
+  "header": [
+   "Benchmark",
+   "Src",
+   "Mona",
+   "dWiNA",
+   "Toss",
+   "Coalg",
+   "SFA",
+   "Gaston"
+  ],
+  "rows": [
+   [
+    "HornLeq",
+    "[15]",
+    "oom(18)",
+    "0.03",
+    "0.08",
+    ">2m(08)",
+    "0.03",
+    "0.01"
+   ],
+   [
+    "HornLeq (+3)",
+    "[15]",
+    "oom(18)",
+    ">2m(11)",
+    "0.16",
+    ">2m(07)",
+    ">2m(11)",
+    "0.01"
+   ],
+   [
+    "HornLeq (+4)",
+    "[15]",
+    "oom(18)",
+    ">2m(13)",
+    "0.04",
+    ">2m(06)",
+    ">2m(11)",
+    "0.01"
+   ],
+   [
+    "HornIn",
+    "[19]",
+    "oom(15)",
+    ">2m(11)",
+    "0.07",
+    ">2m(08)",
+    ">2m(08)",
+    "0.01"
+   ],
+   [
+    "HornTrans",
+    "[18]",
+    "86.43",
+    ">2m(14)",
+    "N/A",
+    "N/A",
+    "38.56",
+    "1.06"
+   ],
+   [
+    "SetSingle",
+    "[18]",
+    "oom(04)",
+    ">2m(08)",
+    "0.10",
+    "N/A",
+    ">2m(03)",
+    "0.01"
+   ],
+   [
+    "Ex8",
+    "[24]",
+    "oom(08)",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "0.15"
+   ],
+   [
+    "Ex11(10)",
+    "[24]",
+    "oom(14)",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "1.62"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 467,
+  "index": 0,
+  "caption": "Table 1. Comparison of the DRA to DPA translations on 1000 randomly generated DRAs. First, we compare the cases where all tools ﬁnished successfully, according to the average size, the number of SCCs ",
+  "header": [
+   "",
+   "",
+   "GOAL",
+   "GOALP",
+   "StreettIAR",
+   "sbIAR",
+   "IAR∗ P"
+  ],
+  "rows": [
+   [
+    "Avg.",
+    "#states #SCC time (s)",
+    "1054 73.2 11.7",
+    "281 19.2 15.7",
+    "18.4 4.97 0.02",
+    "15.4 4.33 0.02",
+    "8.83 1.61 0.99"
+   ],
+   [
+    "Smallest (%)",
+    "",
+    "15.5",
+    "37.8",
+    "7.7",
+    "15.5",
+    "95.9"
+   ],
+   [
+    "Failure (%)",
+    "",
+    "8.6",
+    "11.9",
+    "0",
+    "0",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 468,
+  "index": 0,
+  "caption": "Table 2. Comparison of StreettIAR and (sb)IAR on 1000 randomly generated DRAs. We use the same deﬁnitions as in Table 1.",
+  "header": [
+   "",
+   "",
+   "StreettIAR",
+   "sbIAR",
+   "StreettIAR∗ P",
+   "sbIAR∗ P",
+   "IAR∗ P"
+  ],
+  "rows": [
+   [
+    "Avg.",
+    "#states #SCC time (s)",
+    "4959 63.8 1.86",
+    "1568 42.5 0.34",
+    "4175 1.35 39.47",
+    "1081 1.35 3.11",
+    "833 1.35 3.38"
+   ],
+   [
+    "Smallest (%)",
+    "",
+    "0",
+    "0",
+    "0.4",
+    "5.90",
+    "95.1"
+   ],
+   [
+    "Failure (%)",
+    "",
+    "1.3",
+    "0",
+    "1.4",
+    "0",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 469,
+  "index": 0,
+  "caption": "Table 3. Evaluation of the presented optimizations on 1000 randomly generated DRAs, again using the same deﬁnitions as in Table 1. No tool failed for any of the input automata.",
+  "header": [
+   "",
+   "",
+   "sbIAR",
+   "sbIAR∗ P",
+   "IAR",
+   "IARP",
+   "IAR∗",
+   "IAR∗ P"
+  ],
+  "rows": [
+   [
+    "Avg.",
+    "#states #SCC Time (s)",
+    "3431 24.8 0.77",
+    "2530 1.14 11.47",
+    "1668 8.98 1.09",
+    "1655 3.5 48.3",
+    "1302 1.43 76.5",
+    "1296 1.43 95.7"
+   ],
+   [
+    "Smallest (%)",
+    "",
+    "0",
+    "0",
+    "38.3",
+    "48.30",
+    "76.5",
+    "95.7"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 470,
+  "index": 0,
+  "caption": "Table 4. Comparison of ltl2tgba to Rabinizer + IAR∗",
+  "header": [
+   "",
+   "",
+   "Rabinizer + IAR∗ P",
+   "ltl2tgba"
+  ],
+  "rows": [
+   [
+    "Avg.",
+    "#states #acc #SCC",
+    "6.60 2.31 4.49",
+    "7.89 1.79 4.69"
+   ],
+   [
+    "",
+    "Timeouts",
+    "22",
+    "0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 485,
+  "index": 0,
+  "caption": "Table 1. Performance of Ultimate Automizer with and without minimization. Col- umn # shows the number of successful reachability analyses (out of 165), average run time is given in milliseconds, avera",
+  "header": [
+   "Mode",
+   "Set",
+   "#",
+   "∅ Time total",
+   "∅ Time minimization",
+   "∅ Removal",
+   "% Iterations with minimization"
+  ],
+  "rows": [
+   [
+    "No minimization Minimization",
+    "Both",
+    "66",
+    "16085 15564",
+    "– 2649",
+    "– 3077",
+    "– 75"
+   ],
+   [
+    "Minimization",
+    "Exclusive",
+    "12",
+    "101985",
+    "61384",
+    "8472",
+    "76"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_conf_tacas_InalaPQLS17.pdf",
+  "page": 526,
+  "index": 0,
+  "caption": "Table 1. Times of analyses of prob- abilistic paremeterised systems. The timeout was set to 10 h (timeout is denoted as T/O).",
+  "header": [
+   "denoted as T/O).",
+   ""
+  ],
+  "rows": [
+   [
+    "Case study",
+    "Time"
+   ],
+   [
+    "Herman’s protocol (merge, line)",
+    "3.64 s"
+   ],
+   [
+    "Herman’s protocol (annih., line)",
+    "4.33 s"
+   ],
+   [
+    "Herman’s protocol (merge, ring)",
+    "4.31 s"
+   ],
+   [
+    "Herman’s protocol (annih., ring)",
+    "4.61 s"
+   ],
+   [
+    "Moran process (2 types, line)",
+    "2 m 48 s"
+   ],
+   [
+    "Moran process (3 types, line)",
+    "56 m 14 s"
+   ],
+   [
+    "Cell cycle switch (1 types, line)",
+    "43.94 s"
+   ],
+   [
+    "Cell cycle switch (2 types, line)",
+    "9 h 46 m"
+   ],
+   [
+    "Clustering (2 types, line)",
+    "10 m 30 s"
+   ],
+   [
+    "Clustering (3 types, line)",
+    "T/O"
+   ],
+   [
+    "Coin game (k = 3, clique)",
+    "1 m 0 s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_0002S16.pdf",
+  "page": 12,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Domain",
+   "Benchmark DAGs Used",
+   "Avg. Number of Terms"
+  ],
+  "rows": [
+   [
+    "Storyboard",
+    "34",
+    "4173"
+   ],
+   [
+    "QBS",
+    "14",
+    "6580"
+   ],
+   [
+    "AutoGrader",
+    "45",
+    "23289"
+   ],
+   [
+    "Sygus",
+    "22",
+    "68366"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_0002S16.pdf",
+  "page": 13,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Domain",
+   "Pattern Finding",
+   "Rule Generation",
+   "Auto- Tuning",
+   "Total Time (in hours)",
+   "Cost"
+  ],
+  "rows": [
+   [
+    "AutoGrader",
+    "3 hours",
+    "1 hour × 5",
+    "0.08 × 150",
+    "20",
+    "$22"
+   ],
+   [
+    "Sygus",
+    "2 hours",
+    "1 hour × 5",
+    "0.1 × 150",
+    "22",
+    "$24"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-1204-1751.pdf",
+  "page": 9,
+  "index": 0,
+  "caption": "Table 1. The percentage of student attempts corrected and the time taken for correction for the benchmark problems.",
+  "header": [
+   "Benchmark",
+   "Total Attempts",
+   "Syntax Errors",
+   "Test Set",
+   "Correct",
+   "Incorrect Attempts",
+   "Generated Feedback",
+   "Average Time(in s)",
+   "Median Time(in s)"
+  ],
+  "rows": [
+   [
+    "prodBySum-6.00",
+    "1056",
+    "16",
+    "1040",
+    "772",
+    "268",
+    "218 (81.3%)",
+    "2.49s",
+    "2.53s"
+   ],
+   [
+    "oddTuples-6.00",
+    "2386",
+    "1040",
+    "1346",
+    "1002",
+    "344",
+    "185 (53.8%)",
+    "2.65s",
+    "2.54s"
+   ],
+   [
+    "computeDeriv-6.00",
+    "144",
+    "20",
+    "124",
+    "21",
+    "103",
+    "88 (85.4%)",
+    "12.95s",
+    "4.9s"
+   ],
+   [
+    "evalPoly-6.00",
+    "144",
+    "23",
+    "121",
+    "108",
+    "13",
+    "6 (46.1%)",
+    "3.35s",
+    "3.01s"
+   ],
+   [
+    "computeDeriv-6.00x",
+    "4146",
+    "1134",
+    "3012",
+    "2094",
+    "918",
+    "753 (82.1%)",
+    "12.42s",
+    "6.32s"
+   ],
+   [
+    "evalPoly-6.00x",
+    "4698",
+    "1004",
+    "3694",
+    "3153",
+    "541",
+    "167 (30.9%)",
+    "4.78s",
+    "4.19s"
+   ],
+   [
+    "oddTuples-6.00x",
+    "10985",
+    "5047",
+    "5938",
+    "4182",
+    "1756",
+    "860 (48.9%)",
+    "4.14s",
+    "3.77s"
+   ],
+   [
+    "iterPower-6.00x",
+    "8982",
+    "3792",
+    "5190",
+    "2315",
+    "2875",
+    "1693 (58.9%)",
+    "3.58s",
+    "3.46s"
+   ],
+   [
+    "recurPower-6.00x",
+    "8879",
+    "3395",
+    "5484",
+    "2546",
+    "2938",
+    "2271 (77.3%)",
+    "10.59s",
+    "5.88s"
+   ],
+   [
+    "iterGCD-6.00x",
+    "6934",
+    "3732",
+    "3202",
+    "214",
+    "2988",
+    "2052 (68.7%)",
+    "17.13s",
+    "9.52s"
+   ],
+   [
+    "stock-market-I(C#)",
+    "52",
+    "11",
+    "41",
+    "19",
+    "22",
+    "16 (72.3%)",
+    "7.54s",
+    "5.23s"
+   ],
+   [
+    "stock-market-II(C#)",
+    "51",
+    "8",
+    "43",
+    "19",
+    "24",
+    "14 (58.3%)",
+    "11.16s",
+    "10.28s"
+   ],
+   [
+    "restaurant rush (C#)",
+    "124",
+    "38",
+    "86",
+    "20",
+    "66",
+    "41 (62.1%)",
+    "8.78s",
+    "8.19s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-1710-10385.pdf",
+  "page": 25,
+  "index": 0,
+  "caption": "Table 1. Benchmark NQUEENS",
+  "header": [
+   "OCaml times",
+   "10 11 12 13"
+  ],
+  "rows": [
+   [
+    "Indirect Replay Therm. Therm. Opt. Filinski (Delimcc) Eff. Handlers (Multicore OCaml)",
+    "0.007s 0.037s 0.213s 1.308s 0.017s 0.101s 0.597s 3.768s 0.041s 0.221s 1.347s 8.621s 0.019s 0.111s 0.65s 3.924s 0.035s 0.185s 1.236s 14.412s 0.019s 0.092s 0.509s 2.81s"
+   ],
+   [
+    "SML times",
+    "10 11 12 13"
+   ],
+   [
+    "Indirect Replay Therm. Therm. Opt. Filinski (Call/cc)",
+    "0.011s 0.064s 0.36s 2.166s 0.029s 0.164s 1.051s 6.562s 0.06s 0.344s 2.152s 14.305s 0.03s 0.173s 1.151s 6.793s 0.015s 0.079s 0.493s 2.941s"
+   ],
+   [
+    "MLton times",
+    "10 11 12 13"
+   ],
+   [
+    "Indirect Replay Finlinski (Call/cc)",
+    "0.007s 0.031s 0.187s 1.129s 0.016s 0.099s 0.637s 4.295s 0.078s 0.399s 2.138s 12.62s"
+   ],
+   [
+    "Prolog times",
+    "10 11 12 13"
+   ],
+   [
+    "Prolog search (GNU Prolog)",
+    "0.165s 0.614s 3.307s 20.401s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-1802-04408.pdf",
+  "page": 11,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Stats",
+   "ReaS",
+   "",
+   "only smoothing"
+  ],
+  "rows": [
+   [
+    "Benchmarks",
+    "#y #x #I #B #A",
+    "Time(s)",
+    "#N #R",
+    "#S #C T C"
+   ],
+   [
+    "",
+    "",
+    "20% median 80%",
+    "",
+    ""
+   ],
+   [
+    "LaneChange",
+    "12 22 50 11455 2350",
+    "276s 634s 1261s",
+    "94 4",
+    "9/300 0/300 > 2500s"
+   ],
+   [
+    "QuadObstacle",
+    "4 38 70 1753 1714",
+    "81s 217s 822s",
+    "16 1",
+    "34/300 21/300 857s"
+   ],
+   [
+    "QuadLanding",
+    "6 44 60 1567 1413",
+    "231s 374s 637s",
+    "32 2",
+    "62/300 22/300 665s"
+   ],
+   [
+    "ParallelPark",
+    "9 15 100 11204 1904",
+    "354s 630s 870s",
+    "98 5",
+    "0/300 0/300 > 2100s"
+   ],
+   [
+    "Thermostat",
+    "0 2 500 30908 2100",
+    "78s 175s 280s",
+    "31 3",
+    "21/300 19/300 220s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-1802-07384.pdf",
+  "page": 12,
+  "index": 0,
+  "caption": "Table 3: Mutable features in corrections to mortgage underwriting.",
+  "header": [
+   "",
+   "Name",
+   "Type",
+   "Range",
+   "Radius"
+  ],
+  "rows": [
+   [
+    "1",
+    "Interest Rate",
+    "Real",
+    "[0, 0.1]",
+    "0.005"
+   ],
+   [
+    "2",
+    "Credit Score",
+    "Integer",
+    "[300, 850]",
+    "25"
+   ],
+   [
+    "3",
+    "Debt-to-Income",
+    "Real",
+    "[0.01, 0.64]",
+    "0.025"
+   ],
+   [
+    "4",
+    "Loan-to-Value",
+    "Real",
+    "[0, 2]",
+    "0.025"
+   ],
+   [
+    "5",
+    "Property Type",
+    "Category",
+    "[Cooperative Share, Manufactured Home, Planned Urban Development, Single-Family Home, Condominium]",
+    "N.A."
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-1802-07384.pdf",
+  "page": 12,
+  "index": 1,
+  "caption": "Table 4: Mutable features in corrections to theorem proving.",
+  "header": [
+   "",
+   "Name",
+   "Type",
+   "Range",
+   "Radius"
+  ],
+  "rows": [
+   [
+    "1",
+    "% Clauses That Are Unit",
+    "Real",
+    "[0, 1]",
+    "0.025"
+   ],
+   [
+    "2",
+    "% Clauses That Are Horn",
+    "Real",
+    "[0, 1]",
+    "0.025"
+   ],
+   [
+    "3",
+    "% Clauses That Are Ground",
+    "Real",
+    "[0, 1]",
+    "0.025"
+   ],
+   [
+    "4",
+    "Avg. Clause Length",
+    "Real",
+    "[0, 10]",
+    "0.25"
+   ],
+   [
+    "5",
+    "Avg. Clause Depth",
+    "Real",
+    "[0, 10]",
+    "0.25"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2111-12772.pdf",
+  "page": 7,
+  "index": 0,
+  "caption": "Table 2. Joint pose prediction results using average chamfer dis- tance (CD) where lower is better. We show results for all sam- ples in the test set (All), and the subset of data samples with holes (",
+  "header": [
+   "",
+   "All Hole No Hole Param."
+  ],
+  "rows": [
+   [
+    "",
+    "CD ↓ CD ↓ CD↓ # ↓"
+   ],
+   [
+    "Ours + Search Ours B-Pose",
+    "0.0580 0.0570 0.0628 1.3M 0.0627 0.0624 0.0657 1.3M 0.0700 0.0693 0.0730 2.3M"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2111-12772.pdf",
+  "page": 7,
+  "index": 1,
+  "caption": "Table 1. Joint axis prediction accuracy results are shown for all data samples in the test set (All), the subset of data samples with holes (Hole) and without holes (No Hole). The number of network pa",
+  "header": [
+   "",
+   "Acc.% ↑ Acc.% ↑ Acc.% ↑ # ↓"
+  ],
+  "rows": [
+   [
+    "Ours B-Dense B-Discrete B-Grid B-Heuristic B-Random",
+    "79.53 80.15 76.59 1.3M 10.59 10.36 10.59 3.2M 4.28 4.18 4.79 4.0M 65.21 65.09 65.81 3.1M 71.39 72.74 64.97 - 21.55 21.92 23.29 -"
+   ],
+   [
+    "Human",
+    "80.00 - - -"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2111-12772.pdf",
+  "page": 24,
+  "index": 0,
+  "caption": "Table 6. Joint axis prediction accuracy results are shown for all data samples in the uniform distribution test set (All), the subset of data samples with holes (Hole) and without holes (No Hole). The",
+  "header": [
+   "",
+   "All Hole No Hole Param."
+  ],
+  "rows": [
+   [
+    "",
+    "Acc.% ↑ Acc.% ↑ Acc.% ↑ # ↓"
+   ],
+   [
+    "Ours B-Dense B-Discrete B-Grid B-Heuristic B-Random",
+    "62.22 63.47 56.91 1.3M 6.00 5.24 10.00 3.2M 2.71 2.86 2.09 4.0M 50.34 51.19 46.72 3.1M 57.99 60.54 47.11 - 15.85 16.08 15.59 -"
+   ],
+   [
+    "Human",
+    "69.00 - - -"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2402-19475.pdf",
+  "page": 36,
+  "index": 3,
+  "caption": "",
+  "header": [
+   "",
+   "HumanEva"
+  ],
+  "rows": [
+   [
+    "",
+    "Correct Counterfeit (Test-Passing) Counterfeit (Test-Failing) Counterfeit (Test-Failing), Confused"
+   ],
+   [
+    "80",
+    "Counterfe Counterfe"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2501-02825.pdf",
+  "page": 17,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Correct",
+   "Incorrect"
+  ],
+  "rows": [
+   [
+    "Total",
+    "100%",
+    "100%"
+   ],
+   [
+    "a is no-op",
+    "70%",
+    "73%"
+   ],
+   [
+    "1b and 1c lead to 0",
+    "47%",
+    "57%"
+   ],
+   [
+    "2-periodic",
+    "30%",
+    "47%"
+   ],
+   [
+    "3-periodic",
+    "13%",
+    "13%"
+   ],
+   [
+    "2 red rooms",
+    "7%",
+    "10%"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2501-02825.pdf",
+  "page": 21,
+  "index": 0,
+  "caption": "Table 4: Results on Sequence Completion Task. We compare BASICS to the comma-variant BASIC-",
+  "header": [
+   "Model",
+   "BASICS",
+   "BASIC-COMMASS"
+  ],
+  "rows": [
+   [
+    "qwen-2.5-coder-7B",
+    "79.5 (78.4–80.5)",
+    "60.7 (59.3–62.1)"
+   ],
+   [
+    "qwen-2.5-coder-instruct-7B",
+    "79.5 (78.3–80.5)",
+    "55.5 (54.0–56.9)"
+   ],
+   [
+    "qwen-2.5-coder-instruct-32B",
+    "79.2 (78.0–80.3)",
+    "55.2 (53.7–56.7)"
+   ],
+   [
+    "mistral-nemo-minitron-8B",
+    "78.7 (77.5–79.8)",
+    "59.3 (57.9–60.8)"
+   ],
+   [
+    "codestral-22B",
+    "78.0 (76.8–79.1)",
+    "59.0 (57.5–60.3)"
+   ],
+   [
+    "qwen-2.5-32B",
+    "76.8 (75.5–78.0)",
+    "60.3 (58.9–61.6)"
+   ],
+   [
+    "deepseek-coder-33b-instruct",
+    "76.7 (75.3–77.8)",
+    "54.9 (53.0–56.8)"
+   ],
+   [
+    "mistral-nemo-base-12B",
+    "75.5 (74.3–76.6)",
+    "60.6 (59.1–62.2)"
+   ],
+   [
+    "llama3.1-8B-Instruct",
+    "75.3 (74.0–76.6)",
+    "56.3 (54.4–58.1)"
+   ],
+   [
+    "llama3.1-8B",
+    "75.2 (73.8–76.3)",
+    "61.1 (59.8–62.5)"
+   ],
+   [
+    "llama3-8B",
+    "73.8 (72.4–75.1)",
+    "61.5 (60.2–62.9)"
+   ],
+   [
+    "starcoder2-15b",
+    "73.5 (72.0–74.7)",
+    "58.2 (56.7–59.8)"
+   ],
+   [
+    "qwen-2.5-7B",
+    "73.5 (72.1–74.8)",
+    "57.0 (55.5–58.5)"
+   ],
+   [
+    "gemma-7b",
+    "72.6 (71.3–73.7)",
+    "54.0 (51.9–56.0)"
+   ],
+   [
+    "gpt-4o-mini",
+    "72.4 (68.1–76.3)",
+    "64.1 (59.5–68.3)"
+   ],
+   [
+    "mistral-nemo-instruct-12B",
+    "72.2 (70.9–73.4)",
+    "58.2 (56.4–59.8)"
+   ],
+   [
+    "gpt-4o",
+    "72.1 (65.9–78.2)",
+    "66.8 (58.5–74.8)"
+   ],
+   [
+    "llama3.1-70B",
+    "71.8 (70.4–73.1)",
+    "57.7 (56.1–59.2)"
+   ],
+   [
+    "llama3-70B",
+    "71.4 (70.0–72.7)",
+    "56.4 (54.7–58.0)"
+   ],
+   [
+    "falcon-7b",
+    "69.0 (67.6–70.2)",
+    "56.1 (54.5–57.6)"
+   ],
+   [
+    "gpt-3.5-instruct",
+    "67.3 (63.1–71.5)",
+    "52.3 (46.5–57.9)"
+   ],
+   [
+    "o3-mini",
+    "N/A",
+    "N/A"
+   ],
+   [
+    "claude-3.5",
+    "N/A",
+    "N/A"
+   ],
+   [
+    "gpt-3.5-chat",
+    "N/A",
+    "N/A"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2501-02825.pdf",
+  "page": 24,
+  "index": 0,
+  "caption": "Table 6: Model non-answers, as a percentage of all prompt responses. A non-response is not included in accuracy computations for Table 1 or Table 2, but whenever it rises above 25%, N/A is placed in t",
+  "header": [
+   "Model Sequence Completion",
+   "BASIC BASIC-COT",
+   "MORE-EXPL DFA-COT RED-GREEN"
+  ],
+  "rows": [
+   [
+    "llama3-8B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "llama3-70B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "llama3.1-8B-Instruct",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "llama3.1-8B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "llama3.1-70B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "mistral-nemo-minitron-8B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "mistral-nemo-base-12B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "mistral-nemo-instruct-12B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "gemma-7b",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "falcon-7b",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "starcoder2-15b",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "codestral-22B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "deepseek-coder-33b-instruct",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "qwen-2.5-coder-instruct-7B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "qwen-2.5-7B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "qwen-2.5-32B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "qwen-2.5-coder-instruct-32B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "qwen-2.5-coder-7B",
+    "0.0 (0.0–0.0) –",
+    "– – –"
+   ],
+   [
+    "gpt-3.5-instruct",
+    "2.5 (1.9–3.0) –",
+    "– – –"
+   ],
+   [
+    "gpt-3.5-chat",
+    "99.9 (99.7–100.0) –",
+    "– – –"
+   ],
+   [
+    "gpt-4o-mini",
+    "0.0 (0.0–0.0) 0.3 (0.2–0.5)",
+    "0.0 (0.0–0.0) 1.0 (0.6–1.4) 0.2 (0.1–0.4)"
+   ],
+   [
+    "gpt-4o",
+    "4.4 (3.3–5.7) 1.9 (1.1–2.8)",
+    "100.0 (100.0–100.0) 5.0 (3.8–6.2) 8.4 (6.6–10.2)"
+   ],
+   [
+    "claude-3.5",
+    "99.7 (99.2–100.0) 0.1 (0.0–0.3)",
+    "97.8 (96.9–98.6) 0.0 (0.0–0.0) 0.0 (0.0–0.0)"
+   ],
+   [
+    "o3-mini",
+    "80.2 (78.0–82.3) 3.8 (2.6–5.2)",
+    "91.6 (89.9–93.2) 5.7 (4.1–7.2) 0.4 (0.0–1.0)"
+   ],
+   [
+    "gpt-5",
+    "0.0 (0.0–0.0) 0.0 (0.0–0.0)",
+    "8.2 (4.7–12.1) 5.2 (3.1–7.4) 0.4 (0.1–0.9)"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2502-16671.pdf",
+  "page": 6,
+  "index": 1,
+  "caption": "Table 2: Fine-tuned vs. base Qwen2.5-VL on per-category accuracy. FT = fine-tuned. GI = Grounding the Imagined, I = Intention, AR = Affect, T = Temporal, ToM = Theory of Mind, SJ = Social Judgment, WM",
+  "header": [
+   "Model Avg",
+   "Grounding",
+   "Scene-Level",
+   "Global-Level"
+  ],
+  "rows": [
+   [
+    "",
+    "GI",
+    "I AR T",
+    "ToM SJ WM"
+   ],
+   [
+    "Qwen2.5-VL 22.5 Qwen2.5-FT 26.6",
+    "7.1 7.1",
+    "18.8 16.7 17.4 28.1 19.4 17.4",
+    "44.4 47.4 23.5 55.6 31.6 47.1"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_abs-2502-16671.pdf",
+  "page": 20,
+  "index": 0,
+  "caption": "Table 8: GPT-o3 accuracy on MIMEQA compared to selected models. GPT-o3 shows the most significant gains on global level questions.",
+  "header": [
+   "Model Avg",
+   "Grounding",
+   "Scene-Level",
+   "Global-Level"
+  ],
+  "rows": [
+   [
+    "",
+    "GI",
+    "I AR T",
+    "ToM SJ WM"
+   ],
+   [
+    "GPT-4o 31.3 Gemini-2.5-Pro 38.3 GPT-o3 34.4",
+    "19.0 28.4 13.1",
+    "28.5 29.9 30.6 31.6 43.7 28.6 32.3 32.2 34.7",
+    "45.3 43.7 35.1 54.7 51.7 39.0 62.7 44.8 41.6"
+   ],
+   [
+    "Human 86.0",
+    "89.8",
+    "87.3 83.9 88.8",
+    "93.3 80.5 76.6"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_GopalakrishnanH17.pdf",
+  "page": 21,
+  "index": 0,
+  "caption": "Table 1: Some of the existing tools and frameworks to detect and localize bugs in HPC programs",
+  "header": [
+   "",
+   "m M SF h o d c A n ae n a m c At y t s r o l f Nn ADto oa nar n ot - di ma e a li yo dl PC t ei aoy rn cs t ai l l el nterm. l d e bey us gl g ii nos"
+  ],
+  "rows": [
+   [
+    "Serial Code",
+    ""
+   ],
+   [
+    "Clang Static Analyzer–static analysis bug detection in C/C++ [29]",
+    "✓ ✓"
+   ],
+   [
+    "Clang Sanitizers–runtime bug detection (e.g., AddressSanitizer) [30]",
+    "✓"
+   ],
+   [
+    "Klocwork–on-the-fly, scalable static analysis [74]",
+    "✓"
+   ],
+   [
+    "Multi-threaded Code",
+    ""
+   ],
+   [
+    "Valgrind–memory management error detection and threading bugs [121]",
+    "✓"
+   ],
+   [
+    "Intel Inspector–memory and threading error debugger [65]",
+    "✓ ✓ ✓"
+   ],
+   [
+    "CUDA-MEMCHECK–memory access errors detection in GPU code [36]",
+    "✓"
+   ],
+   [
+    "ThreadSanitizer–data-race detection for multi-threaded programs [31]",
+    "✓"
+   ],
+   [
+    "ARCHER–data-race detection for OpenMP programs [5]",
+    "✓ ✓"
+   ],
+   [
+    "GMRace–data-race detection in GPU programs [131]",
+    "✓ ✓"
+   ],
+   [
+    "GKLEE–concolic verification GPU programs [80]",
+    "✓ ✓ ✓"
+   ],
+   [
+    "GPUVerify–static (SMT-based) verification of GPU programs [28]",
+    "✓ ✓"
+   ],
+   [
+    "DTHREADS–deterministic execution of multi-threaded programs [81]",
+    "✓ ✓"
+   ],
+   [
+    "CUDA-GDB–NVIDIA CUDA gdb-based debugger",
+    "✓"
+   ],
+   [
+    "Insure++–runtime error detection [64]",
+    "✓"
+   ],
+   [
+    "Multi-process Code",
+    ""
+   ],
+   [
+    "MUST–MPI deadlock detection [54]",
+    "✓ ✓"
+   ],
+   [
+    "UMPIRE–dynamic error detection for MPI [123]",
+    "✓"
+   ],
+   [
+    "ISP–dynamic formal verifier for MPI [120]",
+    "✓ ✓"
+   ],
+   [
+    "FlowChecker–communication errors in MPI [26]",
+    "✓ ✓"
+   ],
+   [
+    "AutomaDeD–anomaly detection in parallel programs [17]",
+    "✓ ✓"
+   ],
+   [
+    "Prodometer–progress-dependence analysis to diagnose hangs [88, 75]",
+    "✓ ✓"
+   ],
+   [
+    "Vrisha, WuKong–scale-dependent bug detection [133, 134]",
+    "✓ ✓ ✓"
+   ],
+   [
+    "Scale-dependent overflows detection [77]",
+    "✓ ✓"
+   ],
+   [
+    "MPIWiz–record-and-replay for MPI [128]",
+    "✓ ✓"
+   ],
+   [
+    "Retrospect–deterministic replay of MPI applications [14]",
+    "✓ ✓"
+   ],
+   [
+    "ReMPI–record-and-replay for MPI [102]",
+    "✓ ✓"
+   ],
+   [
+    "NINJA–noise injection to make ND bugs in MPI manifest faster [103]",
+    "✓ ✓"
+   ],
+   [
+    "SReplay–record-and-replay for one-sided communication [97, 96]",
+    "✓ ✓"
+   ],
+   [
+    "Hybrid (multi-threaded, multi-process) Code",
+    ""
+   ],
+   [
+    "CIVL–formal Verification of parallel programs [132]",
+    "✓ ✓"
+   ],
+   [
+    "Relative Debugging–comparison of two program executions [39]",
+    "✓ ✓ ✓"
+   ],
+   [
+    "STAT–stack trace analysis tool [2]",
+    "✓ ✓"
+   ],
+   [
+    "TotalView–parallel debugger [118]",
+    "✓ ✓"
+   ],
+   [
+    "DDT–parallel debugger [37]",
+    "✓ ✓"
+   ],
+   [
+    "LGDB, CCDB–Cray command-line parallel and comparative debuggers",
+    "✓ ✓"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_InalaQLS15.pdf",
+  "page": 13,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Bench",
+   "Description",
+   "template code",
+   "T-opt T-parallel T-search T-unopt"
+  ],
+  "rows": [
+   [
+    "Desugar",
+    "lang langState regex elimBool compAssign langLarge arrAssertions NegNorm lcB lcP",
+    "Running example Running example with mutable state Desugaring regular expressions Boolean operations to if else Eliminates compound assignments Desugaring a large language Add out of bounds assertions Computes negation normal form Boolean operations to λ-calculus Pairs to λ-calculus",
+    "1 50 1 62 1 22 1 21 1 42 1 126 3 40 3 57 1 55 1 41",
+    "7.5 8.6 85.9 152.5 ⊥ 527.2 1746.9 ⊥ 2.0 3.3 9.1 3.3 1.5 2.9 7.5 2.4 16.6 20.9 31.8 176.2 61.2 58.0 49.7 ⊥ 37.2 50.5 66.7 53.0 21.2 13.6 64.4 ⊥ 43.1 47.4 40.6 43.1 163.6 258.2 288.3 163.6"
+   ],
+   [
+    "Analysis",
+    "tc",
+    "Type constraints for λ-calculus",
+    "8 41",
+    "168.9 68.0 201.9 168.9"
+   ],
+   [
+    "AST optim",
+    "andLt andNot andOr plusEq mux",
+    "AST optimization 1 AST optimization 2 AST optimization 3 AST optimization 4 AST optimization 5",
+    "1 15 1 6 1 12 1 18 1 6",
+    "3.1 3.1 13.2 N/A 2.6 3.0 13.0 N/A 3.7 3.1 14.0 N/A 3.3 3.0 14.0 N/A 2.4 3.0 12.4 N/A"
+   ],
+   [
+    "List",
+    "lIns lDel lUnion",
+    "List insertion List deletion Union of two lists",
+    "1 12 2 14 1 10",
+    "1.5 2.3 2.2 2.1 4.0 4.6 4.1 3.1 8.7 2.7 4.8 2.1"
+   ],
+   [
+    "Tree",
+    "tIns tDel tDelMin tDelMax",
+    "Binary search tree insertion Binary search tree deletion Binary search tree delete min Binary search tree delete max",
+    "1 48 4 63 2 18 2 18",
+    "20.7 14.5 41.6 11.6 224.8 227.4 286.1 298.9 27.1 32.2 57.7 24.9 25.9 30.8 54.4 25.9"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_KoppelS17.pdf",
+  "page": 21,
+  "index": 2,
+  "caption": "Table 2. Transformations implemented and their size. Line counts are split into the core code of the transfor- mation, plus the per-language code to support language-specific operations and customizat",
+  "header": [
+   "ude the file prologue, i.e",
+   "e.: they count from the first line of code which is not an import statement."
+  ],
+  "rows": [
+   [
+    "Transformation",
+    "Languages Supported Core LOC Extra LOC per language"
+   ],
+   [
+    "Hoist Testcov TAC",
+    "C, Java, JavaScript, Lua 154 65 All 77 25 JavaScript, Lua, Python 360 116"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_KoppelS17.pdf",
+  "page": 25,
+  "index": 0,
+  "caption": "Table 4. Results of each transformation on the test suites",
+  "header": [
+   "Lang",
+   "Total Ident Hoist Testcov TAC"
+  ],
+  "rows": [
+   [
+    "C Java JS Python",
+    "1394 1305 1305 1305 N/A 755 745 ∗744 745 N/A 2782 2573 2573 2568 2572 404 360 N/A 358 357"
+   ],
+   [
+    "Lua",
+    "Reported separately"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PolikarpovaS15.pdf",
+  "page": 15,
+  "index": 0,
+  "caption": "Table 2. Comparison to other synthesizers. For each benchmark we report: Spec, speciﬁcation size (or the number of input-output ex- amples) for respective tool; SpecS, speciﬁcation size for SYNQUID (f",
+  "header": [
+   "",
+   "Benchmark",
+   "Spec SpecS Time TimeS"
+  ],
+  "rows": [
+   [
+    "LEON",
+    "strict sorted list delete strict sorted list insert merge sort",
+    "14 8 15.1 0.10 14 8 14.1 0.18 9 11 14.3 2.1"
+   ],
+   [
+    "JEN",
+    "BST find bin. heap 1-element bin. heap find",
+    "51 6 64.8 0.09 80 5 61.6 0.02 76 6 51.9 0.38"
+   ],
+   [
+    "MYTH",
+    "sorted list insert list rm adjacent dupl. BST insert",
+    "12 8 0.12 0.25 13 5 0.07 1.33 20 8 0.37 0.91"
+   ],
+   [
+    "λ2",
+    "list remove duplicates list drop tree find",
+    "7 13 231 0.36 6 11 316.4 0.1 12 6 4.7 0.29"
+   ],
+   [
+    "ESC",
+    "list rm adjacent dupl. tree create balanced list duplicate each",
+    "n/a 5 1 1.33 n/a 7 0.24 0.14 n/a 7 0.16 0.05"
+   ],
+   [
+    "MYTH2",
+    "BST insert sorted list insert tree count nodes",
+    "n/a 8 1.81 0.91 n/a 8 1.02 0.25 n/a 4 0.45 0.20"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PuNSB16.pdf",
+  "page": 9,
+  "index": 0,
+  "caption": "Table 1. Data breakdown for each benchmarks",
+  "header": [
+   "benchmarks",
+   "training",
+   "validation",
+   "testing"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "1252",
+    "140",
+    "263"
+   ],
+   [
+    "computeRoot",
+    "1617",
+    "180",
+    "84"
+   ],
+   [
+    "evaluatePoly",
+    "2313",
+    "258",
+    "97"
+   ],
+   [
+    "getAvailableLetters",
+    "1051",
+    "117",
+    "59"
+   ],
+   [
+    "getGuessedWord",
+    "315",
+    "35",
+    "127"
+   ],
+   [
+    "isWordGuessed",
+    "902",
+    "101",
+    "109"
+   ],
+   [
+    "oddTuples",
+    "8720",
+    "969",
+    "1981"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PuNSB16.pdf",
+  "page": 9,
+  "index": 1,
+  "caption": "Table 1. Data breakdown for each benchmarks",
+  "header": [
+   "benchmark",
+   "#test",
+   "sk p acc _"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "263",
+    "33 0.125"
+   ],
+   [
+    "computeRoot",
+    "84",
+    "15 0.179"
+   ],
+   [
+    "evaluatePoly",
+    "97",
+    "47 0.485"
+   ],
+   [
+    "getAvailableLetters",
+    "59",
+    "19 0.322"
+   ],
+   [
+    "getGuessedWord",
+    "127",
+    "33 0.260"
+   ],
+   [
+    "isWordGuessed",
+    "109",
+    "21 0.193"
+   ],
+   [
+    "oddTuples",
+    "1981",
+    "871 0.440"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PuNSB16.pdf",
+  "page": 9,
+  "index": 2,
+  "caption": "Table 3. Comparison between sk_p and autograder",
+  "header": [
+   "benchmark",
+   "#tests",
+   "sk p auto _",
+   "sk p acc auto acc _"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "263",
+    "33 131",
+    "0.125 0.498"
+   ],
+   [
+    "evaluatePoly",
+    "97",
+    "47 19",
+    "0.485 0.196"
+   ],
+   [
+    "oddTuples",
+    "1981",
+    "871 383",
+    "0.440 0.193"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PuNSB16.pdf",
+  "page": 9,
+  "index": 3,
+  "caption": "Table 4. Breakdown of different kinds of corrections",
+  "header": [
+   "benchmark",
+   "syn",
+   "sem",
+   "fresh",
+   "syn%",
+   "fresh%"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "4",
+    "29",
+    "29",
+    "12.12%",
+    "87.88%"
+   ],
+   [
+    "computeRoot",
+    "6",
+    "9",
+    "12",
+    "40.00%",
+    "80.00%"
+   ],
+   [
+    "getGuessedWord",
+    "17",
+    "30",
+    "16",
+    "36.17%",
+    "34.04%"
+   ],
+   [
+    "isWordGuessed",
+    "2",
+    "17",
+    "11",
+    "10.53%",
+    "57.89%"
+   ],
+   [
+    "getAvailableLetters",
+    "0",
+    "33",
+    "13",
+    "0.00%",
+    "39.39%"
+   ],
+   [
+    "evaluatePoly",
+    "1",
+    "20",
+    "12",
+    "4.76%",
+    "57.14%"
+   ],
+   [
+    "oddTuples",
+    "195",
+    "676",
+    "117",
+    "22.39%",
+    "13.43%"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_corr_PuNSB16.pdf",
+  "page": 10,
+  "index": 0,
+  "caption": "Table 5. Comparison of different models",
+  "header": [
+   "benchmark",
+   "#frag",
+   "#tr/#fr",
+   "sk p _",
+   "exact",
+   "aprox"
+  ],
+  "rows": [
+   [
+    "computeDeriv",
+    "7444",
+    "0.168",
+    "0.125",
+    "0.240",
+    "0.183"
+   ],
+   [
+    "computeRoot",
+    "8366",
+    "0.193",
+    "0.179",
+    "0.250",
+    "0.238"
+   ],
+   [
+    "getGuessedW",
+    "1418",
+    "0.222",
+    "0.260",
+    "0.339",
+    "0.346"
+   ],
+   [
+    "isWordGuess",
+    "3156",
+    "0.286",
+    "0.193",
+    "0.514",
+    "0.339"
+   ],
+   [
+    "getAvailabl",
+    "2503",
+    "0.420",
+    "0.322",
+    "0.356",
+    "0.356"
+   ],
+   [
+    "evaluatePoly",
+    "3925",
+    "0.589",
+    "0.485",
+    "0.371",
+    "0.423"
+   ],
+   [
+    "oddTuples",
+    "5323",
+    "1.638",
+    "0.440",
+    "0.409",
+    "0.439"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pacmpl_KoppelPS18.pdf",
+  "page": 21,
+  "index": 2,
+  "caption": "Table 2. Transformations implemented and their size. Line counts are split into the core code of the transfor- mation, plus the per-language code to support language-specific operations and customizat",
+  "header": [
+   "ude the file prologue, i.e",
+   "e.: they count from the first line of code which is not an import statement."
+  ],
+  "rows": [
+   [
+    "Transformation",
+    "Languages Supported Core LOC Extra LOC per language"
+   ],
+   [
+    "Hoist Testcov TAC",
+    "C, Java, JavaScript, Lua 154 65 All 77 25 JavaScript, Lua, Python 360 116"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pacmpl_KoppelPS18.pdf",
+  "page": 25,
+  "index": 0,
+  "caption": "Table 4. Results of each transformation on the test suites",
+  "header": [
+   "Lang",
+   "Total Ident Hoist Testcov TAC"
+  ],
+  "rows": [
+   [
+    "C Java JS Python",
+    "1394 1305 1305 1305 N/A 755 745 ∗744 745 N/A 2782 2573 2573 2568 2572 404 360 N/A 358 357"
+   ],
+   [
+    "Lua",
+    "Reported separately"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pacmpl_KoppelSS18.pdf",
+  "page": 25,
+  "index": 0,
+  "caption": "Table 1. Benchmark NQUEENS",
+  "header": [
+   "OCaml times",
+   "10 11 12 13"
+  ],
+  "rows": [
+   [
+    "Indirect Replay Therm. Therm. Opt. Filinski (Delimcc) Eff. Handlers (Multicore OCaml)",
+    "0.007s 0.037s 0.213s 1.308s 0.017s 0.101s 0.597s 3.768s 0.041s 0.221s 1.347s 8.621s 0.019s 0.111s 0.65s 3.924s 0.035s 0.185s 1.236s 14.412s 0.019s 0.092s 0.509s 2.81s"
+   ],
+   [
+    "SML times",
+    "10 11 12 13"
+   ],
+   [
+    "Indirect Replay Therm. Therm. Opt. Filinski (Call/cc)",
+    "0.011s 0.064s 0.36s 2.166s 0.029s 0.164s 1.051s 6.562s 0.06s 0.344s 2.152s 14.305s 0.03s 0.173s 1.151s 6.793s 0.015s 0.079s 0.493s 2.941s"
+   ],
+   [
+    "MLton times",
+    "10 11 12 13"
+   ],
+   [
+    "Indirect Replay Finlinski (Call/cc)",
+    "0.007s 0.031s 0.187s 1.129s 0.016s 0.099s 0.637s 4.295s 0.078s 0.399s 2.138s 12.62s"
+   ],
+   [
+    "Prolog times",
+    "10 11 12 13"
+   ],
+   [
+    "Prolog search (GNU Prolog)",
+    "0.165s 0.614s 3.307s 20.401s"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pvldb_SinghMEMPQST17.pdf",
+  "page": 3,
+  "index": 1,
+  "caption": "",
+  "header": [
+   "name",
+   "apt",
+   "email",
+   "country",
+   "sex"
+  ],
+  "rows": [
+   [
+    "Catherine Zeta-Jones",
+    "9601 Wilshire, 3rd Floor, Beverly Hills, CA 90210",
+    "c.jones@gmail.com",
+    "Wales",
+    "F"
+   ],
+   [
+    "B. Dylan",
+    "1230 Avenue of the Americas, NY 10020",
+    "bob.dylan@gmail.com",
+    "US",
+    "M"
+   ],
+   [
+    "Micheal Jordan",
+    "427 Evans Hall #3860, Berkeley, CA 94720",
+    "jordan@cs.berkeley.edu",
+    "US",
+    "M"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pvldb_SinghMEMPQST17.pdf",
+  "page": 6,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "example id",
+   "matched attribute",
+   "function",
+   "evaluation"
+  ],
+  "rows": [
+   [
+    "e1",
+    "name|name",
+    "Jaccard",
+    "0.5"
+   ],
+   [
+    "e1",
+    "gender|sex",
+    "Jaccard",
+    "1.0"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_pvldb_SinghMEMPQST17.pdf",
+  "page": 8,
+  "index": 0,
+  "caption": "Table 1: Dataset statistics #Matching #Record #Attr Avg #nulls Pairs Pairs per Attr DC 14, 280 184, 659 9 92, 955p50%q DAG 1, 300 97, 007 4 22, 583p23%q DLF 6, 048 341, 244 10 99, 629p29%q DDS 5, 347 ",
+  "header": [
+   "",
+   "#Matching Pairs",
+   "#Record Pairs",
+   "#Attr",
+   "Avg #nulls per Attr"
+  ],
+  "rows": [
+   [
+    "DC",
+    "14, 280",
+    "184, 659",
+    "9",
+    "92, 955p50%q"
+   ],
+   [
+    "DAG",
+    "1, 300",
+    "97, 007",
+    "4",
+    "22, 583p23%q"
+   ],
+   [
+    "DLF",
+    "6, 048",
+    "341, 244",
+    "10",
+    "99, 629p29%q"
+   ],
+   [
+    "DDS",
+    "5, 347",
+    "112, 839",
+    "4",
+    "12, 685p11%q"
+   ],
+   [
+    "DC =Cora, DDS =DBLP-Scholar DAG =Amazon-GoogleProducts, DLF =Locu-FourSquare",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 12,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "Bit Pattern",
+   "Character"
+  ],
+  "rows": [
+   [
+    "0000",
+    "0"
+   ],
+   [
+    "0001",
+    "1"
+   ],
+   [
+    "0010",
+    "2"
+   ],
+   [
+    "0011",
+    "3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 12,
+  "index": 1,
+  "caption": "",
+  "header": [
+   "Bit Pattern",
+   "Character"
+  ],
+  "rows": [
+   [
+    "0100",
+    "4"
+   ],
+   [
+    "0101",
+    "5"
+   ],
+   [
+    "0110",
+    "6"
+   ],
+   [
+    "0111",
+    "7"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 12,
+  "index": 3,
+  "caption": "",
+  "header": [
+   "Bit Pattern",
+   "Character"
+  ],
+  "rows": [
+   [
+    "1100",
+    "c"
+   ],
+   [
+    "1101",
+    "d"
+   ],
+   [
+    "1110",
+    "e"
+   ],
+   [
+    "1111",
+    "f"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 13,
+  "index": 1,
+  "caption": "",
+  "header": [
+   "in 0",
+   "in 4",
+   "in 8",
+   "in 12"
+  ],
+  "rows": [
+   [
+    "in 1",
+    "in 5",
+    "in 9",
+    "in 13"
+   ],
+   [
+    "in 2",
+    "in 6",
+    "in 10",
+    "in 14"
+   ],
+   [
+    "in 3",
+    "in 7",
+    "in 11",
+    "in 15"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 13,
+  "index": 2,
+  "caption": "",
+  "header": [
+   "",
+   "State",
+   "array",
+   ""
+  ],
+  "rows": [
+   [
+    "s 0,0",
+    "s 0,1",
+    "s 0,2",
+    "s 0,3"
+   ],
+   [
+    "s 1,0",
+    "s 1,1",
+    "s 1,2",
+    "s 1,3"
+   ],
+   [
+    "s 2,0",
+    "s 2,1",
+    "s 2,2",
+    "s 2,3"
+   ],
+   [
+    "s 3,0",
+    "s 3,1",
+    "s 3,2",
+    "s 3,3"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 13,
+  "index": 3,
+  "caption": "",
+  "header": [
+   "out 0",
+   "out 4",
+   "out 8",
+   "out 12"
+  ],
+  "rows": [
+   [
+    "out 1",
+    "out 5",
+    "out 9",
+    "out 13"
+   ],
+   [
+    "out 2",
+    "out 6",
+    "out 10",
+    "out 14"
+   ],
+   [
+    "out 3",
+    "out 7",
+    "out 11",
+    "out 15"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 18,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "",
+   "Key Length (Nk words)",
+   "Block Size (Nb words)",
+   "Number of Rounds (Nr)"
+  ],
+  "rows": [
+   [
+    "AES-128",
+    "4",
+    "4",
+    "10"
+   ],
+   [
+    "AES-192",
+    "6",
+    "4",
+    "12"
+   ],
+   [
+    "AES-256",
+    "8",
+    "4",
+    "14"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 31,
+  "index": 0,
+  "caption": "",
+  "header": [
+   "i (dec)",
+   "temp",
+   "After RotWord()",
+   "After SubWord()",
+   "Rcon[i/Nk]",
+   "After XOR with Rcon",
+   "w[i–Nk]",
+   "w[i]= temp XOR w[i-Nk]"
+  ],
+  "rows": [
+   [
+    "4",
+    "09cf4f3c",
+    "cf4f3c09",
+    "8a84eb01",
+    "01000000",
+    "8b84eb01",
+    "2b7e1516",
+    "a0fafe17"
+   ],
+   [
+    "5",
+    "a0fafe17",
+    "",
+    "",
+    "",
+    "",
+    "28aed2a6",
+    "88542cb1"
+   ],
+   [
+    "6",
+    "88542cb1",
+    "",
+    "",
+    "",
+    "",
+    "abf71588",
+    "23a33939"
+   ],
+   [
+    "7",
+    "23a33939",
+    "",
+    "",
+    "",
+    "",
+    "09cf4f3c",
+    "2a6c7605"
+   ],
+   [
+    "8",
+    "2a6c7605",
+    "6c76052a",
+    "50386be5",
+    "02000000",
+    "52386be5",
+    "a0fafe17",
+    "f2c295f2"
+   ],
+   [
+    "9",
+    "f2c295f2",
+    "",
+    "",
+    "",
+    "",
+    "88542cb1",
+    "7a96b943"
+   ],
+   [
+    "10",
+    "7a96b943",
+    "",
+    "",
+    "",
+    "",
+    "23a33939",
+    "5935807a"
+   ],
+   [
+    "11",
+    "5935807a",
+    "",
+    "",
+    "",
+    "",
+    "2a6c7605",
+    "7359f67f"
+   ],
+   [
+    "12",
+    "7359f67f",
+    "59f67f73",
+    "cb42d28f",
+    "04000000",
+    "cf42d28f",
+    "f2c295f2",
+    "3d80477d"
+   ],
+   [
+    "13",
+    "3d80477d",
+    "",
+    "",
+    "",
+    "",
+    "7a96b943",
+    "4716fe3e"
+   ],
+   [
+    "14",
+    "4716fe3e",
+    "",
+    "",
+    "",
+    "",
+    "5935807a",
+    "1e237e44"
+   ],
+   [
+    "15",
+    "1e237e44",
+    "",
+    "",
+    "",
+    "",
+    "7359f67f",
+    "6d7a883b"
+   ],
+   [
+    "16",
+    "6d7a883b",
+    "7a883b6d",
+    "dac4e23c",
+    "08000000",
+    "d2c4e23c",
+    "3d80477d",
+    "ef44a541"
+   ],
+   [
+    "17",
+    "ef44a541",
+    "",
+    "",
+    "",
+    "",
+    "4716fe3e",
+    "a8525b7f"
+   ],
+   [
+    "18",
+    "a8525b7f",
+    "",
+    "",
+    "",
+    "",
+    "1e237e44",
+    "b671253b"
+   ],
+   [
+    "19",
+    "b671253b",
+    "",
+    "",
+    "",
+    "",
+    "6d7a883b",
+    "db0bad00"
+   ],
+   [
+    "20",
+    "db0bad00",
+    "0bad00db",
+    "2b9563b9",
+    "10000000",
+    "3b9563b9",
+    "ef44a541",
+    "d4d1c6f8"
+   ],
+   [
+    "21",
+    "d4d1c6f8",
+    "",
+    "",
+    "",
+    "",
+    "a8525b7f",
+    "7c839d87"
+   ],
+   [
+    "22",
+    "7c839d87",
+    "",
+    "",
+    "",
+    "",
+    "b671253b",
+    "caf2b8bc"
+   ],
+   [
+    "23",
+    "caf2b8bc",
+    "",
+    "",
+    "",
+    "",
+    "db0bad00",
+    "11f915bc"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 32,
+  "index": 1,
+  "caption": "",
+  "header": [
+   "i (dec)",
+   "temp",
+   "After RotWord()",
+   "After SubWord()",
+   "Rcon[i/Nk]",
+   "After XOR with Rcon",
+   "w[i–Nk]",
+   "w[i]= temp XOR w[i-Nk]"
+  ],
+  "rows": [
+   [
+    "6",
+    "522c6b7b",
+    "2c6b7b52",
+    "717f2100",
+    "01000000",
+    "707f2100",
+    "8e73b0f7",
+    "fe0c91f7"
+   ],
+   [
+    "7",
+    "fe0c91f7",
+    "",
+    "",
+    "",
+    "",
+    "da0e6452",
+    "2402f5a5"
+   ],
+   [
+    "8",
+    "2402f5a5",
+    "",
+    "",
+    "",
+    "",
+    "c810f32b",
+    "ec12068e"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 37,
+  "index": 13,
+  "caption": "",
+  "header": [
+   "ac",
+   "ef",
+   "13",
+   "45"
+  ],
+  "rows": [
+   [
+    "73",
+    "c1",
+    "b5",
+    "23"
+   ],
+   [
+    "cf",
+    "11",
+    "d6",
+    "5a"
+   ],
+   [
+    "7b",
+    "df",
+    "b5",
+    "b8"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 37,
+  "index": 14,
+  "caption": "",
+  "header": [
+   "ac",
+   "ef",
+   "13",
+   "45"
+  ],
+  "rows": [
+   [
+    "c1",
+    "b5",
+    "23",
+    "73"
+   ],
+   [
+    "d6",
+    "5a",
+    "cf",
+    "11"
+   ],
+   [
+    "b8",
+    "7b",
+    "df",
+    "b5"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 37,
+  "index": 21,
+  "caption": "",
+  "header": [
+   "ef",
+   "a8",
+   "b6",
+   "db"
+  ],
+  "rows": [
+   [
+    "44",
+    "52",
+    "71",
+    "0b"
+   ],
+   [
+    "a5",
+    "5b",
+    "25",
+    "ad"
+   ],
+   [
+    "41",
+    "7f",
+    "3b",
+    "00"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 38,
+  "index": 4,
+  "caption": "",
+  "header": [
+   "6d",
+   "11",
+   "db",
+   "ca"
+  ],
+  "rows": [
+   [
+    "88",
+    "0b",
+    "f9",
+    "00"
+   ],
+   [
+    "a3",
+    "3e",
+    "86",
+    "93"
+   ],
+   [
+    "7a",
+    "fd",
+    "41",
+    "fd"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 38,
+  "index": 11,
+  "caption": "",
+  "header": [
+   "be",
+   "d4",
+   "0a",
+   "da"
+  ],
+  "rows": [
+   [
+    "83",
+    "3b",
+    "e1",
+    "64"
+   ],
+   [
+    "2c",
+    "86",
+    "d4",
+    "f2"
+   ],
+   [
+    "c8",
+    "c0",
+    "4d",
+    "fe"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 38,
+  "index": 12,
+  "caption": "",
+  "header": [
+   "be",
+   "d4",
+   "0a",
+   "da"
+  ],
+  "rows": [
+   [
+    "3b",
+    "e1",
+    "64",
+    "83"
+   ],
+   [
+    "d4",
+    "f2",
+    "2c",
+    "86"
+   ],
+   [
+    "fe",
+    "c8",
+    "c0",
+    "4d"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 38,
+  "index": 21,
+  "caption": "",
+  "header": [
+   "e9",
+   "cb",
+   "3d",
+   "af"
+  ],
+  "rows": [
+   [
+    "09",
+    "31",
+    "32",
+    "2e"
+   ],
+   [
+    "89",
+    "07",
+    "7d",
+    "2c"
+   ],
+   [
+    "72",
+    "5f",
+    "94",
+    "b5"
+   ]
+  ]
+ },
+ {
+  "file": "DBLP_journals_sttt_Solar-Lezama13.pdf",
+  "page": 38,
+  "index": 22,
+  "caption": "",
+  "header": [
+   "e9",
+   "cb",
+   "3d",
+   "af"
+  ],
+  "rows": [
+   [
+    "31",
+    "32",
+    "2e",
+    "09"
+   ],
+   [
+    "7d",
+    "2c",
+    "89",
+    "07"
+   ],
+   [
+    "b5",
+    "72",
+    "5f",
+    "94"
+   ]
+  ]
+ }
+]

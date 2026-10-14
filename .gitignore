@@ -5,3 +5,27 @@ venv/
 .env
 .ipynb_checkpoints/
 .DS_Store
+ResearchPapers/
+Wikipedia/
+chroma_db/
+chroma_chunks/
+semantic_cache/
+table_chunks/
+chat_app.log
+Labs/
+review_prep/
+.claude/
+~$*
+
+# not part of the repository: slides, video, course documents, run outputs, talking scripts
+*.pptx
+*.mp4
+*.docx
+*.html
+*.log
+checkpoint_*_run.txt
+checkpoint_*_results*.json
+checkpoint_6_1_v2_empty_input.txt
+presentation_script_8_1*.md
+build_presentation.py
+fill_preparation.py

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "L1",
+    "kind": "lookup: single document, two-part fact on one page, with a same-group distractor paper in the corpus",
+    "question": "How many human design sequences are in the Fusion 360 Gallery reconstruction dataset, and which two modeling operations does its domain-specific language support?",
+    "grading_notes": "Both parts are required. The dataset holds 8,625 human design sequences, and its language supports just the sketch and extrude modeling operations (Fusion 360 Gallery paper, page 1). The corpus also holds the JoinABLe paper, which describes a different dataset from the same project, the Fusion 360 Gallery ASSEMBLY dataset; a count taken from that paper is wrong. An answer giving only the count or only the operations fails on completeness. A refusal fails, because the sentence is in the corpus.",
+    "required_points": [
+      "8,625 human design sequences",
+      "the language supports the sketch and extrude operations"
+    ],
+    "gold_sources": [
+      "DBLP_journals_tog_WillisPLCDLSM21.pdf"
+    ],
+    "gold_page": 1,
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "L2",
+    "kind": "lookup: numeric result in the body of a paper, present in two copies of the paper, with nearby distractor numbers",
+    "question": "In the VIPER work on extracting decision-tree policies, how big was the decision tree learned for Atari Pong and what reward did it reach?",
+    "grading_notes": "The decision tree for Atari Pong (symbolic state space) has 769 nodes and achieves a perfect reward of 21.0, averaged over 50 rollouts, the same as the deep Q-network oracle (page 7 of either copy of the VIPER paper). Both the size and the reward are required. Nearby distractors that FAIL if given as the Atari Pong answer: the 31-node tree for the toy Pong model (reward 250), the cart-pole trees (reward 200), and the 7967-node DAGGER tree that page 9 compares against. A refusal fails.",
+    "required_points": [
+      "the Atari Pong decision tree has 769 nodes",
+      "it achieves a perfect reward of 21.0 (matching the DQN oracle)"
+    ],
+    "gold_sources": [
+      "DBLP_conf_nips_BastaniPS18.pdf",
+      "DBLP_journals_corr_abs-1805-08328.pdf"
+    ],
+    "gold_page": 7,
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "L3",
+    "kind": "lookup: value inside a results table deep in a paper; the table row and its header sit apart in extracted text",
+    "question": "For the computeDeriv assignment in the 6.00x course, how many student attempts were incorrect, and for what share of them did the feedback-generation tool produce a correction?",
+    "grading_notes": "Table 1 on page 9 of the automated feedback generation paper (Singh, Gulwani, Solar-Lezama) has the row computeDeriv-6.00x: 4146 total attempts, 1134 syntax errors, 3012 test-set attempts, 2094 correct, 918 incorrect, feedback generated for 753 (82.1%), average time 12.42 s, median 6.32 s. A correct answer gives 918 incorrect attempts and 753 corrected, or 82.1%. Both numbers are required. FAILS: the computeDeriv-6.00 row (103 incorrect, 88 corrected, 85.4%), the total or test-set attempt counts presented as the incorrect count, or the paper-wide average of 65%. A refusal fails, because the table is in the corpus.",
+    "required_points": [
+      "918 incorrect attempts for computeDeriv in 6.00x",
+      "a correction was generated for 753 of them, that is 82.1%"
+    ],
+    "gold_sources": [
+      "DBLP_journals_corr_abs-1204-1751.pdf"
+    ],
+    "gold_page": 9,
+    "answerable": true,
+    "expect": "fail"
+  },
+  {
+    "id": "Q1",
+    "kind": "quotation: labelled sentence in an abstract, single copy of the paper",
+    "question": "Quote the sentence in the DreamCoder paper's abstract that says what its wake-sleep learning algorithm does, and give the citation.",
+    "grading_notes": "The abstract says: 'A \"wake-sleep\" learning algorithm alternately extends the language with new symbolic abstractions and trains the neural network on imagined and replayed problems.' A correct answer quotes that sentence essentially verbatim and attributes it to DBLP_journals_corr_abs-2006-08381.pdf, page 1. A paraphrase presented as a quotation fails. A sentence from a different paper that merely describes DreamCoder fails.",
+    "required_points": [
+      "quotes the wake-sleep sentence from the abstract essentially verbatim",
+      "attributes it to DBLP_journals_corr_abs-2006-08381.pdf, page 1"
+    ],
+    "must_quote_any": [
+      "A “wake-sleep” learning algorithm alternately extends the language with new symbolic abstractions and trains the neural network on imagined and replayed problems."
+    ],
+    "gold_sources": [
+      "DBLP_journals_corr_abs-2006-08381.pdf"
+    ],
+    "gold_page": 1,
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "Q2",
+    "kind": "quotation: claim stated in passing, present in two identical copies of the paper",
+    "question": "In the sk_p paper on neural program correction for MOOCs, what does it say the key observation behind the approach is? Quote the sentence and cite it.",
+    "grading_notes": "The abstract says: 'The key observation is that in MOOCs many programs share similar code fragments, and the seq2seq neural network model, used in the natural-language processing task of machine translation, can be modified and trained to recover these fragments.' A correct answer quotes that sentence essentially verbatim and cites page 1 of either copy of the paper, DBLP_conf_oopsla_PuNSB16.pdf or DBLP_journals_corr_PuNSB16.pdf. A paraphrase presented as a quotation fails.",
+    "required_points": [
+      "quotes the 'key observation' sentence essentially verbatim",
+      "cites page 1 of DBLP_conf_oopsla_PuNSB16.pdf or DBLP_journals_corr_PuNSB16.pdf"
+    ],
+    "must_quote_any": [
+      "The key observation is that in MOOCs many programs share similar code fragments, and the seq2seq neural network model, used in the natural-language processing task of machine translation, can be modiﬁed and trained to recover these fragments."
+    ],
+    "gold_sources": [
+      "DBLP_conf_oopsla_PuNSB16.pdf",
+      "DBLP_journals_corr_PuNSB16.pdf"
+    ],
+    "gold_page": 1,
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "S1",
+    "kind": "synthesis: two papers on the same problem, neither named in the question; symbolic versus neural approach",
+    "question": "Two papers in this collection automatically correct incorrect student programs from introductory programming courses, one with symbolic program synthesis and one with a neural network. What does each approach need from the instructor, and what fraction of incorrect submissions did each correct?",
+    "grading_notes": "Symbolic approach (Singh, Gulwani and Solar-Lezama, automated feedback generation): the instructor must supply a reference implementation of the assignment and an error model, written as correction rules, describing the mistakes students might make; it corrected on average 65% of incorrect submissions. Neural approach (sk_p, Pu et al.): needs no manual, problem-specific correction strategies; a seq2seq model is trained on earlier student submissions and candidate fixes are checked against a test suite; it corrected 29% of incorrect submissions. All four facts are required, and each figure must be attached to the right approach. The sk_p introduction itself describes the earlier approach's error-model requirement, so that fact may be cited from either paper, but the 65% figure exists only in the Singh paper. An answer covering only one of the two papers fails.",
+    "required_points": [
+      "the symbolic approach needs a reference implementation and an error model of correction rules from the instructor",
+      "the symbolic approach corrected on average 65% of incorrect submissions",
+      "the neural approach (sk_p) needs no manual, problem-specific correction strategies, only prior submissions and a test suite",
+      "the neural approach corrected 29% of incorrect submissions"
+    ],
+    "gold_sources": [
+      "DBLP_journals_corr_abs-1204-1751.pdf",
+      "DBLP_conf_oopsla_PuNSB16.pdf",
+      "DBLP_journals_corr_PuNSB16.pdf"
+    ],
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "S2",
+    "kind": "synthesis: aggregation across four papers, more sources than the six-chunk budget can hold",
+    "question": "Which papers in this collection use program synthesis or programmatic representations to make reinforcement learning policies safer or better at generalizing, and what form does the synthesized program or policy take in each?",
+    "grading_notes": "The corpus holds four such papers. (1) VIPER (Bastani, Pu, Solar-Lezama): decision-tree policies distilled from a DNN oracle so they can be verified. (2) Synthesizing Programmatic Policies that Inductively Generalize (Inala et al., ICLR 2020): programmatic state machine policies, learned by adaptive teaching, that generalize to any number of repetitions. (3) Program Synthesis Guided Reinforcement Learning for Partially Observed Environments (Yang et al.): model predictive program synthesis, which synthesizes the guiding program, a sequence of DSL components, instead of having the user write it. (4) Neurosymbolic Transformers for Multi-Agent Communication (Inala, Yang et al.): a programmatic communication policy that hardens a transformer's soft communication graph. PASS requires at least three of the four, each with the correct form of program or policy. Also acceptable, as extras, are the two shielding papers (verifiably safe exploration; safe human-interactive control) if described accurately as enforcing constraints rather than synthesizing policies. FAIL if fewer than three are given, if a form is attributed to the wrong paper, or if a paper is invented.",
+    "required_points": [
+      "VIPER: decision-tree policies extracted from a neural oracle, for verifiability",
+      "Inala et al. 2020: programmatic state machine policies for inductive generalization",
+      "Yang et al. 2021: the guiding program (a sequence of DSL components) is synthesized by model predictive program synthesis",
+      "Neurosymbolic Transformers: a programmatic communication policy combined with a transformer policy"
+    ],
+    "gold_sources": [
+      "DBLP_conf_nips_BastaniPS18.pdf",
+      "DBLP_journals_corr_abs-1805-08328.pdf",
+      "DBLP_conf_iclr_InalaBTS20.pdf",
+      "DBLP_conf_nips_YangIBPSR21.pdf",
+      "DBLP_journals_corr_abs-2102-11137.pdf",
+      "DBLP_journals_corr_abs-2101-03238.pdf"
+    ],
+    "answerable": true,
+    "expect": "fail"
+  },
+  {
+    "id": "S3",
+    "kind": "synthesis: how one idea changed between two papers four years apart, both by the same author",
+    "question": "How did the correctness reference that a programmer supplies alongside a sketch change between the original 2005 StreamBit paper and the 2009 overview of the sketching approach?",
+    "grading_notes": "In the 2005 paper (Programming by Sketching for Bit-Streaming Programs), the programmer writes clean, portable reference code, and the compiler fills in the sketch's missing details while ensuring the completed sketch is faithful to that input reference code. In the 2009 overview (The Sketching Approach to Program Synthesis), the programmer provides either a reference implementation or a set of test routines that the synthesized code must pass, and the Sketch synthesizer accepts specifications as parameterized or non-deterministic test harnesses. A correct answer states both positions and identifies the change: the 2009 system also accepts tests or test harnesses, not only a reference implementation. An answer describing only one paper fails.",
+    "required_points": [
+      "2005 StreamBit: the programmer supplies reference code and the compiler ensures the completed sketch is faithful to it",
+      "2009 Sketch: the programmer supplies either a reference implementation or a set of test routines/test harnesses the synthesized code must pass",
+      "identifies the change, that tests or test harnesses became an accepted alternative to a reference implementation"
+    ],
+    "gold_sources": [
+      "DBLP_conf_pldi_Solar-LezamaRBE05.pdf",
+      "DBLP_conf_aplas_Solar-Lezama09.pdf"
+    ],
+    "gold_page": 1,
+    "answerable": true,
+    "expect": "pass"
+  },
+  {
+    "id": "V1",
+    "kind": "conflicting versions: the corpus holds an arXiv and a conference version of one paper that give different figures",
+    "question": "How many problems does LiveCodeBench contain, and what period do they cover?",
+    "grading_notes": "The corpus holds two versions of the LiveCodeBench paper that disagree. The arXiv version (DBLP_journals_corr_abs-2403-07974.pdf) reports 511 problems from contests between May 2023 and May 2024. The ICLR 2025 version (DBLP_conf_iclr_JainHGLYZWSSS25.pdf) reports 612 problems from contests between May 2023 and August 2024; its appendix still carries a leftover sentence saying 511 problem instances. A correct answer either reports both figures and attributes each to its version, or reports one figure, names the version it came from, and notes that the benchmark is live and continuously updated. A single unqualified number fails, because the corpus does not support one. Blending the versions, such as 612 problems through May 2024, fails.",
+    "required_points": [
+      "gives a problem count that matches one of the two versions (511 or 612)",
+      "gives the date range that belongs to that same version (May 2023 to May 2024 for 511; May 2023 to August 2024 for 612)",
+      "discloses that more than one version exists, or names the version the figure came from"
+    ],
+    "gold_sources": [
+      "DBLP_conf_iclr_JainHGLYZWSSS25.pdf",
+      "DBLP_journals_corr_abs-2403-07974.pdf"
+    ],
+    "answerable": true,
+    "expect": "fail"
+  },
+  {
+    "id": "R1",
+    "kind": "refusal: plausible topic for this corpus that no paper covers",
+    "question": "Which paper in this collection applies program synthesis or verification to WebAssembly, and what does it find?",
+    "grading_notes": "No paper in the corpus mentions WebAssembly anywhere; the term appears in none of the 150 PDFs. PASS if the answer states that the excerpts contain no paper about WebAssembly. It is still a pass if the answer goes on to describe what the excerpts do cover, as long as each item is attributed to the paper it actually came from and none is presented as being about WebAssembly. FAIL if the answer names a paper as applying synthesis or verification to WebAssembly or reports findings for one.",
+    "required_points": [
+      "states that no paper in the excerpts addresses WebAssembly",
+      "does not attribute WebAssembly work or findings to any paper"
+    ],
+    "gold_sources": [],
+    "answerable": false,
+    "expect": "pass"
+  },
+  {
+    "id": "R2",
+    "kind": "refusal: false premise, a paper title that does not exist, with genuine distractors (sketching, diffusion, program repair) in the corpus",
+    "question": "What does the paper 'Sketch-Guided Diffusion Models for Automated Program Repair' report as its main result?",
+    "grading_notes": "No paper with the title named in the question exists in the corpus. PASS if the answer states that the named paper, or its main result, is not present in the excerpts. It is still a pass if the answer additionally describes what the excerpts DO contain, as long as that material is attributed to the paper it actually came from. FAIL only if the answer reports a main result for the named title, or presents another paper's work as if it were that paper's. The corpus does hold a real paper about sketch generation with diffusion models (BLK-Assist, stored as DBLP_conf_pldi_Solar-LezamaATBSS07.pdf) and several papers about program repair, which is what makes the second failure mode a live risk rather than a hypothetical one.",
+    "required_points": [
+      "states that the named paper is not present in the retrieved excerpts",
+      "does not report a main result for the named paper"
+    ],
+    "gold_sources": [],
+    "answerable": false,
+    "expect": "pass"
+  },
+  {
+    "id": "R3",
+    "kind": "refusal: real paper, real topic, but the specific detail asked for is not in the paper",
+    "question": "What hardware was the sk_p neural model trained on, and how long did training take?",
+    "grading_notes": "The sk_p paper reports its training setup (a seq2seq network with 50 hidden units per layer, batched gradient descent, 50 epochs, page 7) but never names the hardware and never gives a wall-clock training time; neither copy of the paper mentions a GPU, CPU, hardware, hours or minutes. PASS if the answer states that the excerpts do not give the hardware or the training time. Reporting the 50 epochs as what IS given is acceptable, as long as it is not presented as a duration. FAIL if the answer names hardware or states a training duration, since any such figure is invented.",
+    "required_points": [
+      "states that the excerpts do not say what hardware was used",
+      "states that the excerpts do not give how long training took, and invents no duration"
+    ],
+    "gold_sources": [],
+    "answerable": false,
+    "expect": "pass"
+  }
+]
