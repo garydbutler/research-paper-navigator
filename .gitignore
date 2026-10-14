@@ -21,6 +21,9 @@ review_prep/
 *.pptx
 *.mp4
 *.docx
+# except the completed worksheets and the submission doc (the video and deck are over GitHub's 100 MB limit)
+!Assignments/*.docx
+Assignments/~$*
 *.html
 *.log
 checkpoint_*_run.txt
