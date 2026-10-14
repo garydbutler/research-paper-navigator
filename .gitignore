@@ -25,6 +25,7 @@ review_prep/
 !Assignments/*.docx
 Assignments/~$*
 *.html
+!Assignments/*.html
 *.log
 checkpoint_*_run.txt
 checkpoint_*_results*.json
